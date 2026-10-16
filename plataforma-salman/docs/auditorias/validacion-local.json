@@ -1,7 +1,7 @@
 {
   "tipo": "validación documental local; no Spec Kit",
   "fecha": "2026-10-16",
-  "checks": 468,
+  "checks": 489,
   "errores": [],
   "resultados": [
     {
@@ -1187,6 +1187,90 @@
     {
       "resultado": "PASS",
       "comprobacion": "Enlace local docs/arquitectura/aclaraciones.md → ../investigacion-competitiva/decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/rea.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/informe-final.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../../../investigacion-herramientas/rea/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/rea.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../../scripts/validar_continuacion.py"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../auditorias/validacion-local.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/validacion.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/continuacion-01/validacion.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../auditorias/catalogo-requisitos.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../../specs/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../../specs/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/linea-base/continuacion-01/manifest.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/decisiones.md → ../../.specify/memory/constitution.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/decisiones.md → ../../specs/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/decisiones.md → ../../../investigacion-herramientas/rea/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/informe-final.md → ../../.specify/memory/constitution.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/informe-final.md → ../../../investigacion-herramientas/rea/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/informe-final.md → conflictos.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/informe-final.md → matriz-reconciliacion.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/consolidacion/informe-final.md → ."
     },
     {
       "resultado": "PASS",

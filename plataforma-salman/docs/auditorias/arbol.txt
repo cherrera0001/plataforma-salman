@@ -33,6 +33,11 @@ plataforma-salman/
   docs/auditorias/trazabilidad.md
   docs/auditorias/validacion-local.json
   docs/auditorias/validacion.md
+  docs/consolidacion/conflictos.md
+  docs/consolidacion/decisiones.md
+  docs/consolidacion/informe-final.md
+  docs/consolidacion/matriz-reconciliacion.md
+  docs/consolidacion/trazabilidad.md
   docs/investigacion-competitiva/agentes.md
   docs/investigacion-competitiva/archivos-entrega.txt
   docs/investigacion-competitiva/cafeteria/flujos.md

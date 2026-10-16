@@ -1,0 +1,64 @@
+erDiagram
+    Proyecto {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(16) codigo
+VARCHAR(128) nombre
+VARCHAR(64) comuna
+VARCHAR(24) estado
+    }
+    Etapa {
+UUID id PK
+UUID tenant_id FK
+UUID proyecto_id FK
+VARCHAR(64) nombre
+DATE fecha_entrega_estimada
+    }
+    Unidad {
+UUID id PK
+UUID tenant_id FK
+UUID etapa_id FK
+VARCHAR(16) numero
+NUMERIC(12,4) precio_lista_uf
+VARCHAR(24) estado_comercial
+INT version
+    }
+    Lead {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(32) rut_o_pasaporte
+VARCHAR(128) nombre
+VARCHAR(255) email
+VARCHAR(32) canal_captacion
+    }
+    Cotizacion {
+UUID id PK
+UUID tenant_id FK
+UUID lead_id FK
+UUID unidad_id FK
+NUMERIC(12,4) precio_ofrecido_uf
+INT vigencia_dias
+    }
+    ReservaUnidad {
+UUID id PK
+UUID tenant_id FK
+UUID unidad_id FK
+UUID lead_id FK
+BIGINT monto_reserva_clp
+VARCHAR(24) estado
+    }
+    PromesaCompraventa {
+UUID id PK
+UUID tenant_id FK
+UUID unidad_id FK
+UUID lead_id FK
+NUMERIC(12,4) precio_pactado_uf
+VARCHAR(24) estado_firma
+    }
+    Proyecto ||--o{ Etapa : "subdivide"
+    Etapa ||--o{ Unidad : "contiene"
+    Lead ||--o{ Cotizacion : "solicita"
+    Unidad ||--o{ Cotizacion : "cotizada"
+    Unidad ||--|| ReservaUnidad : "reserva"
+    Lead ||--o{ ReservaUnidad : "reserva_titular"
+    Unidad ||--|| PromesaCompraventa : "promete"

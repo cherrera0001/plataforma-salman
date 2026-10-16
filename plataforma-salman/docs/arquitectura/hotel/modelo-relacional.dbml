@@ -1,0 +1,91 @@
+// Modelo Relacional DBML para Hotel, Reservas, Cupos y Concierge IA
+Project hotel_domain {
+  database_type: 'PostgreSQL'
+}
+
+Table hotel_tipos_habitacion {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo varchar(16) [not null]
+  nombre varchar(64) [not null]
+  capacidad_max int [not null]
+  tarifa_base_clp bigint [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_habitaciones {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  tipo_id uuid [not null, ref: > hotel_tipos_habitacion.id]
+  numero varchar(16) [not null]
+  estado_operativo varchar(24) [not null]
+  estado_limpieza varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_cupos_diarios {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  tipo_id uuid [not null, ref: > hotel_tipos_habitacion.id]
+  fecha date [not null]
+  cupo_total int [not null]
+  cupo_reservado int [default: 0]
+  cupo_bloqueado int [default: 0]
+  version int [default: 1]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_reservas {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo_reserva varchar(32) [not null]
+  fecha_checkin date [not null]
+  fecha_checkout date [not null]
+  total_clp bigint [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_huespedes {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  pasaporte_rut varchar(32) [not null]
+  nombre_completo varchar(128) [not null]
+  email varchar(255) [not null]
+  telefono varchar(32)
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_estadias {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  reserva_id uuid [not null, ref: > hotel_reservas.id]
+  habitacion_id uuid [not null, ref: > hotel_habitaciones.id]
+  checkin_real_at timestamptz
+  checkout_real_at timestamptz
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_mensajes_concierge {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  reserva_id uuid [not null, ref: > hotel_reservas.id]
+  remitente varchar(24) [not null]
+  contenido text [not null]
+  requiere_humano boolean [default: false]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}

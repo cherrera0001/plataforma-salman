@@ -1,0 +1,76 @@
+// Modelo Relacional DBML para Constructora, Obras, Control de Costos y Punch List
+Project constructora_domain {
+  database_type: 'PostgreSQL'
+}
+
+Table constructora_obras {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo_obra varchar(16) [not null]
+  nombre varchar(128) [not null]
+  estado varchar(24) [not null]
+  fecha_inicio date [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table constructora_partidas_presupuesto {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  obra_id uuid [not null, ref: > constructora_obras.id]
+  codigo_item varchar(32) [not null]
+  costo_presupuestado_clp bigint [not null]
+  costo_comprometido_clp bigint [default: 0]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table constructora_ordenes_compra {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  obra_id uuid [not null, ref: > constructora_obras.id]
+  numero_oc varchar(32) [not null]
+  total_oc_clp bigint [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table constructora_detalles_oc {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  orden_compra_id uuid [not null, ref: > constructora_ordenes_compra.id]
+  partida_id uuid [not null, ref: > constructora_partidas_presupuesto.id]
+  cantidad numeric(12,3) [not null]
+  precio_unitario_clp bigint [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table constructora_recepciones {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  orden_compra_id uuid [not null, ref: > constructora_ordenes_compra.id]
+  guia_despacho_folio varchar(64) [not null]
+  estado_conforme boolean [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table constructora_punchlist {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  obra_id uuid [not null, ref: > constructora_obras.id]
+  descripcion_defecto text [not null]
+  contratista_id uuid [not null]
+  cerrada_por_ito_id uuid
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}

@@ -1,0 +1,55 @@
+erDiagram
+    Obra {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(16) codigo_obra
+VARCHAR(128) nombre
+VARCHAR(24) estado
+DATE fecha_inicio
+    }
+    PartidaPresupuesto {
+UUID id PK
+UUID tenant_id FK
+UUID obra_id FK
+VARCHAR(32) codigo_item
+BIGINT costo_presupuestado_clp
+BIGINT costo_comprometido_clp
+    }
+    OrdenCompra {
+UUID id PK
+UUID tenant_id FK
+UUID obra_id FK
+VARCHAR(32) numero_oc
+BIGINT total_oc_clp
+VARCHAR(24) estado
+    }
+    DetalleOrdenCompra {
+UUID id PK
+UUID tenant_id FK
+UUID orden_compra_id FK
+UUID partida_id FK
+NUMERIC(12,3) cantidad
+BIGINT precio_unitario_clp
+    }
+    RecepcionMaterial {
+UUID id PK
+UUID tenant_id FK
+UUID orden_compra_id FK
+VARCHAR(64) guia_despacho_folio
+BOOLEAN estado_conforme
+    }
+    ObservacionPunchList {
+UUID id PK
+UUID tenant_id FK
+UUID obra_id FK
+TEXT descripcion_defecto
+UUID contratista_id
+UUID cerrada_por_ito_id
+VARCHAR(24) estado
+    }
+    Obra ||--o{ PartidaPresupuesto : "presupuesta"
+    Obra ||--o{ OrdenCompra : "emite"
+    OrdenCompra ||--o{ DetalleOrdenCompra : "desglosa"
+    PartidaPresupuesto ||--o{ DetalleOrdenCompra : "imputa"
+    OrdenCompra ||--o{ RecepcionMaterial : "recibe"
+    Obra ||--o{ ObservacionPunchList : "inspecciona"

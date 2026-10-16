@@ -1,0 +1,280 @@
+[PASS] Inicializacion de Roles y Extensiones
+STDOUT:
+CREATE EXTENSION
+DO
+STDERR:
+NOTICE:  extension "uuid-ossp" already exists, skipping
+[PASS] DDL Core
+STDOUT:
+CREATE SCHEMA
+DO
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+STDERR:
+NOTICE:  schema "core" already exists, skipping
+NOTICE:  relation "core_organizations" already exists, skipping
+NOTICE:  relation "core_tenants" already exists, skipping
+NOTICE:  relation "core_users" already exists, skipping
+NOTICE:  relation "core_agent_executions" already exists, skipping
+NOTICE:  relation "core_idempotency_keys" already exists, skipping
+NOTICE:  relation "core_payment_accounts" already exists, skipping
+NOTICE:  relation "core_payment_transactions" already exists, skipping
+[PASS] DDL Cafeteria
+STDOUT:
+CREATE SCHEMA
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+STDERR:
+NOTICE:  schema "cafeteria" already exists, skipping
+NOTICE:  relation "cafeteria_mesas" already exists, skipping
+NOTICE:  relation "cafeteria_sesiones_mesa" already exists, skipping
+NOTICE:  relation "cafeteria_pedidos" already exists, skipping
+NOTICE:  relation "cafeteria_detalles_pedido" already exists, skipping
+NOTICE:  relation "cafeteria_cuentas" already exists, skipping
+NOTICE:  relation "cafeteria_divisiones_cuenta" already exists, skipping
+NOTICE:  relation "cafeteria_pagos_cuenta" already exists, skipping
+NOTICE:  relation "cafeteria_insumos" already exists, skipping
+NOTICE:  relation "cafeteria_movimientos_inventario" already exists, skipping
+[PASS] DDL Hotel
+STDOUT:
+CREATE SCHEMA
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+STDERR:
+NOTICE:  schema "hotel" already exists, skipping
+NOTICE:  relation "hotel_tipos_habitacion" already exists, skipping
+NOTICE:  relation "hotel_habitaciones" already exists, skipping
+NOTICE:  relation "hotel_cupos_diarios" already exists, skipping
+NOTICE:  relation "hotel_reservas" already exists, skipping
+NOTICE:  relation "hotel_huespedes" already exists, skipping
+NOTICE:  relation "hotel_estadias" already exists, skipping
+NOTICE:  relation "hotel_mensajes_concierge" already exists, skipping
+[PASS] DDL Inmobiliaria
+STDOUT:
+CREATE SCHEMA
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+STDERR:
+NOTICE:  schema "inmobiliaria" already exists, skipping
+NOTICE:  relation "inmobiliaria_proyectos" already exists, skipping
+NOTICE:  relation "inmobiliaria_etapas" already exists, skipping
+NOTICE:  relation "inmobiliaria_unidades" already exists, skipping
+NOTICE:  relation "inmobiliaria_leads" already exists, skipping
+NOTICE:  relation "inmobiliaria_cotizaciones" already exists, skipping
+NOTICE:  relation "inmobiliaria_reservas_unidad" already exists, skipping
+NOTICE:  relation "inmobiliaria_promesas" already exists, skipping
+[PASS] DDL Constructora
+STDOUT:
+CREATE SCHEMA
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+CREATE TABLE
+ALTER TABLE
+ALTER TABLE
+DROP POLICY
+CREATE POLICY
+STDERR:
+NOTICE:  schema "constructora" already exists, skipping
+NOTICE:  relation "constructora_obras" already exists, skipping
+NOTICE:  relation "constructora_partidas_presupuesto" already exists, skipping
+NOTICE:  relation "constructora_ordenes_compra" already exists, skipping
+NOTICE:  relation "constructora_detalles_oc" already exists, skipping
+NOTICE:  relation "constructora_recepciones" already exists, skipping
+NOTICE:  relation "constructora_punchlist" already exists, skipping
+[PASS] Pruebas de Integridad y Restricciones CHECK
+STDOUT:
+INSERT 0 0
+INSERT 0 0
+DO
+DO
+DO
+STDERR:
+NOTICE:  CHECK amount_clp >= 0 validado exitosamente
+NOTICE:  CHECK segregación ITO != Contratista validado exitosamente
+NOTICE:  CHECK cupo_total >= (reservado + bloqueado) validado exitosamente
+[PASS] Pruebas de Aislamiento Tenant y RLS (app_user)
+STDOUT:
+GRANT
+GRANT
+SET
+INSERT 0 0
+SET
+SET
+DO
+DO
+RESET
+STDERR:
+NOTICE:  RLS de aislamiento en SELECT validado exitosamente: 1 mesa visible para tenant_id 2
+NOTICE:  RLS de aislamiento en INSERT validado exitosamente: rechazo de cross-tenant insert
+[PASS] Pruebas de Concurrencia y Control Optimista
+STDOUT:
+INSERT 0 0
+BEGIN
+SET
+                  id                  | saldo_pendiente_clp | version 
+--------------------------------------+---------------------+---------
+ 44440001-4444-4444-4444-444444444444 |               30000 |       2
+(1 row)
+
+UPDATE 0
+COMMIT
+DO
+STDERR:
+NOTICE:  Control de concurrencia y version optimista validado exitosamente

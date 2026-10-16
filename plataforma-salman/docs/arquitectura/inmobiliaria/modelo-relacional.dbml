@@ -1,0 +1,88 @@
+// Modelo Relacional DBML para Inmobiliaria Comercial, Leads, Promesas y Unidades
+Project inmobiliaria_domain {
+  database_type: 'PostgreSQL'
+}
+
+Table inmobiliaria_proyectos {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo varchar(16) [not null]
+  nombre varchar(128) [not null]
+  comuna varchar(64) [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_etapas {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  proyecto_id uuid [not null, ref: > inmobiliaria_proyectos.id]
+  nombre varchar(64) [not null]
+  fecha_entrega_estimada date [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_unidades {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  etapa_id uuid [not null, ref: > inmobiliaria_etapas.id]
+  numero varchar(16) [not null]
+  precio_lista_uf numeric(12,4) [not null]
+  estado_comercial varchar(24) [not null]
+  version int [default: 1]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_leads {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  rut_o_pasaporte varchar(32) [not null]
+  nombre varchar(128) [not null]
+  email varchar(255) [not null]
+  canal_captacion varchar(32) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_cotizaciones {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  lead_id uuid [not null, ref: > inmobiliaria_leads.id]
+  unidad_id uuid [not null, ref: > inmobiliaria_unidades.id]
+  precio_ofrecido_uf numeric(12,4) [not null]
+  vigencia_dias int [default: 15]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_reservas_unidad {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  unidad_id uuid [not null, ref: > inmobiliaria_unidades.id]
+  lead_id uuid [not null, ref: > inmobiliaria_leads.id]
+  monto_reserva_clp bigint [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_promesas {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  unidad_id uuid [not null, ref: > inmobiliaria_unidades.id]
+  lead_id uuid [not null, ref: > inmobiliaria_leads.id]
+  precio_pactado_uf numeric(12,4) [not null]
+  estado_firma varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}

@@ -1,0 +1,114 @@
+// Modelo Relacional DBML para Cafetería, Mesas, KDS y POS
+Project cafeteria_domain {
+  database_type: 'PostgreSQL'
+}
+
+Table cafeteria_mesas {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo varchar(16) [not null]
+  sector varchar(32) [not null]
+  capacidad int [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_sesiones_mesa {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  mesa_id uuid [not null, ref: > cafeteria_mesas.id]
+  estado varchar(24) [not null]
+  aperturada_at timestamptz [default: `clock_timestamp()`]
+  comensales_count int [default: 1]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_pedidos {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  sesion_mesa_id uuid [not null, ref: > cafeteria_sesiones_mesa.id]
+  numero_orden varchar(32) [not null]
+  total_bruto_clp bigint [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_detalles_pedido {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  pedido_id uuid [not null, ref: > cafeteria_pedidos.id]
+  producto_id uuid [not null]
+  cantidad int [not null]
+  precio_unitario_clp bigint [not null]
+  estado_kds varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_cuentas {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  sesion_mesa_id uuid [not null, ref: > cafeteria_sesiones_mesa.id]
+  total_cuenta_clp bigint [not null]
+  saldo_pendiente_clp bigint [not null]
+  estado varchar(24) [not null]
+  version int [default: 1]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_divisiones_cuenta {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  cuenta_id uuid [not null, ref: > cafeteria_cuentas.id]
+  numero_parte int [not null]
+  monto_asignado_clp bigint [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_pagos_cuenta {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  division_cuenta_id uuid [not null, ref: > cafeteria_divisiones_cuenta.id]
+  monto_clp bigint [not null]
+  medio_pago varchar(32) [not null]
+  estado_pago varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_insumos {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo varchar(32) [not null]
+  nombre varchar(128) [not null]
+  stock_actual numeric(12,3) [not null]
+  stock_minimo numeric(12,3) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_movimientos_inventario {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  insumo_id uuid [not null, ref: > cafeteria_insumos.id]
+  tipo_movimiento varchar(24) [not null]
+  cantidad numeric(12,3) [not null]
+  motivo varchar(64) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}

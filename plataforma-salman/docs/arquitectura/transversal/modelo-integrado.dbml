@@ -1,0 +1,462 @@
+// Modelo Relacional Integrado Multi-Dominio Plataforma Salman
+Project plataforma_salman_integrada { database_type: 'PostgreSQL' }
+
+// --- DOMINIO CORE MULTI-TENANT Y GOBERNANZA AGÉNTICA ---
+// Modelo Relacional DBML para Core Multi-tenant y Gobernanza Agéntica
+Project core_domain {
+  database_type: 'PostgreSQL'
+}
+
+Table core_organizations {
+  id uuid [pk]
+  rut_tax_id varchar(20) [unique, not null]
+  legal_name varchar(255) [not null]
+  is_active boolean [default: true]
+  created_at timestamptz [default: `clock_timestamp()`]
+  indexes {
+  }
+}
+
+Table core_tenants {
+  id uuid [pk]
+  organization_id uuid [not null, ref: > core_organizations.id]
+  slug varchar(64) [unique, not null]
+  vertical_type varchar(32) [not null]
+  is_active boolean [default: true]
+  indexes {
+  }
+}
+
+Table core_users {
+  id uuid [pk]
+  tenant_id uuid [not null, ref: > core_tenants.id]
+  email varchar(255) [not null]
+  role varchar(32) [not null]
+  is_active boolean [default: true]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table core_agent_executions {
+  id uuid [pk]
+  tenant_id uuid [not null, ref: > core_tenants.id]
+  agent_name varchar(64) [not null]
+  action_requested varchar(128) [not null]
+  status varchar(32) [not null]
+  risk_level varchar(16) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table core_idempotency_keys {
+  key_hash varchar(64) [pk]
+  tenant_id uuid [not null, ref: > core_tenants.id]
+  resource_type varchar(64) [not null]
+  response_status int
+  locked_until timestamptz [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table core_payment_accounts {
+  id uuid [pk]
+  tenant_id uuid [not null, ref: > core_tenants.id]
+  provider_name varchar(32) [not null]
+  account_identifier varchar(64) [not null]
+  is_active boolean [default: true]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table core_payment_transactions {
+  id uuid [pk]
+  tenant_id uuid [not null, ref: > core_tenants.id]
+  account_id uuid [not null, ref: > core_payment_accounts.id]
+  amount_clp bigint [not null]
+  status varchar(32) [not null]
+  reconciliation_status varchar(32) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+// --- DOMINIO CAFETERÍA, MESAS, KDS Y POS ---
+// Modelo Relacional DBML para Cafetería, Mesas, KDS y POS
+Project cafeteria_domain {
+  database_type: 'PostgreSQL'
+}
+
+Table cafeteria_mesas {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo varchar(16) [not null]
+  sector varchar(32) [not null]
+  capacidad int [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_sesiones_mesa {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  mesa_id uuid [not null, ref: > cafeteria_mesas.id]
+  estado varchar(24) [not null]
+  aperturada_at timestamptz [default: `clock_timestamp()`]
+  comensales_count int [default: 1]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_pedidos {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  sesion_mesa_id uuid [not null, ref: > cafeteria_sesiones_mesa.id]
+  numero_orden varchar(32) [not null]
+  total_bruto_clp bigint [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_detalles_pedido {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  pedido_id uuid [not null, ref: > cafeteria_pedidos.id]
+  producto_id uuid [not null]
+  cantidad int [not null]
+  precio_unitario_clp bigint [not null]
+  estado_kds varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_cuentas {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  sesion_mesa_id uuid [not null, ref: > cafeteria_sesiones_mesa.id]
+  total_cuenta_clp bigint [not null]
+  saldo_pendiente_clp bigint [not null]
+  estado varchar(24) [not null]
+  version int [default: 1]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_divisiones_cuenta {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  cuenta_id uuid [not null, ref: > cafeteria_cuentas.id]
+  numero_parte int [not null]
+  monto_asignado_clp bigint [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_pagos_cuenta {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  division_cuenta_id uuid [not null, ref: > cafeteria_divisiones_cuenta.id]
+  monto_clp bigint [not null]
+  medio_pago varchar(32) [not null]
+  estado_pago varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_insumos {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo varchar(32) [not null]
+  nombre varchar(128) [not null]
+  stock_actual numeric(12,3) [not null]
+  stock_minimo numeric(12,3) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table cafeteria_movimientos_inventario {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  insumo_id uuid [not null, ref: > cafeteria_insumos.id]
+  tipo_movimiento varchar(24) [not null]
+  cantidad numeric(12,3) [not null]
+  motivo varchar(64) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+// --- DOMINIO HOTEL, RESERVAS, CUPOS Y CONCIERGE IA ---
+// Modelo Relacional DBML para Hotel, Reservas, Cupos y Concierge IA
+Project hotel_domain {
+  database_type: 'PostgreSQL'
+}
+
+Table hotel_tipos_habitacion {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo varchar(16) [not null]
+  nombre varchar(64) [not null]
+  capacidad_max int [not null]
+  tarifa_base_clp bigint [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_habitaciones {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  tipo_id uuid [not null, ref: > hotel_tipos_habitacion.id]
+  numero varchar(16) [not null]
+  estado_operativo varchar(24) [not null]
+  estado_limpieza varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_cupos_diarios {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  tipo_id uuid [not null, ref: > hotel_tipos_habitacion.id]
+  fecha date [not null]
+  cupo_total int [not null]
+  cupo_reservado int [default: 0]
+  cupo_bloqueado int [default: 0]
+  version int [default: 1]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_reservas {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo_reserva varchar(32) [not null]
+  fecha_checkin date [not null]
+  fecha_checkout date [not null]
+  total_clp bigint [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_huespedes {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  pasaporte_rut varchar(32) [not null]
+  nombre_completo varchar(128) [not null]
+  email varchar(255) [not null]
+  telefono varchar(32)
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_estadias {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  reserva_id uuid [not null, ref: > hotel_reservas.id]
+  habitacion_id uuid [not null, ref: > hotel_habitaciones.id]
+  checkin_real_at timestamptz
+  checkout_real_at timestamptz
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table hotel_mensajes_concierge {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  reserva_id uuid [not null, ref: > hotel_reservas.id]
+  remitente varchar(24) [not null]
+  contenido text [not null]
+  requiere_humano boolean [default: false]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+// --- DOMINIO INMOBILIARIA COMERCIAL, LEADS, PROMESAS Y UNIDADES ---
+// Modelo Relacional DBML para Inmobiliaria Comercial, Leads, Promesas y Unidades
+Project inmobiliaria_domain {
+  database_type: 'PostgreSQL'
+}
+
+Table inmobiliaria_proyectos {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo varchar(16) [not null]
+  nombre varchar(128) [not null]
+  comuna varchar(64) [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_etapas {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  proyecto_id uuid [not null, ref: > inmobiliaria_proyectos.id]
+  nombre varchar(64) [not null]
+  fecha_entrega_estimada date [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_unidades {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  etapa_id uuid [not null, ref: > inmobiliaria_etapas.id]
+  numero varchar(16) [not null]
+  precio_lista_uf numeric(12,4) [not null]
+  estado_comercial varchar(24) [not null]
+  version int [default: 1]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_leads {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  rut_o_pasaporte varchar(32) [not null]
+  nombre varchar(128) [not null]
+  email varchar(255) [not null]
+  canal_captacion varchar(32) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_cotizaciones {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  lead_id uuid [not null, ref: > inmobiliaria_leads.id]
+  unidad_id uuid [not null, ref: > inmobiliaria_unidades.id]
+  precio_ofrecido_uf numeric(12,4) [not null]
+  vigencia_dias int [default: 15]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_reservas_unidad {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  unidad_id uuid [not null, ref: > inmobiliaria_unidades.id]
+  lead_id uuid [not null, ref: > inmobiliaria_leads.id]
+  monto_reserva_clp bigint [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table inmobiliaria_promesas {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  unidad_id uuid [not null, ref: > inmobiliaria_unidades.id]
+  lead_id uuid [not null, ref: > inmobiliaria_leads.id]
+  precio_pactado_uf numeric(12,4) [not null]
+  estado_firma varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+// --- DOMINIO CONSTRUCTORA, OBRAS, CONTROL DE COSTOS Y PUNCH LIST ---
+// Modelo Relacional DBML para Constructora, Obras, Control de Costos y Punch List
+Project constructora_domain {
+  database_type: 'PostgreSQL'
+}
+
+Table constructora_obras {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  codigo_obra varchar(16) [not null]
+  nombre varchar(128) [not null]
+  estado varchar(24) [not null]
+  fecha_inicio date [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table constructora_partidas_presupuesto {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  obra_id uuid [not null, ref: > constructora_obras.id]
+  codigo_item varchar(32) [not null]
+  costo_presupuestado_clp bigint [not null]
+  costo_comprometido_clp bigint [default: 0]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table constructora_ordenes_compra {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  obra_id uuid [not null, ref: > constructora_obras.id]
+  numero_oc varchar(32) [not null]
+  total_oc_clp bigint [not null]
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table constructora_detalles_oc {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  orden_compra_id uuid [not null, ref: > constructora_ordenes_compra.id]
+  partida_id uuid [not null, ref: > constructora_partidas_presupuesto.id]
+  cantidad numeric(12,3) [not null]
+  precio_unitario_clp bigint [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table constructora_recepciones {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  orden_compra_id uuid [not null, ref: > constructora_ordenes_compra.id]
+  guia_despacho_folio varchar(64) [not null]
+  estado_conforme boolean [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table constructora_punchlist {
+  id uuid [pk]
+  tenant_id uuid [not null]
+  obra_id uuid [not null, ref: > constructora_obras.id]
+  descripcion_defecto text [not null]
+  contratista_id uuid [not null]
+  cerrada_por_ito_id uuid
+  estado varchar(24) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}

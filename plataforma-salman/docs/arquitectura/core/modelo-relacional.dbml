@@ -1,0 +1,81 @@
+// Modelo Relacional DBML para Core Multi-tenant y Gobernanza Agéntica
+Project core_domain {
+  database_type: 'PostgreSQL'
+}
+
+Table core_organizations {
+  id uuid [pk]
+  rut_tax_id varchar(20) [unique, not null]
+  legal_name varchar(255) [not null]
+  is_active boolean [default: true]
+  created_at timestamptz [default: `clock_timestamp()`]
+  indexes {
+  }
+}
+
+Table core_tenants {
+  id uuid [pk]
+  organization_id uuid [not null, ref: > core_organizations.id]
+  slug varchar(64) [unique, not null]
+  vertical_type varchar(32) [not null]
+  is_active boolean [default: true]
+  indexes {
+  }
+}
+
+Table core_users {
+  id uuid [pk]
+  tenant_id uuid [not null, ref: > core_tenants.id]
+  email varchar(255) [not null]
+  role varchar(32) [not null]
+  is_active boolean [default: true]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table core_agent_executions {
+  id uuid [pk]
+  tenant_id uuid [not null, ref: > core_tenants.id]
+  agent_name varchar(64) [not null]
+  action_requested varchar(128) [not null]
+  status varchar(32) [not null]
+  risk_level varchar(16) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table core_idempotency_keys {
+  key_hash varchar(64) [pk]
+  tenant_id uuid [not null, ref: > core_tenants.id]
+  resource_type varchar(64) [not null]
+  response_status int
+  locked_until timestamptz [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table core_payment_accounts {
+  id uuid [pk]
+  tenant_id uuid [not null, ref: > core_tenants.id]
+  provider_name varchar(32) [not null]
+  account_identifier varchar(64) [not null]
+  is_active boolean [default: true]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}
+
+Table core_payment_transactions {
+  id uuid [pk]
+  tenant_id uuid [not null, ref: > core_tenants.id]
+  account_id uuid [not null, ref: > core_payment_accounts.id]
+  amount_clp bigint [not null]
+  status varchar(32) [not null]
+  reconciliation_status varchar(32) [not null]
+  indexes {
+    (tenant_id, id) [unique]
+  }
+}

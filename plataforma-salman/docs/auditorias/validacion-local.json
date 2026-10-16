@@ -1,7 +1,7 @@
 {
   "tipo": "validación documental local; no Spec Kit",
   "fecha": "2026-10-16",
-  "checks": 489,
+  "checks": 554,
   "errores": [],
   "resultados": [
     {
@@ -1187,6 +1187,266 @@
     {
       "resultado": "PASS",
       "comprobacion": "Enlace local docs/arquitectura/aclaraciones.md → ../investigacion-competitiva/decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/README.md → trazabilidad-modelos.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/README.md → validacion-global.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/README.md → decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/README.md → core/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/README.md → cafeteria/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/README.md → hotel/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/README.md → inmobiliaria/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/README.md → constructora/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/README.md → transversal/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/README.md → pruebas/"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/mer.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/mer.mmd"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/modelo-relacional.dbml"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/modelo-relacional.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/esquema-propuesto.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/estados.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/secuencias.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/validacion.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/mer.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/mer.mmd"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/modelo-relacional.dbml"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/modelo-relacional.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/esquema-propuesto.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/estados.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/secuencias.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/validacion.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/mer.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/mer.mmd"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/modelo-relacional.dbml"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/modelo-relacional.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/esquema-propuesto.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/estados.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/secuencias.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/validacion.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/mer.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/mer.mmd"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/modelo-relacional.dbml"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/modelo-relacional.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/esquema-propuesto.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/estados.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/secuencias.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/validacion.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/mer.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/mer.mmd"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/modelo-relacional.dbml"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/modelo-relacional.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/esquema-propuesto.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/estados.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/secuencias.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/validacion.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → transversal/mer-integrado.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → transversal/modelo-integrado.dbml"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → transversal/c4-contexto.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → transversal/c4-contenedores.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → transversal/dependencias.drawio"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/00_init_roles_schemas.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/01_core.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/02_cafeteria.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/03_hotel.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/04_inmobiliaria.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/05_constructora.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/integridad/test_constraints_fks.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/aislamiento-tenant/test_rls_policies.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/concurrencia/test_concurrency_locks.sql"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/resultados/ejecucion_postgresql.log"
     },
     {
       "resultado": "PASS",

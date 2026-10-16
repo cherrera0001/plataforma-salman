@@ -1,0 +1,67 @@
+erDiagram
+    TipoHabitacion {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(16) codigo
+VARCHAR(64) nombre
+INT capacidad_max
+BIGINT tarifa_base_clp
+    }
+    Habitacion {
+UUID id PK
+UUID tenant_id FK
+UUID tipo_id FK
+VARCHAR(16) numero
+VARCHAR(24) estado_operativo
+VARCHAR(24) estado_limpieza
+    }
+    CupoDiario {
+UUID id PK
+UUID tenant_id FK
+UUID tipo_id FK
+DATE fecha
+INT cupo_total
+INT cupo_reservado
+INT cupo_bloqueado
+INT version
+    }
+    Reserva {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(32) codigo_reserva
+DATE fecha_checkin
+DATE fecha_checkout
+BIGINT total_clp
+VARCHAR(24) estado
+    }
+    Huesped {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(32) pasaporte_rut
+VARCHAR(128) nombre_completo
+VARCHAR(255) email
+VARCHAR(32) telefono
+    }
+    Estadia {
+UUID id PK
+UUID tenant_id FK
+UUID reserva_id FK
+UUID habitacion_id FK
+TIMESTAMPTZ checkin_real_at
+TIMESTAMPTZ checkout_real_at
+    }
+    MensajeConcierge {
+UUID id PK
+UUID tenant_id FK
+UUID reserva_id FK
+VARCHAR(24) remitente
+TEXT contenido
+BOOLEAN requiere_humano
+    }
+    TipoHabitacion ||--o{ Habitacion : "clasifica"
+    TipoHabitacion ||--o{ CupoDiario : "calendario"
+    TipoHabitacion ||--o{ Reserva : "reserva"
+    Reserva ||--|| Estadia : "concreta"
+    Habitacion ||--o{ Estadia : "asigna"
+    Huesped ||--o{ Reserva : "titular"
+    Reserva ||--o{ MensajeConcierge : "asiste"

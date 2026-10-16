@@ -1,0 +1,58 @@
+erDiagram
+    Organization {
+UUID id PK
+VARCHAR(20) rut_tax_id UK
+VARCHAR(255) legal_name
+BOOLEAN is_active
+TIMESTAMPTZ created_at
+    }
+    Tenant {
+UUID id PK
+UUID organization_id FK
+VARCHAR(64) slug UK
+VARCHAR(32) vertical_type
+BOOLEAN is_active
+    }
+    User {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(255) email
+VARCHAR(32) role
+BOOLEAN is_active
+    }
+    AgentExecutionAudit {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(64) agent_name
+VARCHAR(128) action_requested
+VARCHAR(32) status
+VARCHAR(16) risk_level
+    }
+    IdempotencyKey {
+VARCHAR(64) key_hash PK
+UUID tenant_id FK
+VARCHAR(64) resource_type
+INT response_status
+TIMESTAMPTZ locked_until
+    }
+    PaymentAccount {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(32) provider_name
+VARCHAR(64) account_identifier
+BOOLEAN is_active
+    }
+    PaymentTransaction {
+UUID id PK
+UUID tenant_id FK
+UUID account_id FK
+BIGINT amount_clp
+VARCHAR(32) status
+VARCHAR(32) reconciliation_status
+    }
+    Organization ||--o{ Tenant : "contiene"
+    Tenant ||--o{ User : "administra"
+    Tenant ||--o{ AgentExecutionAudit : "audita"
+    Tenant ||--o{ IdempotencyKey : "garantiza"
+    Tenant ||--o{ PaymentAccount : "configura"
+    PaymentAccount ||--o{ PaymentTransaction : "procesa"

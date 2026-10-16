@@ -1,0 +1,82 @@
+erDiagram
+    Mesa {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(16) codigo
+VARCHAR(32) sector
+INT capacidad
+VARCHAR(24) estado
+    }
+    SesionMesa {
+UUID id PK
+UUID tenant_id FK
+UUID mesa_id FK
+VARCHAR(24) estado
+TIMESTAMPTZ aperturada_at
+INT comensales_count
+    }
+    Pedido {
+UUID id PK
+UUID tenant_id FK
+UUID sesion_mesa_id FK
+VARCHAR(32) numero_orden
+BIGINT total_bruto_clp
+VARCHAR(24) estado
+    }
+    DetallePedido {
+UUID id PK
+UUID tenant_id FK
+UUID pedido_id FK
+UUID producto_id
+INT cantidad
+BIGINT precio_unitario_clp
+VARCHAR(24) estado_kds
+    }
+    Cuenta {
+UUID id PK
+UUID tenant_id FK
+UUID sesion_mesa_id FK
+BIGINT total_cuenta_clp
+BIGINT saldo_pendiente_clp
+VARCHAR(24) estado
+INT version
+    }
+    DivisionCuenta {
+UUID id PK
+UUID tenant_id FK
+UUID cuenta_id FK
+INT numero_parte
+BIGINT monto_asignado_clp
+VARCHAR(24) estado
+    }
+    PagoCuenta {
+UUID id PK
+UUID tenant_id FK
+UUID division_cuenta_id FK
+BIGINT monto_clp
+VARCHAR(32) medio_pago
+VARCHAR(24) estado_pago
+    }
+    Insumo {
+UUID id PK
+UUID tenant_id FK
+VARCHAR(32) codigo
+VARCHAR(128) nombre
+NUMERIC(12,3) stock_actual
+NUMERIC(12,3) stock_minimo
+    }
+    MovimientoInventario {
+UUID id PK
+UUID tenant_id FK
+UUID insumo_id FK
+VARCHAR(24) tipo_movimiento
+NUMERIC(12,3) cantidad
+VARCHAR(64) motivo
+    }
+    Mesa ||--o{ SesionMesa : "aloja"
+    SesionMesa ||--o{ Pedido : "registra"
+    Pedido ||--o{ DetallePedido : "contiene"
+    SesionMesa ||--|| Cuenta : "totaliza"
+    Cuenta ||--o{ DivisionCuenta : "fracciona"
+    DivisionCuenta ||--o{ PagoCuenta : "cancela"
+    Insumo ||--o{ MovimientoInventario : "afecta"

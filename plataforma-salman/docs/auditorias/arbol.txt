@@ -3,7 +3,32 @@ plataforma-salman/
   AGENTS.md
   README.md
   core/README.md
+  docs/arquitectura/README.md
   docs/arquitectura/aclaraciones.md
+  docs/arquitectura/cafeteria/esquema-propuesto.sql
+  docs/arquitectura/cafeteria/estados.drawio
+  docs/arquitectura/cafeteria/mer.drawio
+  docs/arquitectura/cafeteria/mer.mmd
+  docs/arquitectura/cafeteria/modelo-relacional.dbml
+  docs/arquitectura/cafeteria/modelo-relacional.drawio
+  docs/arquitectura/cafeteria/secuencias.drawio
+  docs/arquitectura/cafeteria/validacion.md
+  docs/arquitectura/constructora/esquema-propuesto.sql
+  docs/arquitectura/constructora/estados.drawio
+  docs/arquitectura/constructora/mer.drawio
+  docs/arquitectura/constructora/mer.mmd
+  docs/arquitectura/constructora/modelo-relacional.dbml
+  docs/arquitectura/constructora/modelo-relacional.drawio
+  docs/arquitectura/constructora/secuencias.drawio
+  docs/arquitectura/constructora/validacion.md
+  docs/arquitectura/core/esquema-propuesto.sql
+  docs/arquitectura/core/estados.drawio
+  docs/arquitectura/core/mer.drawio
+  docs/arquitectura/core/mer.mmd
+  docs/arquitectura/core/modelo-relacional.dbml
+  docs/arquitectura/core/modelo-relacional.drawio
+  docs/arquitectura/core/secuencias.drawio
+  docs/arquitectura/core/validacion.md
   docs/arquitectura/datos/contratos-integracion.md
   docs/arquitectura/datos/diagrama-c4.md
   docs/arquitectura/datos/diagramas-comportamiento.md
@@ -12,6 +37,7 @@ plataforma-salman/
   docs/arquitectura/datos/modelo-fisico.md
   docs/arquitectura/datos/mr-logico.md
   docs/arquitectura/datos/trazabilidad-datos.md
+  docs/arquitectura/decisiones-pendientes.md
   docs/arquitectura/decisiones/ADR-001.md
   docs/arquitectura/decisiones/ADR-002.md
   docs/arquitectura/decisiones/ADR-003.md
@@ -21,7 +47,40 @@ plataforma-salman/
   docs/arquitectura/dependencias.md
   docs/arquitectura/economia.md
   docs/arquitectura/fases.md
+  docs/arquitectura/hotel/esquema-propuesto.sql
+  docs/arquitectura/hotel/estados.drawio
+  docs/arquitectura/hotel/mer.drawio
+  docs/arquitectura/hotel/mer.mmd
+  docs/arquitectura/hotel/modelo-relacional.dbml
+  docs/arquitectura/hotel/modelo-relacional.drawio
+  docs/arquitectura/hotel/secuencias.drawio
+  docs/arquitectura/hotel/validacion.md
+  docs/arquitectura/inmobiliaria/esquema-propuesto.sql
+  docs/arquitectura/inmobiliaria/estados.drawio
+  docs/arquitectura/inmobiliaria/mer.drawio
+  docs/arquitectura/inmobiliaria/mer.mmd
+  docs/arquitectura/inmobiliaria/modelo-relacional.dbml
+  docs/arquitectura/inmobiliaria/modelo-relacional.drawio
+  docs/arquitectura/inmobiliaria/secuencias.drawio
+  docs/arquitectura/inmobiliaria/validacion.md
+  docs/arquitectura/pruebas/aislamiento-tenant/test_rls_policies.sql
+  docs/arquitectura/pruebas/concurrencia/test_concurrency_locks.sql
+  docs/arquitectura/pruebas/integridad/test_constraints_fks.sql
+  docs/arquitectura/pruebas/resultados/ejecucion_postgresql.log
+  docs/arquitectura/pruebas/sql/00_init_roles_schemas.sql
+  docs/arquitectura/pruebas/sql/01_core.sql
+  docs/arquitectura/pruebas/sql/02_cafeteria.sql
+  docs/arquitectura/pruebas/sql/03_hotel.sql
+  docs/arquitectura/pruebas/sql/04_inmobiliaria.sql
+  docs/arquitectura/pruebas/sql/05_constructora.sql
   docs/arquitectura/seguridad.md
+  docs/arquitectura/transversal/c4-contenedores.drawio
+  docs/arquitectura/transversal/c4-contexto.drawio
+  docs/arquitectura/transversal/dependencias.drawio
+  docs/arquitectura/transversal/mer-integrado.drawio
+  docs/arquitectura/transversal/modelo-integrado.dbml
+  docs/arquitectura/trazabilidad-modelos.md
+  docs/arquitectura/validacion-global.md
   docs/arquitectura/vision-general.md
   docs/auditorias/afirmaciones.md
   docs/auditorias/arbol.txt
@@ -199,6 +258,8 @@ plataforma-salman/
   docs/originales/Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md
   docs/originales/Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md
   docs/originales/estado-del-arte-extraido.md
+  scripts/ejecutar_pruebas_postgresql.py
+  scripts/generar_y_validar_arquitectura.py
   scripts/validar_continuacion.py
   scripts/validar_documentacion.py
   scripts/validar_investigacion.py

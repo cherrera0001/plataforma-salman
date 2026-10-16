@@ -1,0 +1,1052 @@
+{
+  "titulo": "Validación de Arquitectura Visual y Ejecutable",
+  "total_comprobaciones": 209,
+  "errores": 0,
+  "detalles": [
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Se encontraron 24 diagramas .drawio (esperados >= 19)",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/cafeteria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/cafeteria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/cafeteria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/cafeteria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (9 vértices) en docs/arquitectura/cafeteria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (9 aristas) en docs/arquitectura/cafeteria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/cafeteria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/cafeteria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/cafeteria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/cafeteria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/cafeteria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (9 vértices) en docs/arquitectura/cafeteria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (7 aristas) en docs/arquitectura/cafeteria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/cafeteria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/cafeteria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/cafeteria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/cafeteria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/cafeteria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (9 vértices) en docs/arquitectura/cafeteria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (7 aristas) en docs/arquitectura/cafeteria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/cafeteria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/cafeteria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/cafeteria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/cafeteria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/cafeteria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (5 vértices) en docs/arquitectura/cafeteria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (9 aristas) en docs/arquitectura/cafeteria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/cafeteria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/constructora/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/constructora/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/constructora/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/constructora/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (8 vértices) en docs/arquitectura/constructora/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (8 aristas) en docs/arquitectura/constructora/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/constructora/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/constructora/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/constructora/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/constructora/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/constructora/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (6 vértices) en docs/arquitectura/constructora/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (6 aristas) en docs/arquitectura/constructora/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/constructora/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/constructora/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/constructora/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/constructora/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/constructora/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (6 vértices) en docs/arquitectura/constructora/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (6 aristas) en docs/arquitectura/constructora/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/constructora/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/constructora/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/constructora/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/constructora/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/constructora/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (5 vértices) en docs/arquitectura/constructora/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (8 aristas) en docs/arquitectura/constructora/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/constructora/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/core/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/core/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/core/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/core/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (8 vértices) en docs/arquitectura/core/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (8 aristas) en docs/arquitectura/core/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/core/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/core/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/core/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/core/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/core/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (7 vértices) en docs/arquitectura/core/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (6 aristas) en docs/arquitectura/core/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/core/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/core/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/core/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/core/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/core/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (7 vértices) en docs/arquitectura/core/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (6 aristas) en docs/arquitectura/core/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/core/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/core/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/core/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/core/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/core/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (5 vértices) en docs/arquitectura/core/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (8 aristas) en docs/arquitectura/core/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/core/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/hotel/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/hotel/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/hotel/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/hotel/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (9 vértices) en docs/arquitectura/hotel/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (8 aristas) en docs/arquitectura/hotel/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/hotel/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/hotel/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/hotel/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/hotel/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/hotel/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (7 vértices) en docs/arquitectura/hotel/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (7 aristas) en docs/arquitectura/hotel/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/hotel/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/hotel/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/hotel/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/hotel/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/hotel/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (7 vértices) en docs/arquitectura/hotel/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (7 aristas) en docs/arquitectura/hotel/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/hotel/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/hotel/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/hotel/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/hotel/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/hotel/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (5 vértices) en docs/arquitectura/hotel/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (8 aristas) en docs/arquitectura/hotel/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/hotel/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/inmobiliaria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/inmobiliaria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/inmobiliaria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/inmobiliaria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (8 vértices) en docs/arquitectura/inmobiliaria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (8 aristas) en docs/arquitectura/inmobiliaria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/inmobiliaria/estados.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/inmobiliaria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/inmobiliaria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/inmobiliaria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/inmobiliaria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (7 vértices) en docs/arquitectura/inmobiliaria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (7 aristas) en docs/arquitectura/inmobiliaria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/inmobiliaria/mer.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/inmobiliaria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/inmobiliaria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/inmobiliaria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/inmobiliaria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (7 vértices) en docs/arquitectura/inmobiliaria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (7 aristas) en docs/arquitectura/inmobiliaria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/inmobiliaria/modelo-relacional.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/inmobiliaria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/inmobiliaria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/inmobiliaria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/inmobiliaria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (5 vértices) en docs/arquitectura/inmobiliaria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (9 aristas) en docs/arquitectura/inmobiliaria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/inmobiliaria/secuencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/transversal/c4-contenedores.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/transversal/c4-contenedores.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/transversal/c4-contenedores.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/transversal/c4-contenedores.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (5 vértices) en docs/arquitectura/transversal/c4-contenedores.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (5 aristas) en docs/arquitectura/transversal/c4-contenedores.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/transversal/c4-contenedores.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/transversal/c4-contexto.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/transversal/c4-contexto.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/transversal/c4-contexto.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/transversal/c4-contexto.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (7 vértices) en docs/arquitectura/transversal/c4-contexto.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (6 aristas) en docs/arquitectura/transversal/c4-contexto.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/transversal/c4-contexto.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/transversal/dependencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/transversal/dependencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/transversal/dependencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/transversal/dependencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (5 vértices) en docs/arquitectura/transversal/dependencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (6 aristas) en docs/arquitectura/transversal/dependencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/transversal/dependencias.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Root tag <mxfile> válido en docs/arquitectura/transversal/mer-integrado.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Página <diagram> no vacía en docs/arquitectura/transversal/mer-integrado.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<mxGraphModel> presente en docs/arquitectura/transversal/mer-integrado.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "<root> presente en docs/arquitectura/transversal/mer-integrado.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Nodos sustantivos (5 vértices) en docs/arquitectura/transversal/mer-integrado.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Conectores/Relaciones (6 aristas) en docs/arquitectura/transversal/mer-integrado.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "IDs de celdas únicos en docs/arquitectura/transversal/mer-integrado.drawio",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Se encontraron 6 archivos DBML (esperados >= 6)",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Contenido relacional (9 tablas) en docs/arquitectura/cafeteria/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Estructura formal DBML en docs/arquitectura/cafeteria/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Llaves balanceadas en docs/arquitectura/cafeteria/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Contenido relacional (6 tablas) en docs/arquitectura/constructora/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Estructura formal DBML en docs/arquitectura/constructora/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Llaves balanceadas en docs/arquitectura/constructora/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Contenido relacional (7 tablas) en docs/arquitectura/core/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Estructura formal DBML en docs/arquitectura/core/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Llaves balanceadas en docs/arquitectura/core/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Contenido relacional (7 tablas) en docs/arquitectura/hotel/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Estructura formal DBML en docs/arquitectura/hotel/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Llaves balanceadas en docs/arquitectura/hotel/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Contenido relacional (7 tablas) en docs/arquitectura/inmobiliaria/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Estructura formal DBML en docs/arquitectura/inmobiliaria/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Llaves balanceadas en docs/arquitectura/inmobiliaria/modelo-relacional.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "SEMANTICA",
+      "comprobacion": "Contenido relacional (36 tablas) en docs/arquitectura/transversal/modelo-integrado.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Estructura formal DBML en docs/arquitectura/transversal/modelo-integrado.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Llaves balanceadas en docs/arquitectura/transversal/modelo-integrado.dbml",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Se encontraron 9 scripts de prueba SQL (esperados >= 9)",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Script SQL no vacío en docs/arquitectura/pruebas/aislamiento-tenant/test_rls_policies.sql",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Script SQL no vacío en docs/arquitectura/pruebas/concurrencia/test_concurrency_locks.sql",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Script SQL no vacío en docs/arquitectura/pruebas/integridad/test_constraints_fks.sql",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Script SQL no vacío en docs/arquitectura/pruebas/sql/00_init_roles_schemas.sql",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Script SQL no vacío en docs/arquitectura/pruebas/sql/01_core.sql",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Script SQL no vacío en docs/arquitectura/pruebas/sql/02_cafeteria.sql",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Script SQL no vacío en docs/arquitectura/pruebas/sql/03_hotel.sql",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Script SQL no vacío en docs/arquitectura/pruebas/sql/04_inmobiliaria.sql",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "ESTRUCTURAL",
+      "comprobacion": "Script SQL no vacío en docs/arquitectura/pruebas/sql/05_constructora.sql",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "Log de ejecución PostgreSQL existe",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "DDL Core ejecutado con éxito",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "DDL Cafetería ejecutado con éxito",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "DDL Hotel ejecutado con éxito",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "DDL Inmobiliaria ejecutado con éxito",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "DDL Constructora ejecutado con éxito",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "Integridad y CHECKs validados",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "RLS con app_user validado",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "Concurrencia optimista validada",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "Comprobación RLS SELECT registrada",
+      "resultado": "PASS"
+    },
+    {
+      "categoria": "EJECUTABLE",
+      "comprobacion": "Comprobación RLS INSERT registrada",
+      "resultado": "PASS"
+    }
+  ]
+}

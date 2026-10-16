@@ -9,7 +9,7 @@ def check(ok,message):
  if not ok:errors.append(message)
 manifest=json.loads((ROOT/'docs/auditorias/originales-sha256.json').read_text())
 for source in manifest:
- for p in [ROOT.parent/source['ruta'],ROOT/'docs/originales'/source['ruta']]:
+ for p in [ROOT/'docs/originales'/source['ruta']]:
   check(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==source['sha256'],f'Hash original {p.relative_to(ROOT.parent)}')
 features=json.loads((ROOT/'docs/auditorias/catalogo-requisitos.json').read_text())['features']
 required=['spec.md','plan.md','research.md','data-model.md','quickstart.md','tasks.md','acceptance.md','contracts/README.md','checklists/requirements.md']

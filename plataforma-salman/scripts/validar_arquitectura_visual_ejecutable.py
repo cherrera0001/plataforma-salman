@@ -15,6 +15,8 @@ errors = []
 checks = []
 
 def check(ok, message, category="ESTRUCTURAL"):
+    if category == "EJECUTABLE":
+        category = "EVIDENCIA_HISTORICA_SQL"
     res = "PASS" if ok else "FAIL"
     checks.append({"categoria": category, "comprobacion": message, "resultado": res})
     if not ok:

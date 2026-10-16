@@ -4,6 +4,14 @@ plataforma-salman/
   README.md
   core/README.md
   docs/arquitectura/aclaraciones.md
+  docs/arquitectura/datos/contratos-integracion.md
+  docs/arquitectura/datos/diagrama-c4.md
+  docs/arquitectura/datos/diagramas-comportamiento.md
+  docs/arquitectura/datos/hallazgos-datos.md
+  docs/arquitectura/datos/mer-conceptual.md
+  docs/arquitectura/datos/modelo-fisico.md
+  docs/arquitectura/datos/mr-logico.md
+  docs/arquitectura/datos/trazabilidad-datos.md
   docs/arquitectura/decisiones/ADR-001.md
   docs/arquitectura/decisiones/ADR-002.md
   docs/arquitectura/decisiones/ADR-003.md
@@ -194,6 +202,7 @@ plataforma-salman/
   scripts/validar_continuacion.py
   scripts/validar_documentacion.py
   scripts/validar_investigacion.py
+  scripts/validar_modelo_datos.py
   specs/000-core/acceptance.md
   specs/000-core/checklists/requirements.md
   specs/000-core/contracts/README.md

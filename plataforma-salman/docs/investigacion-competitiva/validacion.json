@@ -1,0 +1,2452 @@
+{
+  "tipo": "validación local de investigación, no REA/Spec Kit",
+  "fecha": "2026-10-16",
+  "checks": 610,
+  "errores": [],
+  "historias_enriquecidas": 13,
+  "criterios_nuevos": 65,
+  "evidencias": 68,
+  "archivos_baseline_modificados": 50,
+  "resultados": [
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencias con identificadores únicos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin atribución de runtime a fuentes documentales"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URLs primarias explícitas HTTPS; accesibilidad en registro web separado"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Referencia regional Fudo indicada por usuario"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin archivo de credenciales copiado al proyecto"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra .specify/memory/constitution.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra docs/auditorias/catalogo-requisitos.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra docs/auditorias/trazabilidad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra scripts/validar_documentacion.py"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra docs/arquitectura/dependencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/001-cafeteria-mesas-pos/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/001-cafeteria-mesas-pos/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/001-cafeteria-mesas-pos/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Baseline íntegra specs/004-constructora-obra/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Constitución no modificada por investigación"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "13 historias heredadas con alias únicos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-CORE-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-CORE-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-001 C04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-001 I10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CORE-001-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CORE-001-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-001 FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-001 FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-001 FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-001 FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-CORE-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-CORE-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-002 C06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-002 H01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CORE-002-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CORE-002-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-002 FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-002 FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-002 FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-002 FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-CORE-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-CORE-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-003 I06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-003 I07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-003 H10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-003 I11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-003 I17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-003 H13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CORE-003 H15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CORE-003-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CORE-003-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CORE-003-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CORE-003-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CORE-003-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-003 FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-003 FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-003 FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-003 FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-003 FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CORE-003 FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-CAF-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-CAF-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-001 C02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-001 C05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-001 C07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-001 C11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-001 C12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CAF-001-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CAF-001-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-001 FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-001 FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-001 FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-001 FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-001 FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-001 FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-CAF-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-CAF-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-002 C08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-002 C10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-002 C04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-002 C12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CAF-002-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CAF-002-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-002 FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-002 FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-002 FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-002 FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-CAF-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-CAF-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-003 C09"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-003 C10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-CAF-003 C13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CAF-003-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-CAF-003-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-003 FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-003 FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-003 FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-CAF-003 FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-HOT-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-HOT-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-001 H01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-001 H02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-001 H03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-001 H04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-001 H11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-001 H12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-001 H18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-001 H13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-001 H15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-001 H17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-001-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-001-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-001-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-001-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-001-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-001-06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-001-07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-001-08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-001 FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-HOT-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-HOT-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-002 H05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-002 H01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-002 H14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-002 H16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-002-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-002-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-002-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-002-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-002-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-002 FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-002 FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-002 FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-002 FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-002 FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-002 FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-002 FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-HOT-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-HOT-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-003 H06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-003 H07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-003 H08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-003 H09"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-003 H10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-003 H11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-HOT-003 H13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-003-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-003-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-003-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-003-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-HOT-003-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-003 FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-003 FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-003 FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-003 FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-003 FR-014"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-003 FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-HOT-003 FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-INM-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-INM-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-001 I01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-001 I03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-001 I04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-001 I05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-001 I09"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-001 I10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-001 I12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-001 I14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-001 I15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-001 I18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-001-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-001-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-001-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-001-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-001-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-001-06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-001-07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-001-08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-001 FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-001 FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-001 FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-001 FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-001 FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-001 FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-001 FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-001 FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-001 FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-001 FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-INM-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-INM-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-002 I02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-002 I06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-002 I11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-002 I16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-INM-002 I13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-002-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-002-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-002-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-002-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-002-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-002-06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-002-07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-INM-002-08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-002 FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-002 FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-002 FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-002 FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-002 FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-INM-002 FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-OBR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-OBR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-003 O03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-003 O05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-003 O07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-003 O08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-003 O11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-003 O14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-003 O17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-003-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-003-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-003-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-003-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-003-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-003 FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-003 FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-003 FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-003 FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-003 FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-003 FR-021"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historia activa US-OBR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Equivalencia y origen US-OBR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-004 O01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-004 O02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-004 O06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-004 O09"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-004 O13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-004 O15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-004 O16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-004 O18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-004 O10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble US-OBR-004 O12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-09"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio propagado AC-US-OBR-004-11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-004 FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-004 FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-004 FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-004 FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-004 FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-004 FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-004 FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-004 FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-004 FR-022"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Requisito existente US-OBR-004 FR-023"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ningún FR/SC heredado eliminado 000-core"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Estado sin aprobación ficticia 000-core"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Procedencia e incertidumbre en 000-core"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ningún FR/SC heredado eliminado 001-cafeteria-mesas-pos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Estado sin aprobación ficticia 001-cafeteria-mesas-pos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Procedencia e incertidumbre en 001-cafeteria-mesas-pos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 001-cafeteria-mesas-pos/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 001-cafeteria-mesas-pos/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 001-cafeteria-mesas-pos/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ningún FR/SC heredado eliminado 002-hotel-reservas-concierge"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Estado sin aprobación ficticia 002-hotel-reservas-concierge"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Procedencia e incertidumbre en 002-hotel-reservas-concierge"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ningún FR/SC heredado eliminado 003-inmobiliaria-comercial"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Estado sin aprobación ficticia 003-inmobiliaria-comercial"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Procedencia e incertidumbre en 003-inmobiliaria-comercial"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ningún FR/SC heredado eliminado 004-constructora-obra"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Estado sin aprobación ficticia 004-constructora-obra"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Procedencia e incertidumbre en 004-constructora-obra"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 004-constructora-obra/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cambio propagado 004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/cambios.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/cambios.patch"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/evidencias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/historias-propuestas.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/historias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/informe-final.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/inventario-plataformas.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/matriz-comparativa.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/matriz-evidencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/metodologia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/oportunidades.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/priorizacion.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/rea.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/registro-cambios.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/trazabilidad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/urls-verificadas.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/validacion.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/cafeteria/flujos.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/constructora/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/constructora/flujos.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/constructora/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/cambios.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/cambios.patch"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/evidencias-nuevas.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/informe.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/matriz-detallada.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/medicion-por-flujo.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/refinamientos.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/trazabilidad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/validacion.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/hotel/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/hotel/flujos.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/hotel/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/inmobiliaria/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/inmobiliaria/flujos.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/inmobiliaria/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/manifest.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/manifest.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/scripts/validar_documentacion.py"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/.specify/memory/constitution.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/.specify/memory/constitution.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/auditorias/catalogo-requisitos.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/evidencias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/historias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/informe-final.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/docs/arquitectura/dependencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/docs/auditorias/catalogo-requisitos.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/docs/auditorias/trazabilidad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin código de producto core"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin código de producto verticales"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable docs/auditorias/catalogo-requisitos.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable docs/auditorias/trazabilidad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable scripts/validar_documentacion.py"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable docs/arquitectura/dependencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/001-cafeteria-mesas-pos/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/001-cafeteria-mesas-pos/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/001-cafeteria-mesas-pos/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git revisable specs/004-constructora-obra/contracts/README.md"
+    }
+  ]
+}

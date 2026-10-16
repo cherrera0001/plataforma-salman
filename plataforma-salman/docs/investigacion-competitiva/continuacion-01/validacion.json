@@ -1,0 +1,2271 @@
+{
+  "tipo": "validación documental incremental; no Spec Kit/REA/producto",
+  "fecha": "2026-10-16",
+  "checks": 564,
+  "errores": [],
+  "fuentes_nuevas": 26,
+  "refinamientos": 13,
+  "ac_nuevos": 39,
+  "ac_acumulados": 65,
+  "fr_acumulados": 77,
+  "sc": 31,
+  "archivos_baseline_modificados": 40,
+  "resultados": [
+    {
+      "resultado": "PASS",
+      "comprobacion": "50 archivos de línea base de continuación"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/001-cafeteria-mesas-pos/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/001-cafeteria-mesas-pos/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/001-cafeteria-mesas-pos/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental specs/004-constructora-obra/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental .specify/memory/constitution.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental docs/auditorias/catalogo-requisitos.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental docs/investigacion-competitiva/evidencias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental docs/investigacion-competitiva/historias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash baseline incremental docs/investigacion-competitiva/informe-final.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Constitución sin cambios en continuación"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cafetería preservada spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cafetería preservada research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cafetería preservada plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cafetería preservada data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cafetería preservada contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cafetería preservada acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cafetería preservada quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cafetería preservada tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cafetería preservada checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "26 evidencias nuevas, 68 acumuladas"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs de evidencia únicos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance H11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime H11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada H11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance H12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime H12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada H12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance H13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime H13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada H13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance H14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime H14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada H14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance H15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime H15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada H15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance H16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime H16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada H16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance H17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime H17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada H17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance H18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime H18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada H18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance I11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime I11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada I11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance I12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime I12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada I12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance I13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime I13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada I13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance I14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime I14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada I14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance I15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime I15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada I15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance I16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime I16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada I16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance I17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime I17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada I17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance I18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime I18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada I18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance I19"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime I19"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada I19"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance O10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime O10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada O10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance O11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime O11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada O11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance O12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime O12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada O12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance O13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime O13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada O13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance O14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime O14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada O14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance O15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime O15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada O15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance O16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime O16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada O16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance O17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime O17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada O17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ficha integrada sin cambio de alcance O18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "No atribuir runtime O18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "URL identificada O18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "13 refinamientos, 39 AC adicionales"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Historias previas conservadas sin candidatas activas"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "65 AC competitivos acumulados"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-CORE-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-CORE-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-CORE-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-CAF-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-CAF-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-CAF-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-HOT-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-HOT-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-HOT-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-INM-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-INM-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-OBR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC previos conservados US-OBR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-CORE-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-CORE-01/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-CORE-01/I11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-CORE-01/I17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-CORE-01/H13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-CORE-01/H15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-CORE-01/FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-CORE-01/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-CORE-01/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-CORE-01/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-CORE-003-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-CORE-003-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-CORE-003-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-HOT-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-01/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-01/H11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-01/H12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-01/H18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-01/FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-01/FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-01/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-01/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-01/FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-001-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-001-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-001-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-HOT-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-02/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-02/H14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-02/H16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-02/FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-02/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-02/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-02/FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-002-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-002-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-002-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-HOT-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-03/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-03/H13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-03/H15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-03/H17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-03/FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-03/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-03/FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-03/FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-03/FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-001-06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-001-07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-001-08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-HOT-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-HOT-04/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-04/H06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-04/H07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-04/H08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-04/H09"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-04/H11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-HOT-04/H13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-04/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-04/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-04/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-04/FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-04/FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-HOT-04/FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-003-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-003-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-HOT-003-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-INM-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-01/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-INM-01/I12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-INM-01/I14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-01/FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-01/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-01/FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-001-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-001-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-001-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-INM-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-02/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-INM-02/I15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-INM-02/I18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-02/FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-02/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-02/FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-02/FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-001-06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-001-07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-001-08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-INM-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-03/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-INM-03/I11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-INM-03/I16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-03/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-03/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-03/FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-03/FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-002-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-002-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-002-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-INM-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-INM-04/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-INM-04/I13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-INM-04/I16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-04/FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-04/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-INM-04/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-002-06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-002-07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-INM-002-08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-OBR-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-01/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-OBR-01/O11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-OBR-01/O14"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-OBR-01/O17"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-01/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-01/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-01/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-01/FR-021"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-003-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-003-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-003-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-OBR-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-02/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-OBR-02/O13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-OBR-02/O15"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-02/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-02/FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-02/FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-02/FR-022"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-004-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-004-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-004-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-OBR-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-03/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-OBR-03/O16"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-OBR-03/O18"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-03/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-03/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-03/FR-023"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-004-06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-004-07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-004-08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Refinamiento en spec y trazabilidad RF-OBR-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/actor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/valor"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/prioridad"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/pre"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/trigger"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/steps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/alt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/rules"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/data"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/risk"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/deps"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Campo funcional RF-OBR-04/metric"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-OBR-04/O10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Evidencia resoluble RF-OBR-04/O12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-04/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-04/FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR de historia/dominio correcto RF-OBR-04/FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-004-09"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-004-10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "AC propagado AC-US-OBR-004-11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR incrementales exactos 000-core"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR incrementales exactos 002-hotel-reservas-concierge"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR incrementales exactos 003-inmobiliaria-comercial"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "FR incrementales exactos 004-constructora-obra"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 004-constructora-obra/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Propagación documental 004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "77 FR y 31 SC sin eliminar IDs"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Catálogo previo preservado 000-core"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Catálogo previo preservado 001-cafeteria-mesas-pos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Catálogo previo preservado 002-hotel-reservas-concierge"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Catálogo previo preservado 003-inmobiliaria-comercial"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Catálogo previo preservado 004-constructora-obra"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Revisión sustantiva hotel/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Revisión sustantiva hotel/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Revisión sustantiva inmobiliaria/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Revisión sustantiva inmobiliaria/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Revisión sustantiva constructora/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Revisión sustantiva constructora/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ejemplo distingue compromiso de estados incluidos; regla cliente pendiente"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ejemplo de recepción/rechazo y reposición configurada"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Ejemplo de periodicidad por persona y noche"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Pesos suman 100"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-01"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-02"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-03"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-04"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-05"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-06"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-07"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-08"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-09"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-10"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-11"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-12"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Puntuación e incertidumbre OP-13"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin inventar frecuencia o impacto comercial"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental specs/004-constructora-obra/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental docs/auditorias/catalogo-requisitos.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental docs/investigacion-competitiva/evidencias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental docs/investigacion-competitiva/historias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff Git incremental docs/investigacion-competitiva/informe-final.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff incremental no modifica cafetería"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Diff sin token reconocible"
+    }
+  ]
+}

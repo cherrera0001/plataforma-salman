@@ -1,0 +1,277 @@
+{
+  "pesos": {
+    "valor_usuario": 20,
+    "impacto_comercial": 15,
+    "frecuencia": 10,
+    "criticidad": 15,
+    "complejidad_inversa": 10,
+    "riesgo_inverso": 10,
+    "dependencias_inversas": 5,
+    "calidad_evidencia": 10,
+    "diferenciacion": 5
+  },
+  "escala": "1 a 5; factores inversos: 5 significa menor esfuerzo/riesgo/dependencia",
+  "desconocidos": "impacto comercial y frecuencia nulos; extremos 1 y 5 para sensibilidad, no datos medidos",
+  "oportunidades": [
+    {
+      "id": "OP-01",
+      "oportunidad": "Conciliar pendientes y capacidades por conector",
+      "historia": "US-CORE-001/002",
+      "evidencia": "C04/C06/H01/I10",
+      "valores": {
+        "valor_usuario": 5,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 5,
+        "complejidad_inversa": 3,
+        "riesgo_inverso": 3,
+        "dependencias_inversas": 3,
+        "calidad_evidencia": 4,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 56.25,
+      "puntuacion_max": 81.25,
+      "justificacion": "Previene efectos financieros duplicados; el volumen y costo siguen desconocidos."
+    },
+    {
+      "id": "OP-02",
+      "oportunidad": "Reparto de cuenta sin alterar pagos ni cocina",
+      "historia": "US-CAF-001",
+      "evidencia": "C02/C05/C07/C12",
+      "valores": {
+        "valor_usuario": 5,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 5,
+        "complejidad_inversa": 3,
+        "riesgo_inverso": 3,
+        "dependencias_inversas": 4,
+        "calidad_evidencia": 5,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 60.0,
+      "puntuacion_max": 85.0,
+      "justificacion": "Refina el P1 existente; demanda y frecuencia requieren observar el local."
+    },
+    {
+      "id": "OP-03",
+      "oportunidad": "Inventario, asignación y preparación independientes",
+      "historia": "US-HOT-001/002",
+      "evidencia": "H01/H02/H05",
+      "valores": {
+        "valor_usuario": 5,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 5,
+        "complejidad_inversa": 3,
+        "riesgo_inverso": 3,
+        "dependencias_inversas": 2,
+        "calidad_evidencia": 5,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 57.5,
+      "puntuacion_max": 82.5,
+      "justificacion": "Corrige una ambigüedad operativa antes de elegir PMS."
+    },
+    {
+      "id": "OP-04",
+      "oportunidad": "Identidad, cita y contrato como hitos evidenciados",
+      "historia": "US-INM-001",
+      "evidencia": "I01/I03/I09/I10",
+      "valores": {
+        "valor_usuario": 5,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 5,
+        "complejidad_inversa": 3,
+        "riesgo_inverso": 3,
+        "dependencias_inversas": 2,
+        "calidad_evidencia": 4,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 55.0,
+      "puntuacion_max": 80.0,
+      "justificacion": "Reduce compromisos incorrectos; no demuestra mayor conversión."
+    },
+    {
+      "id": "OP-05",
+      "oportunidad": "Observación con cierre autorizado y recepción parcial",
+      "historia": "US-OBR-003/004",
+      "evidencia": "O01/O02/O05/O09",
+      "valores": {
+        "valor_usuario": 5,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 5,
+        "complejidad_inversa": 3,
+        "riesgo_inverso": 3,
+        "dependencias_inversas": 3,
+        "calidad_evidencia": 5,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 58.75,
+      "puntuacion_max": 83.75,
+      "justificacion": "Precisa trazabilidad de obra y compras, condicionado al alcance V2."
+    },
+    {
+      "id": "OP-06",
+      "oportunidad": "Transferencia humana con contexto y responsable",
+      "historia": "US-HOT-003/INM-002",
+      "evidencia": "H06/I06",
+      "valores": {
+        "valor_usuario": 4,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 4,
+        "complejidad_inversa": 4,
+        "riesgo_inverso": 4,
+        "dependencias_inversas": 4,
+        "calidad_evidencia": 5,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 56.25,
+      "puntuacion_max": 81.25,
+      "justificacion": "No contar handoff como resolución; no construir helpdesk universal."
+    },
+    {
+      "id": "OP-07",
+      "oportunidad": "Autopricing hotelero",
+      "historia": "US-HOT-004 propuesta futura",
+      "evidencia": "H10",
+      "valores": {
+        "valor_usuario": 3,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 3,
+        "complejidad_inversa": 1,
+        "riesgo_inverso": 1,
+        "dependencias_inversas": 1,
+        "calidad_evidencia": 4,
+        "diferenciacion": 3
+      },
+      "puntuacion_min": 27.5,
+      "puntuacion_max": 52.5,
+      "justificacion": "Mantener en investigación P3: faltan demanda, política, datos y evaluación."
+    },
+    {
+      "id": "OP-08",
+      "oportunidad": "Optimización paramétrica de obra",
+      "historia": "US-OBR-005 propuesta futura",
+      "evidencia": "O04",
+      "valores": {
+        "valor_usuario": 3,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 3,
+        "complejidad_inversa": 1,
+        "riesgo_inverso": 2,
+        "dependencias_inversas": 1,
+        "calidad_evidencia": 4,
+        "diferenciacion": 3
+      },
+      "puntuacion_min": 30.0,
+      "puntuacion_max": 55.0,
+      "justificacion": "No integrar al alcance activo: requiere programación y restricciones que no se han entregado."
+    },
+    {
+      "id": "OP-09",
+      "oportunidad": "Cambio/cancelación hotel y recepción de canales",
+      "historia": "RF-HOT-01/03",
+      "evidencia": "H11/H12/H13/H15",
+      "valores": {
+        "valor_usuario": 5,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 5,
+        "complejidad_inversa": 3,
+        "riesgo_inverso": 3,
+        "dependencias_inversas": 2,
+        "calidad_evidencia": 5,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 57.5,
+      "puntuacion_max": 82.5,
+      "justificacion": "Prevenir pérdida/doble efecto; frecuencia e impacto económico no medidos."
+    },
+    {
+      "id": "OP-10",
+      "oportunidad": "Modo de agenda y versión de firma",
+      "historia": "RF-INM-01/02",
+      "evidencia": "I12/I15/I18",
+      "valores": {
+        "valor_usuario": 5,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 5,
+        "complejidad_inversa": 3,
+        "riesgo_inverso": 3,
+        "dependencias_inversas": 2,
+        "calidad_evidencia": 4,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 55.0,
+      "puntuacion_max": 80.0,
+      "justificacion": "Distinguir compromiso real y recuperación; formalidades pendientes."
+    },
+    {
+      "id": "OP-11",
+      "oportunidad": "Vínculo de portal y efectos implícitos",
+      "historia": "RF-INM-03;RF-CORE-01",
+      "evidencia": "I11/I16/I17",
+      "valores": {
+        "valor_usuario": 5,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 5,
+        "complejidad_inversa": 3,
+        "riesgo_inverso": 3,
+        "dependencias_inversas": 3,
+        "calidad_evidencia": 5,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 58.75,
+      "puntuacion_max": 83.75,
+      "justificacion": "Confidencialidad y consentimiento; API real por verificar."
+    },
+    {
+      "id": "OP-12",
+      "oportunidad": "Partes, recepción y exposición presupuestaria",
+      "historia": "RF-OBR-01/02/03",
+      "evidencia": "O11/O13/O14/O16/O18",
+      "valores": {
+        "valor_usuario": 5,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 5,
+        "complejidad_inversa": 3,
+        "riesgo_inverso": 3,
+        "dependencias_inversas": 3,
+        "calidad_evidencia": 4,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 56.25,
+      "puntuacion_max": 81.25,
+      "justificacion": "Semántica y cálculo antes de automatización; escala del negocio desconocida."
+    },
+    {
+      "id": "OP-13",
+      "oportunidad": "Subcontratos y consultas técnicas opcionales",
+      "historia": "US-OBR-006/007 candidatas",
+      "evidencia": "O12/O16",
+      "valores": {
+        "valor_usuario": 3,
+        "impacto_comercial": null,
+        "frecuencia": null,
+        "criticidad": 3,
+        "complejidad_inversa": 2,
+        "riesgo_inverso": 2,
+        "dependencias_inversas": 2,
+        "calidad_evidencia": 4,
+        "diferenciacion": 2
+      },
+      "puntuacion_min": 32.5,
+      "puntuacion_max": 57.5,
+      "justificacion": "Mantener DRAFT fuera de alcance hasta validar necesidad y autoridad."
+    }
+  ]
+}

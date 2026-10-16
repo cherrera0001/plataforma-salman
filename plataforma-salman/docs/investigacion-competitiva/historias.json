@@ -1,0 +1,302 @@
+[
+  {
+    "id": "US-CORE-001",
+    "feature": "000-core",
+    "original": "H1",
+    "evidencias": [
+      "C04",
+      "I10"
+    ],
+    "requisitos": "FR-001,FR-002,FR-006,FR-010",
+    "ac": [
+      "AC-US-CORE-001-01",
+      "AC-US-CORE-001-02"
+    ]
+  },
+  {
+    "id": "US-CORE-002",
+    "feature": "000-core",
+    "original": "H2",
+    "evidencias": [
+      "C06",
+      "H01"
+    ],
+    "requisitos": "FR-003,FR-004,FR-008,FR-011",
+    "ac": [
+      "AC-US-CORE-002-01",
+      "AC-US-CORE-002-02"
+    ]
+  },
+  {
+    "id": "US-CORE-003",
+    "feature": "000-core",
+    "original": "H3",
+    "evidencias": [
+      "I06",
+      "I07",
+      "H10",
+      "I11",
+      "I17",
+      "H13",
+      "H15"
+    ],
+    "requisitos": "FR-005,FR-007,FR-009,FR-010,FR-011,FR-012",
+    "ac": [
+      "AC-US-CORE-003-01",
+      "AC-US-CORE-003-02",
+      "AC-US-CORE-003-03",
+      "AC-US-CORE-003-04",
+      "AC-US-CORE-003-05"
+    ],
+    "refinamientos": [
+      "RF-CORE-01"
+    ]
+  },
+  {
+    "id": "US-CAF-001",
+    "feature": "001-cafeteria-mesas-pos",
+    "original": "H1",
+    "evidencias": [
+      "C02",
+      "C05",
+      "C07",
+      "C11",
+      "C12"
+    ],
+    "requisitos": "FR-001,FR-002,FR-003,FR-004,FR-005,FR-015",
+    "ac": [
+      "AC-US-CAF-001-01",
+      "AC-US-CAF-001-02"
+    ]
+  },
+  {
+    "id": "US-CAF-002",
+    "feature": "001-cafeteria-mesas-pos",
+    "original": "H2",
+    "evidencias": [
+      "C08",
+      "C10",
+      "C04",
+      "C12"
+    ],
+    "requisitos": "FR-007,FR-008,FR-009,FR-010",
+    "ac": [
+      "AC-US-CAF-002-01",
+      "AC-US-CAF-002-02"
+    ]
+  },
+  {
+    "id": "US-CAF-003",
+    "feature": "001-cafeteria-mesas-pos",
+    "original": "H3",
+    "evidencias": [
+      "C09",
+      "C10",
+      "C13"
+    ],
+    "requisitos": "FR-011,FR-012,FR-013,FR-016",
+    "ac": [
+      "AC-US-CAF-003-01",
+      "AC-US-CAF-003-02"
+    ]
+  },
+  {
+    "id": "US-HOT-001",
+    "feature": "002-hotel-reservas-concierge",
+    "original": "H1",
+    "evidencias": [
+      "H01",
+      "H02",
+      "H03",
+      "H04",
+      "H11",
+      "H12",
+      "H18",
+      "H13",
+      "H15",
+      "H17"
+    ],
+    "requisitos": "FR-001,FR-002,FR-003,FR-004,FR-005,FR-011,FR-013,FR-016,FR-017,FR-018,FR-020",
+    "ac": [
+      "AC-US-HOT-001-01",
+      "AC-US-HOT-001-02",
+      "AC-US-HOT-001-03",
+      "AC-US-HOT-001-04",
+      "AC-US-HOT-001-05",
+      "AC-US-HOT-001-06",
+      "AC-US-HOT-001-07",
+      "AC-US-HOT-001-08"
+    ],
+    "refinamientos": [
+      "RF-HOT-01",
+      "RF-HOT-03"
+    ]
+  },
+  {
+    "id": "US-HOT-002",
+    "feature": "002-hotel-reservas-concierge",
+    "original": "H2",
+    "evidencias": [
+      "H05",
+      "H01",
+      "H14",
+      "H16"
+    ],
+    "requisitos": "FR-006,FR-007,FR-008,FR-009,FR-012,FR-016,FR-019",
+    "ac": [
+      "AC-US-HOT-002-01",
+      "AC-US-HOT-002-02",
+      "AC-US-HOT-002-03",
+      "AC-US-HOT-002-04",
+      "AC-US-HOT-002-05"
+    ],
+    "refinamientos": [
+      "RF-HOT-02"
+    ]
+  },
+  {
+    "id": "US-HOT-003",
+    "feature": "002-hotel-reservas-concierge",
+    "original": "H3",
+    "evidencias": [
+      "H06",
+      "H07",
+      "H08",
+      "H09",
+      "H10",
+      "H11",
+      "H13"
+    ],
+    "requisitos": "FR-010,FR-011,FR-012,FR-013,FR-014,FR-017,FR-018",
+    "ac": [
+      "AC-US-HOT-003-01",
+      "AC-US-HOT-003-02",
+      "AC-US-HOT-003-03",
+      "AC-US-HOT-003-04",
+      "AC-US-HOT-003-05"
+    ],
+    "refinamientos": [
+      "RF-HOT-04"
+    ]
+  },
+  {
+    "id": "US-INM-001",
+    "feature": "003-inmobiliaria-comercial",
+    "original": "H1",
+    "evidencias": [
+      "I01",
+      "I03",
+      "I04",
+      "I05",
+      "I09",
+      "I10",
+      "I12",
+      "I14",
+      "I15",
+      "I18"
+    ],
+    "requisitos": "FR-001,FR-002,FR-003,FR-004,FR-005,FR-006,FR-015,FR-016,FR-017,FR-018",
+    "ac": [
+      "AC-US-INM-001-01",
+      "AC-US-INM-001-02",
+      "AC-US-INM-001-03",
+      "AC-US-INM-001-04",
+      "AC-US-INM-001-05",
+      "AC-US-INM-001-06",
+      "AC-US-INM-001-07",
+      "AC-US-INM-001-08"
+    ],
+    "refinamientos": [
+      "RF-INM-01",
+      "RF-INM-02"
+    ]
+  },
+  {
+    "id": "US-INM-002",
+    "feature": "003-inmobiliaria-comercial",
+    "original": "H2",
+    "evidencias": [
+      "I02",
+      "I06",
+      "I11",
+      "I16",
+      "I13"
+    ],
+    "requisitos": "FR-007,FR-008,FR-009,FR-016,FR-019,FR-020",
+    "ac": [
+      "AC-US-INM-002-01",
+      "AC-US-INM-002-02",
+      "AC-US-INM-002-03",
+      "AC-US-INM-002-04",
+      "AC-US-INM-002-05",
+      "AC-US-INM-002-06",
+      "AC-US-INM-002-07",
+      "AC-US-INM-002-08"
+    ],
+    "refinamientos": [
+      "RF-INM-03",
+      "RF-INM-04"
+    ]
+  },
+  {
+    "id": "US-OBR-003",
+    "feature": "004-constructora-obra",
+    "original": "H3",
+    "evidencias": [
+      "O03",
+      "O05",
+      "O07",
+      "O08",
+      "O11",
+      "O14",
+      "O17"
+    ],
+    "requisitos": "FR-010,FR-011,FR-012,FR-015,FR-020,FR-021",
+    "ac": [
+      "AC-US-OBR-003-01",
+      "AC-US-OBR-003-02",
+      "AC-US-OBR-003-03",
+      "AC-US-OBR-003-04",
+      "AC-US-OBR-003-05"
+    ],
+    "refinamientos": [
+      "RF-OBR-01"
+    ]
+  },
+  {
+    "id": "US-OBR-004",
+    "feature": "004-constructora-obra",
+    "original": "H4",
+    "evidencias": [
+      "O01",
+      "O02",
+      "O06",
+      "O09",
+      "O13",
+      "O15",
+      "O16",
+      "O18",
+      "O10",
+      "O12"
+    ],
+    "requisitos": "FR-011,FR-012,FR-015,FR-016,FR-017,FR-018,FR-019,FR-020,FR-022,FR-023",
+    "ac": [
+      "AC-US-OBR-004-01",
+      "AC-US-OBR-004-02",
+      "AC-US-OBR-004-03",
+      "AC-US-OBR-004-04",
+      "AC-US-OBR-004-05",
+      "AC-US-OBR-004-06",
+      "AC-US-OBR-004-07",
+      "AC-US-OBR-004-08",
+      "AC-US-OBR-004-09",
+      "AC-US-OBR-004-10",
+      "AC-US-OBR-004-11"
+    ],
+    "refinamientos": [
+      "RF-OBR-02",
+      "RF-OBR-03",
+      "RF-OBR-04"
+    ]
+  }
+]

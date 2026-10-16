@@ -1,0 +1,33 @@
+# Catálogo de aceptación — Inmobiliaria comercial
+
+Escenarios propuestos; ninguno ejecutado sobre producto. Cada ID tiene namespace de feature. Para cada FR se prueba resultado autorizado, denegación, duplicación y recuperación; los datos deben ser autorizados y minimizados.
+
+| Prueba | Requisito | Dado / Cuando / Entonces |
+|---|---|---|
+| AT-001 | FR-001 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Lead llega por dos canales autorizados: sugerir coincidencia con evidencia y evitar seguimiento duplicado; identidad ambigua queda separada para revisión. |
+| AT-002 | FR-002 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Con consentimiento y datos mínimos, agente prepara calificación/horario; no discrimina por atributos improcedentes y el ejecutivo valida antes de compromiso. |
+| AT-003 | FR-003 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Dos ejecutivos cotizan una unidad y dos clientes intentan reservarla: solo una reserva vigente; el segundo resultado financiero se concilia según política. |
+| AT-004 | FR-004 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Cotización incluye precio versionado, pie, estimación de financiamiento y vencimiento, vinculados al lead/unidad; no cambiar documento al variar precio posterior. |
+| AT-005 | FR-005 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Pago reserva aprobado bloquea una vez la unidad según política ratificada y deriva al documento aplicable; transferencia no validada no acredita saldo. |
+| AT-006 | FR-006 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Promesa con versión legal aprobada se envía por proveedor autorizado tras aprobación; evidencia de firma y documento quedan archivados sin sobrescribir originales. |
+| AT-007 | FR-007 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Cuota próxima al vencimiento genera borrador recordatorio correcto; solo resultado proveedor conciliado cambia saldo; duplicado no reduce deuda dos veces. |
+| AT-008 | FR-008 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Foto de postventa produce clasificación provisional y responsable; urgencia se escala y garantía nunca se rechaza automáticamente; a 72 h sin respuesta se alerta. |
+| AT-009 | FR-009 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Cliente autenticado solo ve su unidad, documentos, pagos y casos; cambiar identificador de recurso no muestra datos de otro cliente o empresa. |
+| AT-010 | FR-013 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Calificación, recordatorio, aprobación y escalamiento quedan auditados con evidencia minimizada y versión de política. |
+| AT-011 | FR-014 | Dadas precondiciones del requisito y actor/tenant autorizados, cuando se ejecuta el flujo: Cotización y unidad permanecen comerciales, pagos/documentos/autorización vienen del core y se concilian por referencia, sin duplicación de entidades. |
+| ADV-001 | NFR-001/002/003 | Dos pagos intentan reservar la misma unidad: una sola reserva; el segundo pago queda en conciliación y gestión humana. |
+| ADV-002 | NFR-001/002/003 | Documento firmado recibe versión y huella; cambios posteriores no reemplazan el original. |
+| ADV-003 | NFR-001/002/003 | Texto que exige negar garantía se trata como contenido y escala al responsable sin rechazo autónomo. |
+
+## Criterios de éxito y evidencia
+
+| Criterio | Verificación pendiente |
+|---|---|
+| SC-001 | Medir «El 100 % de los leads de todos los canales queda en un solo registro en menos de 5 minutos». Registrar muestra, ventana temporal, denominador, errores y línea base; conservar conteos y evidencia. No hay medición actual. |
+| SC-002 | Medir «El tiempo de primera respuesta a un lead baja a menos de 2 minutos, 24/7». Registrar muestra, ventana temporal, denominador, errores y línea base; conservar conteos y evidencia. No hay medición actual. |
+| SC-003 | Medir «Al menos el 60 % de los leads calificados agenda visita sin intervención del ejecutivo». Registrar muestra, ventana temporal, denominador, errores y línea base; conservar conteos y evidencia. No hay medición actual. |
+| SC-004 | Medir «El tiempo de lead a promesa firmada baja al menos 30 % frente al proceso actual». Registrar muestra, ventana temporal, denominador, errores y línea base; conservar conteos y evidencia. No hay medición actual. |
+| SC-005 | Medir «Cero unidades vendidas dos veces (auditoría trimestral)». Registrar muestra, ventana temporal, denominador, errores y línea base; conservar conteos y evidencia. No hay medición actual. |
+| SC-006 | Medir «La morosidad de cuotas del pie baja al menos 20 % en 6 meses». Registrar muestra, ventana temporal, denominador, errores y línea base; conservar conteos y evidencia. No hay medición actual. |
+| SC-007 | Medir «El 90 % de las solicitudes de postventa recibe clasificación y plazo en menos de 1 hora». Registrar muestra, ventana temporal, denominador, errores y línea base; conservar conteos y evidencia. No hay medición actual. |
+| SC-009 | Medir «Cero acciones de agente fuera de reglas (auditoría mensual del ledger)». Registrar muestra, ventana temporal, denominador, errores y línea base; conservar conteos y evidencia. No hay medición actual. |

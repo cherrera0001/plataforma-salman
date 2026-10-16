@@ -1,0 +1,687 @@
+[
+  {
+    "id": "RF-CORE-01",
+    "us": "US-CORE-003",
+    "titulo": "Declarar efectos externos de cada herramienta",
+    "actor": "responsable de integraciones y aprobador",
+    "valor": "evitar que guardar un contacto o recibir un evento envíe mensajes o ejecute compromisos sin autorización",
+    "prioridad": "P2",
+    "ev": [
+      "I11",
+      "I17",
+      "H13",
+      "H15"
+    ],
+    "fr": [
+      "FR-007",
+      "FR-010",
+      "FR-011",
+      "FR-012"
+    ],
+    "pre": "tenant/cuenta verificados, operación soportada y permisos/revisión definidos",
+    "trigger": "se habilita o invoca una operación de conector o se procesa una notificación",
+    "steps": [
+      "Consultar capacidad y efectos declarados por operación, incluidos flags de envío.",
+      "Validar intención, destinatario, datos mínimos y permiso para cada efecto.",
+      "Preparar vista previa o borrador sin envío cuando falte autorización.",
+      "Ejecutar solo alcance aprobado, registrar resultado y conciliar desconocidos."
+    ],
+    "alt": "Contrato incompleto o placeholder: operación no habilitada. Evento duplicado no repite envío. No inferir permiso de API desde documentación pública.",
+    "rules": "El método HTTP y la etiqueta MCP readOnly no prueban ausencia de efectos. Recepción/acuso, consulta, actualización y envío son resultados distintos; tenant se resuelve por identidad/cuenta autorizada, no texto o payload arbitrario.",
+    "data": "PerfilOperacion con efectos/flags; IntencionEnvio/destinatario; EventoExterno y evidencia mínima; estado propuesto/autorizado/intentado/confirmado/desconocido.",
+    "risk": "Exfiltración, spam, cruce de empresas, firma de aprobación reutilizada y éxito aparente.",
+    "deps": "Q-CORE-01/03 y contrato real por operación; no incluye un motor CRM compartido.",
+    "metric": "efectos no autorizados/ejecuciones; duplicados por evento; costo completo y p95 de revisión por acción",
+    "ac": [
+      "Dada herramienta de contacto con flag de envío, cuando solo se autorizó guardar datos, entonces el adaptador no envía correo y registra los efectos excluidos.",
+      "Dada página de contrato con placeholder o efectos desconocidos, cuando se intenta habilitar la herramienta, entonces queda bloqueada sin llamar al destino.",
+      "Dada notificación de cuenta A repetida con referencia de B, cuando se procesa, entonces no accede a B ni repite comunicación; registra discrepancia para revisar."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-CORE-003-03",
+        "texto": "Dada herramienta de contacto con flag de envío, cuando solo se autorizó guardar datos, entonces el adaptador no envía correo y registra los efectos excluidos."
+      },
+      {
+        "id": "AC-US-CORE-003-04",
+        "texto": "Dada página de contrato con placeholder o efectos desconocidos, cuando se intenta habilitar la herramienta, entonces queda bloqueada sin llamar al destino."
+      },
+      {
+        "id": "AC-US-CORE-003-05",
+        "texto": "Dada notificación de cuenta A repetida con referencia de B, cuando se procesa, entonces no accede a B ni repite comunicación; registra discrepancia para revisar."
+      }
+    ]
+  },
+  {
+    "id": "RF-HOT-01",
+    "us": "US-HOT-001",
+    "titulo": "Modificar o cancelar sin confundir liquidación y devolución",
+    "actor": "huésped autenticado y recepción autorizada",
+    "valor": "conocer diferencias de precio y resultado financiero antes de comprometer un cambio de reserva",
+    "prioridad": "P1",
+    "ev": [
+      "H11",
+      "H12",
+      "H18"
+    ],
+    "fr": [
+      "FR-001",
+      "FR-004",
+      "FR-005",
+      "FR-011",
+      "FR-018"
+    ],
+    "pre": "reserva vigente versionada, identidad validada, política de cambios/cancelación y aprobador definidos",
+    "trigger": "solicitud de nuevas fechas, categoría, habitación o cancelación",
+    "steps": [
+      "Recuperar reserva, versión, fuente y condiciones aceptadas.",
+      "Calcular propuesta con fechas/unidad, cupo, tarifa, penalidad y saldo anterior/nuevo.",
+      "Mostrar diferencias y obtener aceptación/aprobación ligada a la propuesta.",
+      "Revalidar versión/cupo y aplicar la transición en el sistema de registro seleccionado.",
+      "Separar resultado de cambio, actualización de canales y propuesta de devolución; informar estados."
+    ],
+    "alt": "Tarifa cambia durante revisión: invalidar propuesta. Timeout: desconocido, consultar autoridad antes de repetir. Cancelación OTA requiere proceso del canal, no se convierte en cancelación directa.",
+    "rules": "Cancelar no devuelve dinero ni borra historial. No aplicar tarifa por arrastrar una reserva sin revisar diferencia. El agente no aprueba penalidad ni reembolso; una habitación sin asignar no es una reserva inexistente.",
+    "data": "PropuestaCambio, versionBase, desglose anterior/nuevo, aceptación, aprobación, ResultadoCambio; SolicitudDevolucion separada de Pago y Reserva.",
+    "risk": "Cambio no consentido, doble devolución, venta sin cupo y fuga de datos huésped.",
+    "deps": "Q-HOT-01/02/03 y Q-CORE-02; pagos/documentos del core con referencias, sin elegir PMS.",
+    "metric": "cambios con desglose y consentimiento/cambios aplicados; devoluciones duplicadas; tiempo p95 de regularización",
+    "ac": [
+      "Dada reserva pagada y política de ejemplo que permite devolución, cuando recepción cancela, entonces la reserva puede quedar cancelada pero el dinero permanece sin devolver hasta operación financiera autorizada y confirmada.",
+      "Dada nueva tarifa superior a la aceptada, cuando se previsualiza el cambio, entonces muestra diferencia y no la aplica sin nueva aceptación.",
+      "Dado timeout tras aplicar un cambio, cuando se reintenta, entonces consulta estado y no crea segunda reserva, cargo ni devolución."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-HOT-001-03",
+        "texto": "Dada reserva pagada y política de ejemplo que permite devolución, cuando recepción cancela, entonces la reserva puede quedar cancelada pero el dinero permanece sin devolver hasta operación financiera autorizada y confirmada."
+      },
+      {
+        "id": "AC-US-HOT-001-04",
+        "texto": "Dada nueva tarifa superior a la aceptada, cuando se previsualiza el cambio, entonces muestra diferencia y no la aplica sin nueva aceptación."
+      },
+      {
+        "id": "AC-US-HOT-001-05",
+        "texto": "Dado timeout tras aplicar un cambio, cuando se reintenta, entonces consulta estado y no crea segunda reserva, cargo ni devolución."
+      }
+    ]
+  },
+  {
+    "id": "RF-HOT-02",
+    "us": "US-HOT-002",
+    "titulo": "Vincular extras a estadía y entrega operativa",
+    "actor": "recepcionista, huésped y responsable del servicio",
+    "valor": "cargar exactamente el servicio contratado y asignar su cumplimiento",
+    "prioridad": "P2",
+    "ev": [
+      "H14",
+      "H16"
+    ],
+    "fr": [
+      "FR-007",
+      "FR-009",
+      "FR-012",
+      "FR-019"
+    ],
+    "pre": "reserva/cuenta válidas, producto/servicio mapeado, periodicidad y responsable aprobados",
+    "trigger": "aceptación de desayuno, mejora o pedido de habitación",
+    "steps": [
+      "Identificar cuenta y producto con precio/periodicidad vigentes.",
+      "Calcular cantidad según configuración aceptada y revalidar disponibilidad si consume cupo.",
+      "Registrar cargo único y su referencia al pedido/servicio.",
+      "Asignar tarea de cumplimiento cuando proceda y seguir su estado.",
+      "Conciliar cancelación o modificación mediante ajuste autorizado, no borrado."
+    ],
+    "alt": "Mapeo de producto/categoría ausente deja cargo en revisión. Pedido gastronomía no habilitado se informa sin duplicar cocina. Fallo tras cargo se concilia antes de repetir.",
+    "rules": "Una noche, persona o estadía son bases distintas. Cargo, pago, documento tributario y entrega son estados separados. Solo el servicio correspondiente conoce la periodicidad; el core no contiene catálogo hotelero ni gastronómico universal.",
+    "data": "ServicioEstadia, ReglaCantidad versionada, Cargo, CuentaReferencia, CategoriaExterna opcional, TareaCumplimiento y relación con PedidoExterno.",
+    "risk": "Multiplicar extras por noches indebidamente, cargo a huésped ajeno y servicio pagado no entregado.",
+    "deps": "000 y política fiscal; interfaz opcional 001 para pedidos, no dependencia de hotel H1.",
+    "metric": "cargos conciliados/servicios aceptados; tareas vencidas; error de cantidad; costo por extra gestionado",
+    "ac": [
+      "Dada configuración de ejemplo de desayuno por persona/noche para dos personas y tres noches y una botella por estadía, cuando se calcula, entonces desayuno tiene seis unidades y botella una, con reglas visibles.",
+      "Dado cargo registrado pero tarea sin entregar, cuando se consulta la cuenta, entonces distingue cobro/cargo de cumplimiento y no informa servicio entregado.",
+      "Dado mismo pedido/cargo reintentado, cuando el conector responde dos veces, entonces hay un cargo y una tarea vinculados, sin segunda comanda."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-HOT-002-03",
+        "texto": "Dada configuración de ejemplo de desayuno por persona/noche para dos personas y tres noches y una botella por estadía, cuando se calcula, entonces desayuno tiene seis unidades y botella una, con reglas visibles."
+      },
+      {
+        "id": "AC-US-HOT-002-04",
+        "texto": "Dado cargo registrado pero tarea sin entregar, cuando se consulta la cuenta, entonces distingue cobro/cargo de cumplimiento y no informa servicio entregado."
+      },
+      {
+        "id": "AC-US-HOT-002-05",
+        "texto": "Dado mismo pedido/cargo reintentado, cuando el conector responde dos veces, entonces hay un cargo y una tarea vinculados, sin segunda comanda."
+      }
+    ]
+  },
+  {
+    "id": "RF-HOT-03",
+    "us": "US-HOT-001",
+    "titulo": "Recepcionar eventos y reconciliar inventario de canales",
+    "actor": "recepción y operador de integración",
+    "valor": "recuperar reservas y cambios sin perderlos ni repetir efectos por notificaciones",
+    "prioridad": "P1",
+    "ev": [
+      "H13",
+      "H15",
+      "H17"
+    ],
+    "fr": [
+      "FR-003",
+      "FR-005",
+      "FR-013",
+      "FR-017",
+      "FR-020"
+    ],
+    "pre": "conector autorizado, correspondencia de propiedad/recurso y mecanismo de autenticación/revisión definidos",
+    "trigger": "llega un evento o se reanuda una ventana de sincronización tras fallo",
+    "steps": [
+      "Validar origen/cuenta y correspondencia de propiedad.",
+      "Registrar recepción durable y referencia de notificación.",
+      "Emitir acuse solo en el punto permitido por el contrato del canal tras recepción durable validada; si el protocolo exige aplicación previa, respetar esa condición sin declarar éxito anticipado.",
+      "Recuperar el estado autoritativo cuando la notificación no incluye todos los datos.",
+      "Aplicar una vez la transición válida y conservar conflictos.",
+      "Reanudar por cursor/ventana y comparar cupos/estados."
+    ],
+    "alt": "No se puede persistir: no acusar recepción que no existe. Mapeo desconocido: recepción retenida en revisión según protocolo contratado, sin inventario ficticio. Caída tras acuse: recuperar del registro durable.",
+    "rules": "El acuse no confirma pago ni reserva local válida. Una notificación puede representar cambios sucesivos. No asumir orden total, entrega única, API directa Booking habilitada ni que Channels Plus sea el conector PMS contratado. ID de notificación del proveedor solo si existe; si falta, definir clave/huella y recuperación con el contrato real, sin inventar un campo o asumir que ID reserva identifica cada evento.",
+    "data": "RecepcionEvento, ClaveProveedor/cuenta, referenciaExterna, huella, recibidoEn, ocurrioEn si existe, estadoRecepcion, estadoAplicacion, cursor/ventana y Conflicto.",
+    "risk": "Evento perdido, replay, overbooking, deduplicación incorrecta y pérdida de actualización concurrente.",
+    "deps": "Q-HOT-02 y capacidades/contratos 000; control de cupos permanece hotelero.",
+    "metric": "eventos recibidos/aplicados/en revisión por canal; lag p95; conflictos detectados; duración de interrupción",
+    "ac": [
+      "Dada falla de almacenamiento antes de recepción durable, cuando llega reserva del canal, entonces no se declara acuse exitoso ni confirmación local.",
+      "Dada recepción durable y acuse completado pero caída antes de aplicar, cuando se recupera, entonces se reaplica desde evidencia sin perder reserva ni duplicar efectos.",
+      "Dados cinco eventos con igual ID notificación y una actualización nueva del mismo ID de reserva, cuando se reconcilian, entonces se deduplica notificación pero no se descarta el cambio legítimo por usar solo ID reserva."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-HOT-001-06",
+        "texto": "Dada falla de almacenamiento antes de recepción durable, cuando llega reserva del canal, entonces no se declara acuse exitoso ni confirmación local."
+      },
+      {
+        "id": "AC-US-HOT-001-07",
+        "texto": "Dada recepción durable y acuse completado pero caída antes de aplicar, cuando se recupera, entonces se reaplica desde evidencia sin perder reserva ni duplicar efectos."
+      },
+      {
+        "id": "AC-US-HOT-001-08",
+        "texto": "Dados cinco eventos con igual ID notificación y una actualización nueva del mismo ID de reserva, cuando se reconcilian, entonces se deduplica notificación pero no se descarta el cambio legítimo por usar solo ID reserva."
+      }
+    ]
+  },
+  {
+    "id": "RF-HOT-04",
+    "us": "US-HOT-003",
+    "titulo": "Concierge: separar conversación, propuesta y compromiso",
+    "actor": "huésped y responsable de recepción",
+    "valor": "recibir respuestas útiles y atención humana sin acciones de negocio supuestas",
+    "prioridad": "P3",
+    "ev": [
+      "H06",
+      "H07",
+      "H08",
+      "H09",
+      "H11",
+      "H13"
+    ],
+    "fr": [
+      "FR-010",
+      "FR-011",
+      "FR-012",
+      "FR-013",
+      "FR-017",
+      "FR-018"
+    ],
+    "pre": "identidad para datos privados, datos vigentes, política de acción y receptor humano definidos",
+    "trigger": "consulta de reserva/extra, cambio con efecto económico o solicitud de humano",
+    "steps": [
+      "Clasificar intención sin inferir autoridad.",
+      "Consultar evidencia mínima vigente.",
+      "Responder o preparar una propuesta diferenciada de confirmación.",
+      "Si requiere acción/juicio, transferir con responsable y motivo; suspender cambios automáticos.",
+      "Registrar aceptación humana, resultado y reapertura, distinguiendo estado del canal y del negocio."
+    ],
+    "alt": "Sin receptor: pendiente visible, sin prometer hora no aprobada. Cambio automático de reserva no dispara mensajes repetidos en cada notificación. Solicitud ambigua pide precisión sin inventar dato.",
+    "rules": "Responder, cotizar, enlazar pago, modificar PMS y cobrar son capacidades diferentes. Mensaje del cliente no autoriza devolución. No se usa un porcentaje comercial del proveedor como medición propia.",
+    "data": "Intencion, Respuesta/Propuesta, EvidenciaFuente, Transferencia, responsable y resultadoNegocio separado de estadoConversacion.",
+    "risk": "Confundir marketing con autonomía, prompt injection, spam por eventos y falsa resolución.",
+    "deps": "Q-HOT-03, política canal y perfil herramienta; sin permisos de escritura MCP por defecto.",
+    "metric": "resolución correcta sin reapertura/consultas elegibles; intervención, p95, costo total por resolución y acciones denegadas",
+    "ac": [
+      "Dada conversación en la que el huésped pide cancelar y devolver, cuando responde concierge, entonces prepara contexto y escala; no ejecuta ninguna de las dos operaciones.",
+      "Dada misma modificación notificada tres veces, cuando evalúa comunicaciones, entonces no envía tres confirmaciones ni tres upsells por el mismo hecho.",
+      "Dada respuesta correcta con link a un motor, cuando se contabiliza éxito, entonces no figura como reserva pagada hasta evidencia de negocio independiente."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-HOT-003-03",
+        "texto": "Dada conversación en la que el huésped pide cancelar y devolver, cuando responde concierge, entonces prepara contexto y escala; no ejecuta ninguna de las dos operaciones."
+      },
+      {
+        "id": "AC-US-HOT-003-04",
+        "texto": "Dada misma modificación notificada tres veces, cuando evalúa comunicaciones, entonces no envía tres confirmaciones ni tres upsells por el mismo hecho."
+      },
+      {
+        "id": "AC-US-HOT-003-05",
+        "texto": "Dada respuesta correcta con link a un motor, cuando se contabiliza éxito, entonces no figura como reserva pagada hasta evidencia de negocio independiente."
+      }
+    ]
+  },
+  {
+    "id": "RF-INM-01",
+    "us": "US-INM-001",
+    "titulo": "Proponer, confirmar y cambiar visitas con modo de agenda explícito",
+    "actor": "interesado y ejecutivo comercial",
+    "valor": "saber si existe una cita confirmada o solo una solicitud de horario",
+    "prioridad": "P1",
+    "ev": [
+      "I12",
+      "I14"
+    ],
+    "fr": [
+      "FR-002",
+      "FR-015",
+      "FR-017"
+    ],
+    "pre": "ejecutivo/canal autorizado, zona horaria, duración y modalidad de agenda revisadas",
+    "trigger": "el lead pide visitar o cambiar/cancelar una visita",
+    "steps": [
+      "Consultar preferencias y declarar modo calendario sincronizado o ventana estática.",
+      "Proponer horarios con zona y duración.",
+      "Verificar disponibilidad autorizada o pedir confirmación al ejecutivo si no hay calendario.",
+      "Confirmar cita e identificar referencia y destinatarios válidos.",
+      "Gestionar cambio/cancelación por vía admitida; conservar estado previo hasta resultado conocido."
+    ],
+    "alt": "Calendario caído o agenda estática: pendiente de confirmación humana, sin afirmar disponibilidad real. Horario ambiguo por zona/cambio horario: pedir precisión. Choque de citas: ofrecer alternativas sin duplicar.",
+    "rules": "Invitación enviada no comprueba disponibilidad en calendarios no conectados. Calificación no es aprobación crediticia. No copiar reglas de zona/horario de un proveedor extranjero.",
+    "data": "Cita, modoAgenda, zona/offset y duración, horarioPropuesto, horarioConfirmado, referenciaCalendario, responsable y solicitudCambio.",
+    "risk": "Doble cita, fecha interpretada erróneamente, contacto no permitido y falsa confirmación.",
+    "deps": "Q-INM-01, calendario o proceso manual ratificado; 000 comunicaciones controladas.",
+    "metric": "citas confirmadas/solicitadas, conflictos/confirmadas, reprogramaciones resueltas y costo por cita",
+    "ac": [
+      "Dada agenda estática sin consulta al calendario, cuando el interesado acepta horario, entonces se identifica solicitud pendiente y no se afirma confirmación hasta aceptación autorizada.",
+      "Dado horario local ambiguo, cuando se prepara cita, entonces exige zona/offset claro y muestra la misma fecha/hora acordada a ambas partes.",
+      "Dada reprogramación con timeout, cuando se revisa, entonces conserva referencia de cita anterior y nueva propuesta sin crear dos citas confirmadas ni cancelar a ciegas."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-INM-001-03",
+        "texto": "Dada agenda estática sin consulta al calendario, cuando el interesado acepta horario, entonces se identifica solicitud pendiente y no se afirma confirmación hasta aceptación autorizada."
+      },
+      {
+        "id": "AC-US-INM-001-04",
+        "texto": "Dado horario local ambiguo, cuando se prepara cita, entonces exige zona/offset claro y muestra la misma fecha/hora acordada a ambas partes."
+      },
+      {
+        "id": "AC-US-INM-001-05",
+        "texto": "Dada reprogramación con timeout, cuando se revisa, entonces conserva referencia de cita anterior y nueva propuesta sin crear dos citas confirmadas ni cancelar a ciegas."
+      }
+    ]
+  },
+  {
+    "id": "RF-INM-02",
+    "us": "US-INM-001",
+    "titulo": "Versionar promesa y evidencias de firma",
+    "actor": "ejecutivo, responsable legal y firmantes autorizados",
+    "valor": "distinguir reserva pagada de documento contractual aprobado y firmado",
+    "prioridad": "P1",
+    "ev": [
+      "I15",
+      "I18"
+    ],
+    "fr": [
+      "FR-004",
+      "FR-005",
+      "FR-006",
+      "FR-018"
+    ],
+    "pre": "plantilla y formalidades revisadas por abogado, proveedor/identificación de firmantes y política de conservación aprobados",
+    "trigger": "reserva permite preparar promesa o se modifica el documento antes de completar firma",
+    "steps": [
+      "Seleccionar versión legal y datos de unidad/precio aceptados.",
+      "Generar borrador y revisar representación/firmantes requeridos.",
+      "Aprobar huella exacta del documento y enviar por canal autorizado.",
+      "Registrar estado por firmante y evidencia del proveedor.",
+      "Declarar contrato completado solo cuando condiciones jurídicas y firmas exigidas se verifican."
+    ],
+    "alt": "Firma parcial/expirada/rechazada mantiene estado no completado. Cambiar el documento tras enviar requiere nueva versión y revisión. Webhook firmado no sustituye revisar identidad/estado del documento.",
+    "rules": "Ley o producto de firma no prueba por sí solo formalidad válida de esta promesa. Pago y firma son estados independientes. Conservar originales y no reescribir historia al cambiar precio. Si precio UF se acuerda, conservar unidad y referencia de conversión sin inventar valor vigente.",
+    "data": "DocumentoVersionado, huella, versionPlantillaLegal, participantes/representación, SolicitudFirma, EvidenciaFirma, precioAceptado y referenciaReserva.",
+    "risk": "Contrato equivocado, firma incompleta, suplantación, filtración y precio no aceptado.",
+    "deps": "Q-INM-02/03 y Q-CORE-02/03; no se selecciona firma ni se asegura API.",
+    "metric": "documentos completados válidamente/enviados; fallos por versión/firmante, tiempo por hito y costo por documento válido",
+    "ac": [
+      "Dado ejemplo cuya política requiere dos firmantes y solo uno firmó, cuando se consulta la promesa, entonces muestra pendiente y no unidad promesada por ese hecho.",
+      "Dado cambio del documento tras aprobación, cuando se intenta reutilizar autorización anterior, entonces se invalida y exige revisión de nueva huella.",
+      "Dada firma fallida con reserva pagada, cuando se comunica el estado, entonces no se libera ni devuelve dinero automáticamente y se preserva evidencia de ambos procesos."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-INM-001-06",
+        "texto": "Dado ejemplo cuya política requiere dos firmantes y solo uno firmó, cuando se consulta la promesa, entonces muestra pendiente y no unidad promesada por ese hecho."
+      },
+      {
+        "id": "AC-US-INM-001-07",
+        "texto": "Dado cambio del documento tras aprobación, cuando se intenta reutilizar autorización anterior, entonces se invalida y exige revisión de nueva huella."
+      },
+      {
+        "id": "AC-US-INM-001-08",
+        "texto": "Dada firma fallida con reserva pagada, cuando se comunica el estado, entonces no se libera ni devuelve dinero automáticamente y se preserva evidencia de ambos procesos."
+      }
+    ]
+  },
+  {
+    "id": "RF-INM-03",
+    "us": "US-INM-002",
+    "titulo": "Mantener persona, vínculo a unidad y permisos del portal",
+    "actor": "administrador autorizado y cliente titular del acceso",
+    "valor": "corregir o reasignar accesos sin modificar otras unidades ni divulgar documentos",
+    "prioridad": "P2",
+    "ev": [
+      "I11",
+      "I16"
+    ],
+    "fr": [
+      "FR-009",
+      "FR-016",
+      "FR-019",
+      "FR-020"
+    ],
+    "pre": "identidad de personas revisada, vínculo actual y política de acceso/historial aprobados",
+    "trigger": "cambio autorizado de contacto/vínculo de portal, corrección de datos o intento de acceso a unidad",
+    "steps": [
+      "Identificar si se corrige Persona o se cambia VínculoUnidad.",
+      "Previsualizar unidades/documentos afectados y validar aprobador.",
+      "Actualizar solo el objeto previsto y versionar vínculo/acceso.",
+      "Invalidar permisos previos de consulta corriente según política y habilitar destinatario revisado.",
+      "Notificar por vía autorizada y conservar historial sin envío implícito."
+    ],
+    "alt": "Coincidencia de nombre/teléfono o identidad dudosa bloquea reasignación. Archivo compartido o sesión anterior debe revalidar permisos; derechos históricos no se adivinan.",
+    "rules": "Editar una persona no transfiere propiedad ni vínculo. Cambiar acceso no ejecuta compraventa/escritura. Opciones de envío de API se validan explícitamente; no enviar deuda/documentos al guardar un contacto.",
+    "data": "Persona, ConsultaOrigen, VinculoUnidad con vigencia/versión, PermisoPortal, EvidenciaCambio y autorizaciónComunicacion.",
+    "risk": "Acceso del titular anterior, cambio global accidental, exposición financiera y transferencia jurídica aparente.",
+    "deps": "Q-CORE-01/03, Q-INM-01/04; propiedad comercial sigue 003, no base compartida con obra.",
+    "metric": "accesos indebidos por vínculo; cambios aprobados/cambios; incidentes de envío y tiempo de revisión",
+    "ac": [
+      "Dada persona A vinculada a U1 y U2 y reasignación autorizada solo del acceso corriente a U1 a B, cuando se aplica, entonces U2 no cambia y A no obtiene documentos corrientes de U1 por una sesión antigua.",
+      "Dada corrección del teléfono de A, cuando se guarda, entonces no cambia titular de ninguna unidad ni envía información sin permiso explícito.",
+      "Dado vínculo o identidad ambiguos, cuando se pide reasignar portal, entonces queda revisión humana sin fusionar personas ni conceder acceso."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-INM-002-03",
+        "texto": "Dada persona A vinculada a U1 y U2 y reasignación autorizada solo del acceso corriente a U1 a B, cuando se aplica, entonces U2 no cambia y A no obtiene documentos corrientes de U1 por una sesión antigua."
+      },
+      {
+        "id": "AC-US-INM-002-04",
+        "texto": "Dada corrección del teléfono de A, cuando se guarda, entonces no cambia titular de ninguna unidad ni envía información sin permiso explícito."
+      },
+      {
+        "id": "AC-US-INM-002-05",
+        "texto": "Dado vínculo o identidad ambiguos, cuando se pide reasignar portal, entonces queda revisión humana sin fusionar personas ni conceder acceso."
+      }
+    ]
+  },
+  {
+    "id": "RF-INM-04",
+    "us": "US-INM-002",
+    "titulo": "Coordinar visita, trabajo y aceptación de postventa",
+    "actor": "cliente, coordinador de postventa y técnico asignado",
+    "valor": "seguir un caso desde clasificación provisional hasta reparación aceptada, manteniendo urgencias e historial",
+    "prioridad": "P2",
+    "ev": [
+      "I13",
+      "I16"
+    ],
+    "fr": [
+      "FR-008",
+      "FR-009",
+      "FR-016"
+    ],
+    "pre": "cliente/unidad autorizados, catálogo de fallas y reglas de plazo/garantía ratificados",
+    "trigger": "solicitud de postventa, fecha de visita, solución propuesta o reapertura del cliente",
+    "steps": [
+      "Recibir caso y evidencia con información mínima.",
+      "Clasificar provisionalmente, separar urgencia y verificar responsable.",
+      "Coordinar visita y confirmar acceso/horario.",
+      "Registrar inspección/trabajo y propuesta de resolución.",
+      "Revisar cierre por rol autorizado y conservar reapertura o inconformidad."
+    ],
+    "alt": "Cliente ausente no implica falla solucionada. Receptor técnico no acepta: caso pendiente y escala. Foto o relato contradictorios requieren inspección humana; urgencia no espera clasificación exhaustiva.",
+    "rules": "No rechazar garantía desde IA ni convertir visita agendada en solución. Estados de cobro y postventa independientes. Plazo y exclusiones deben venir de política legal/operativa, no del vendor.",
+    "data": "CasoPostventa, ClasificacionProvisional, Visita/estado, trabajo, propuestaSolucion, evidencia, revisor, motivosReapertura.",
+    "risk": "Garantía rechazada indebidamente, falsa resolución, acceso a hogar y documentos ajenos.",
+    "deps": "Q-INM-04; agenda/canal con permisos; referencia opcional a obra mediante interfaz autorizada, sin acceso automático a trabajadores/presupuesto.",
+    "metric": "tiempo recepción→responsable y visita→aceptación, reaperturas/cierres, recall urgentes y costo por caso aceptado",
+    "ac": [
+      "Dada visita agendada y cliente ausente, cuando el técnico registra intento, entonces el caso no se marca reparado ni cerrado y conserva motivo para recoordinar.",
+      "Dada reparación propuesta sin aceptación exigida por política, cuando se consulta, entonces aparece por validar y no resuelta por el solo mensaje del agente.",
+      "Dada reapertura con nueva evidencia, cuando el cliente reclama, entonces preserva intervención previa, responsable y plazos sin borrar historial ni rechazar automáticamente garantía."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-INM-002-06",
+        "texto": "Dada visita agendada y cliente ausente, cuando el técnico registra intento, entonces el caso no se marca reparado ni cerrado y conserva motivo para recoordinar."
+      },
+      {
+        "id": "AC-US-INM-002-07",
+        "texto": "Dada reparación propuesta sin aceptación exigida por política, cuando se consulta, entonces aparece por validar y no resuelta por el solo mensaje del agente."
+      },
+      {
+        "id": "AC-US-INM-002-08",
+        "texto": "Dada reapertura con nueva evidencia, cuando el cliente reclama, entonces preserva intervención previa, responsable y plazos sin borrar historial ni rechazar automáticamente garantía."
+      }
+    ]
+  },
+  {
+    "id": "RF-OBR-01",
+    "us": "US-OBR-003",
+    "titulo": "Registrar partes y extracción sin perder autoría, unidades o conectividad",
+    "actor": "jefe de obra, colaborador y revisor de avance",
+    "valor": "consolidar cantidades aprobadas sin duplicar reportes ni presentar transcripción como avance certificado",
+    "prioridad": "P1",
+    "ev": [
+      "O11",
+      "O14",
+      "O17"
+    ],
+    "fr": [
+      "FR-010",
+      "FR-011",
+      "FR-015",
+      "FR-021"
+    ],
+    "pre": "obra/partida/versión y unidades identificadas; permisos de reporte/revisión y canal soportado",
+    "trigger": "se recibe parte manual o evidencia de campo, o se reintenta enviar tras falla",
+    "steps": [
+      "Conservar original con autor, fecha de hecho/recepción y alcance turno/zona si aplica.",
+      "Verificar recepción antes de informar enviado; extracción IA solo si disponible.",
+      "Separar cantidades nuevas, acumuladas y correcciones; marcar ambigüedad.",
+      "Revisor aprueba o rechaza aportes y relaciona duplicados.",
+      "Consolidar avance solo desde cantidades aceptadas y denominador vigente."
+    ],
+    "alt": "Sin conectividad para IA: no afirmar extracción terminada; usar captura manual o envío diferido soportado, sin prometer aplicación offline no definida. Dos reportes del día pueden ser legítimos; porcentaje sin base no se suma.",
+    "rules": "La clave del reporte no es solo fecha+obra. Voz es evidencia no confiable; edición no sustituye original. Exportación offline consultable no demuestra captura/sincronización IA sin red.",
+    "data": "Parte, claveOrigen, autor, fechaHecho, recibidoEn, turno/zona/partida, tipoCantidad incremental/acumulada/corrección, extracción/revisión y versión base.",
+    "risk": "Doble avance, falsa precisión, reporte perdido, prompt injection y ubicación personal expuesta.",
+    "deps": "Q-OBR-01/02/03, canal y procedimiento de contingencia; no crea app móvil ni promete reconocimiento local.",
+    "metric": "partes aceptados/recibidos, error por unidad/campo, retraso hecho→validación, duplicados y costo por parte aprobado",
+    "ac": [
+      "Dados dos partes legítimos de turnos distintos en una obra/día y un reenvío del primero, cuando se reciben, entonces conserva ambos aportes y no duplica el reenvío.",
+      "Dado porcentaje 40 % acumulado y nuevo reporte 45 % acumulado de la misma partida, cuando se revisa, entonces no produce 85 % por sumarlos y requiere la base/unidad definida.",
+      "Dada falta de conexión para transcribir, cuando se carga evidencia, entonces no se marca transcrita/aprobada; la vía manual soportada conserva mismos permisos y revisión."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-OBR-003-03",
+        "texto": "Dados dos partes legítimos de turnos distintos en una obra/día y un reenvío del primero, cuando se reciben, entonces conserva ambos aportes y no duplica el reenvío."
+      },
+      {
+        "id": "AC-US-OBR-003-04",
+        "texto": "Dado porcentaje 40 % acumulado y nuevo reporte 45 % acumulado de la misma partida, cuando se revisa, entonces no produce 85 % por sumarlos y requiere la base/unidad definida."
+      },
+      {
+        "id": "AC-US-OBR-003-05",
+        "texto": "Dada falta de conexión para transcribir, cuando se carga evidencia, entonces no se marca transcrita/aprobada; la vía manual soportada conserva mismos permisos y revisión."
+      }
+    ]
+  },
+  {
+    "id": "RF-OBR-02",
+    "us": "US-OBR-004",
+    "titulo": "Conciliar entrega, aceptación, rechazo y devolución de material",
+    "actor": "encargado de bodega, comprador y aprobador de recepción",
+    "valor": "saber qué material se puede consumir y qué obligación sigue pendiente",
+    "prioridad": "P2",
+    "ev": [
+      "O13",
+      "O15"
+    ],
+    "fr": [
+      "FR-012",
+      "FR-017",
+      "FR-020",
+      "FR-022"
+    ],
+    "pre": "orden/líneas/versiones autorizadas, unidades revisadas, documento de entrega y responsables",
+    "trigger": "llega entrega parcial o se comunica rechazo/devolución",
+    "steps": [
+      "Identificar orden, tramo/entrega y líneas de material.",
+      "Registrar cantidad física entregada y separar aceptada/rechazada con motivo/evidencia.",
+      "Actualizar existencias solo de lo aceptado y calcular pendiente según política de reposición.",
+      "Registrar devolución como movimiento vinculado, sin borrar recepción.",
+      "Conciliar con compra/guía/factura por proceso autorizado antes de pago."
+    ],
+    "alt": "Entrega repetida no es nueva recepción. Conversión de unidad, exceso o versión discrepante van a revisión. Una factura no demuestra que el material llegó ni fue aceptado.",
+    "rules": "Pendiente, aceptado, rechazado y devuelto son magnitudes distintas; reposición/cancelación requieren regla del comprador. No usar rechazo como borrado de evidencia ni como pago automático.",
+    "data": "EntregaProveedor, TramoOrden, RecepcionLinea, cantidadEntregada/aceptada/rechazada/devuelta, MotivoEvidencia y discrepanciaContable.",
+    "risk": "Stock inexistente, recepción doble, pago de material rechazado y cambio de unidad oculto.",
+    "deps": "Q-OBR-03 y Q-CORE-02; contabilidad/facturación se integra si se decide, no se presume módulo existente.",
+    "metric": "cantidades aceptadas/entregadas, discrepancias por orden, días pendientes y costo de conciliación por recepción",
+    "ac": [
+      "Dada orden de diez unidades y entrega física de seis con cinco aceptadas y una rechazada a reponer por política configurada, cuando se valida, entonces stock aumenta cinco y pendientes de suministro son cinco, con rechazo documentado.",
+      "Dada misma entrega recibida dos veces por reintento, cuando se registra, entonces no duplica stock; una segunda entrega con identidad distinta sí se evalúa como nueva.",
+      "Dada devolución de una unidad previamente aceptada, cuando se aprueba, entonces conserva recepción y registra movimiento de devolución; no se infiere abono financiero ni cambio de contrato."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-OBR-004-03",
+        "texto": "Dada orden de diez unidades y entrega física de seis con cinco aceptadas y una rechazada a reponer por política configurada, cuando se valida, entonces stock aumenta cinco y pendientes de suministro son cinco, con rechazo documentado."
+      },
+      {
+        "id": "AC-US-OBR-004-04",
+        "texto": "Dada misma entrega recibida dos veces por reintento, cuando se registra, entonces no duplica stock; una segunda entrega con identidad distinta sí se evalúa como nueva."
+      },
+      {
+        "id": "AC-US-OBR-004-05",
+        "texto": "Dada devolución de una unidad previamente aceptada, cuando se aprueba, entonces conserva recepción y registra movimiento de devolución; no se infiere abono financiero ni cambio de contrato."
+      }
+    ]
+  },
+  {
+    "id": "RF-OBR-03",
+    "us": "US-OBR-004",
+    "titulo": "Controlar línea base y compromiso sin sumar estados del mismo gasto",
+    "actor": "control de obra y administrador de compras",
+    "valor": "detectar desviaciones presupuestarias con unidades y obligaciones comparables",
+    "prioridad": "P2",
+    "ev": [
+      "O16",
+      "O18"
+    ],
+    "fr": [
+      "FR-011",
+      "FR-015",
+      "FR-023"
+    ],
+    "pre": "presupuesto vigente por partida, reglas de compromiso/devengo/pago y aprobación definidos",
+    "trigger": "nueva propuesta de compra, cambio presupuestario o conciliación de obligación",
+    "steps": [
+      "Seleccionar línea base y versión vigente.",
+      "Clasificar propuesta/compromiso/recepción/devengo/pago de cada obligación.",
+      "Calcular exposición y disponible con fórmula aprobada, sin doble contar estados de la misma obligación.",
+      "Alertar desvío o falta de clasificación y solicitar decisión humana.",
+      "Registrar cambio aprobado de presupuesto como nueva versión manteniendo comparación histórica."
+    ],
+    "alt": "Sin presupuesto o regla contable se informa no evaluable. Cancelación de compromiso ajusta saldo según política/evidencia; cambio de fecha no altera cantidades físicas.",
+    "rules": "Gasto, pago y avance físico no son equivalentes. El compromiso puede contener importes ya devengados/pagados, por lo que no se suman ciegamente. No aprobar excedente ni subcontrato desde IA.",
+    "data": "PresupuestoVersionado, Partida, ObligacionCosto y sus estados, compromisosVigentes, ajustes/causa/aprobador y FormulaControl versionada.",
+    "risk": "Disponible inflado/negativo por doble cuenta, cambio de base invisible y compromiso no autorizado.",
+    "deps": "Q-OBR-01/02/03 y regla contable del cliente; gestión integral de subcontratos queda fuera del alcance activo hasta decisión.",
+    "metric": "partidas con exposición conciliada/partidas, error de disponible vs revisión y tiempo de detectar desvío; no ROI inventado",
+    "ac": [
+      "Dado presupuesto de ejemplo 100 y compromiso total 50 que ya incluye devengo 20 y pago 10, cuando se calcula disponible sin otras obligaciones, entonces es 50 y no 20 al descontar los tres estados otra vez.",
+      "Dada modificación aprobada de presupuesto, cuando se compara avance/costo histórico, entonces conserva línea base, versión vigente y motivo/aprobador; no reescribe el pasado.",
+      "Dada partida sin fórmula o clasificación válida, cuando se evalúa compra, entonces indica control no evaluable y requiere revisión, sin aprobar automáticamente."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-OBR-004-06",
+        "texto": "Dado presupuesto de ejemplo 100 y compromiso total 50 que ya incluye devengo 20 y pago 10, cuando se calcula disponible sin otras obligaciones, entonces es 50 y no 20 al descontar los tres estados otra vez."
+      },
+      {
+        "id": "AC-US-OBR-004-07",
+        "texto": "Dada modificación aprobada de presupuesto, cuando se compara avance/costo histórico, entonces conserva línea base, versión vigente y motivo/aprobador; no reescribe el pasado."
+      },
+      {
+        "id": "AC-US-OBR-004-08",
+        "texto": "Dada partida sin fórmula o clasificación válida, cuando se evalúa compra, entonces indica control no evaluable y requiere revisión, sin aprobar automáticamente."
+      }
+    ]
+  },
+  {
+    "id": "RF-OBR-04",
+    "us": "US-OBR-004",
+    "titulo": "Aceptar solución y distinguir respuesta técnica oficial",
+    "actor": "inspector, solucionador y responsable técnico",
+    "valor": "cerrar una falla con autoridad y evidencia, sin confundir comentario de IA con instrucción de obra",
+    "prioridad": "P2",
+    "ev": [
+      "O10",
+      "O12"
+    ],
+    "fr": [
+      "FR-016",
+      "FR-018",
+      "FR-019"
+    ],
+    "pre": "observación vinculada a evidencia/partida, responsables y permisos de solución/cierre definidos",
+    "trigger": "se entrega solución, respuesta técnica o revisión de inspección",
+    "steps": [
+      "Relacionar solución/respuesta con observación y versión de evidencia.",
+      "Solucionador declara lista para revisión sin cerrar por sí solo.",
+      "Revisor autorizado acepta, no acepta o pide información con motivo.",
+      "Registrar cierre o reapertura y responsable de siguiente acción.",
+      "Si una respuesta exige cambio contractual/presupuestario, abrir decisión aparte sin ejecutarla."
+    ],
+    "alt": "Varios comentarios o revisores no equivalen a respuesta oficial. Caso duplicado se vincula sin borrar evidencia. Nueva falla tras cierre reabre o crea caso relacionado según política.",
+    "rules": "El sistema no certifica seguridad estructural. Respuesta oficial es declaración del rol habilitado, no texto de modelo. Flujo RFI enterprise no se incorpora por usarlo como comparación.",
+    "data": "Observacion, PropuestaSolucion, RespuestaTecnica con emisor/alcance, EvidenciaRevision, estado/revisor/motivo y referenciaDecisionCambio.",
+    "risk": "Cerrar trabajo no inspeccionado, ejecutar instrucción técnica no válida y exposición de fotos.",
+    "deps": "Q-OBR-03 y política de evidencia; interfaz con comercial/postventa solo por convenio, sin permisos compartidos por grupo.",
+    "metric": "cierres aceptados/revisados, reaperturas, tiempo listo→aceptado y casos sin responsable",
+    "ac": [
+      "Dado solucionador sin permiso de aceptar, cuando informa reparación lista, entonces queda por revisar y no cerrada; el inspector puede no aceptar con motivo.",
+      "Dado comentario generado por IA que cambia una especificación técnica, cuando se adjunta al caso, entonces no se convierte en respuesta oficial ni modifica presupuesto o programa.",
+      "Dada observación reabierta por nueva evidencia, cuando se inspecciona historial, entonces conserva cierre previo, responsable, evidencia y motivo de reapertura."
+    ],
+    "criterios": [
+      {
+        "id": "AC-US-OBR-004-09",
+        "texto": "Dado solucionador sin permiso de aceptar, cuando informa reparación lista, entonces queda por revisar y no cerrada; el inspector puede no aceptar con motivo."
+      },
+      {
+        "id": "AC-US-OBR-004-10",
+        "texto": "Dado comentario generado por IA que cambia una especificación técnica, cuando se adjunta al caso, entonces no se convierte en respuesta oficial ni modifica presupuesto o programa."
+      },
+      {
+        "id": "AC-US-OBR-004-11",
+        "texto": "Dada observación reabierta por nueva evidencia, cuando se inspecciona historial, entonces conserva cierre previo, responsable, evidencia y motivo de reapertura."
+      }
+    ]
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "id": "US-CORE-001",
+    "feature": "000-core",
+    "original": "H1",
+    "evidencias": [
+      "C04",
+      "I10"
+    ],
+    "requisitos": "FR-001,FR-002,FR-006,FR-010",
+    "ac": [
+      "AC-US-CORE-001-01",
+      "AC-US-CORE-001-02"
+    ]
+  },
+  {
+    "id": "US-CORE-002",
+    "feature": "000-core",
+    "original": "H2",
+    "evidencias": [
+      "C06",
+      "H01"
+    ],
+    "requisitos": "FR-003,FR-004,FR-008,FR-011",
+    "ac": [
+      "AC-US-CORE-002-01",
+      "AC-US-CORE-002-02"
+    ]
+  },
+  {
+    "id": "US-CORE-003",
+    "feature": "000-core",
+    "original": "H3",
+    "evidencias": [
+      "I06",
+      "I07",
+      "H10"
+    ],
+    "requisitos": "FR-005,FR-007,FR-009,FR-010",
+    "ac": [
+      "AC-US-CORE-003-01",
+      "AC-US-CORE-003-02"
+    ]
+  },
+  {
+    "id": "US-CAF-001",
+    "feature": "001-cafeteria-mesas-pos",
+    "original": "H1",
+    "evidencias": [
+      "C02",
+      "C05",
+      "C07",
+      "C11",
+      "C12"
+    ],
+    "requisitos": "FR-001,FR-002,FR-003,FR-004,FR-005,FR-015",
+    "ac": [
+      "AC-US-CAF-001-01",
+      "AC-US-CAF-001-02"
+    ]
+  },
+  {
+    "id": "US-CAF-002",
+    "feature": "001-cafeteria-mesas-pos",
+    "original": "H2",
+    "evidencias": [
+      "C08",
+      "C10",
+      "C04",
+      "C12"
+    ],
+    "requisitos": "FR-007,FR-008,FR-009,FR-010",
+    "ac": [
+      "AC-US-CAF-002-01",
+      "AC-US-CAF-002-02"
+    ]
+  },
+  {
+    "id": "US-CAF-003",
+    "feature": "001-cafeteria-mesas-pos",
+    "original": "H3",
+    "evidencias": [
+      "C09",
+      "C10",
+      "C13"
+    ],
+    "requisitos": "FR-011,FR-012,FR-013,FR-016",
+    "ac": [
+      "AC-US-CAF-003-01",
+      "AC-US-CAF-003-02"
+    ]
+  },
+  {
+    "id": "US-HOT-001",
+    "feature": "002-hotel-reservas-concierge",
+    "original": "H1",
+    "evidencias": [
+      "H01",
+      "H02",
+      "H03",
+      "H04"
+    ],
+    "requisitos": "FR-001,FR-002,FR-003,FR-004,FR-005,FR-016,FR-017",
+    "ac": [
+      "AC-US-HOT-001-01",
+      "AC-US-HOT-001-02"
+    ]
+  },
+  {
+    "id": "US-HOT-002",
+    "feature": "002-hotel-reservas-concierge",
+    "original": "H2",
+    "evidencias": [
+      "H05",
+      "H01"
+    ],
+    "requisitos": "FR-006,FR-007,FR-008,FR-009,FR-016",
+    "ac": [
+      "AC-US-HOT-002-01",
+      "AC-US-HOT-002-02"
+    ]
+  },
+  {
+    "id": "US-HOT-003",
+    "feature": "002-hotel-reservas-concierge",
+    "original": "H3",
+    "evidencias": [
+      "H06",
+      "H07",
+      "H08",
+      "H09",
+      "H10"
+    ],
+    "requisitos": "FR-010,FR-011,FR-012,FR-013,FR-014,FR-017",
+    "ac": [
+      "AC-US-HOT-003-01",
+      "AC-US-HOT-003-02"
+    ]
+  },
+  {
+    "id": "US-INM-001",
+    "feature": "003-inmobiliaria-comercial",
+    "original": "H1",
+    "evidencias": [
+      "I01",
+      "I03",
+      "I04",
+      "I05",
+      "I09",
+      "I10"
+    ],
+    "requisitos": "FR-001,FR-002,FR-003,FR-004,FR-005,FR-006,FR-015,FR-016",
+    "ac": [
+      "AC-US-INM-001-01",
+      "AC-US-INM-001-02"
+    ]
+  },
+  {
+    "id": "US-INM-002",
+    "feature": "003-inmobiliaria-comercial",
+    "original": "H2",
+    "evidencias": [
+      "I02",
+      "I06"
+    ],
+    "requisitos": "FR-007,FR-008,FR-009,FR-016",
+    "ac": [
+      "AC-US-INM-002-01",
+      "AC-US-INM-002-02"
+    ]
+  },
+  {
+    "id": "US-OBR-003",
+    "feature": "004-constructora-obra",
+    "original": "H3",
+    "evidencias": [
+      "O03",
+      "O05",
+      "O07",
+      "O08"
+    ],
+    "requisitos": "FR-010,FR-011,FR-012,FR-015,FR-020",
+    "ac": [
+      "AC-US-OBR-003-01",
+      "AC-US-OBR-003-02"
+    ]
+  },
+  {
+    "id": "US-OBR-004",
+    "feature": "004-constructora-obra",
+    "original": "H4",
+    "evidencias": [
+      "O01",
+      "O02",
+      "O06",
+      "O09"
+    ],
+    "requisitos": "FR-015,FR-016,FR-017,FR-018,FR-019,FR-020",
+    "ac": [
+      "AC-US-OBR-004-01",
+      "AC-US-OBR-004-02"
+    ]
+  }
+]

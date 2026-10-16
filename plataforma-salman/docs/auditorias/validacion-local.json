@@ -1,0 +1,1882 @@
+{
+  "tipo": "validación documental local; no Spec Kit",
+  "fecha": "2026-10-16",
+  "checks": 468,
+  "errores": [],
+  "resultados": [
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash original Estado del arte IA agéntica en hotel, inmobiliaria y cafetería (oct 2026) (1).docx"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash original plataforma-salman/docs/originales/Estado del arte IA agéntica en hotel, inmobiliaria y cafetería (oct 2026) (1).docx"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash original Spec SDD 01 Cafetería (mesas, POS inteligente y control de gastos) (1).md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash original plataforma-salman/docs/originales/Spec SDD 01 Cafetería (mesas, POS inteligente y control de gastos) (1).md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash original Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash original plataforma-salman/docs/originales/Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash original Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Hash original plataforma-salman/docs/originales/Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Bloqueos visibles 000-core"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs FR exactos y únicos 000-core"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs SC preservados 000-core"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 000-core/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 000-core/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 000-core/SC-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 000-core/SC-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 000-core/SC-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 001-cafeteria-mesas-pos/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 001-cafeteria-mesas-pos/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 001-cafeteria-mesas-pos/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Bloqueos visibles 001-cafeteria-mesas-pos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs FR exactos y únicos 001-cafeteria-mesas-pos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs SC preservados 001-cafeteria-mesas-pos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-014"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-014"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 001-cafeteria-mesas-pos/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 001-cafeteria-mesas-pos/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 001-cafeteria-mesas-pos/SC-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 001-cafeteria-mesas-pos/SC-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 001-cafeteria-mesas-pos/SC-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 001-cafeteria-mesas-pos/SC-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 001-cafeteria-mesas-pos/SC-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 001-cafeteria-mesas-pos/SC-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 001-cafeteria-mesas-pos/SC-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 001-cafeteria-mesas-pos/SC-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Bloqueos visibles 002-hotel-reservas-concierge"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs FR exactos y únicos 002-hotel-reservas-concierge"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs SC preservados 002-hotel-reservas-concierge"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-014"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-014"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 002-hotel-reservas-concierge/FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 002-hotel-reservas-concierge/FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 002-hotel-reservas-concierge/SC-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 002-hotel-reservas-concierge/SC-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 002-hotel-reservas-concierge/SC-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 002-hotel-reservas-concierge/SC-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 002-hotel-reservas-concierge/SC-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 002-hotel-reservas-concierge/SC-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 002-hotel-reservas-concierge/SC-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 002-hotel-reservas-concierge/SC-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 002-hotel-reservas-concierge/SC-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Bloqueos visibles 003-inmobiliaria-comercial"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs FR exactos y únicos 003-inmobiliaria-comercial"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs SC preservados 003-inmobiliaria-comercial"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-013"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-014"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-014"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 003-inmobiliaria-comercial/FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 003-inmobiliaria-comercial/FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 003-inmobiliaria-comercial/SC-001"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 003-inmobiliaria-comercial/SC-002"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 003-inmobiliaria-comercial/SC-003"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 003-inmobiliaria-comercial/SC-004"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 003-inmobiliaria-comercial/SC-005"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 003-inmobiliaria-comercial/SC-006"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 003-inmobiliaria-comercial/SC-007"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 003-inmobiliaria-comercial/SC-009"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 004-constructora-obra/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Contenido 004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Bloqueos visibles 004-constructora-obra"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs FR exactos y únicos 004-constructora-obra"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "IDs SC preservados 004-constructora-obra"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-012"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-015"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-016"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-017"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-018"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-019"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-020"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-021"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-021"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-022"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-022"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Prueba propuesta 004-constructora-obra/FR-023"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Origen trazado 004-constructora-obra/FR-023"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 004-constructora-obra/SC-008"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 004-constructora-obra/SC-010"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Criterio medible propuesto 004-constructora-obra/SC-011"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → specs/001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → specs/003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → specs/004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/arbol.txt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/inventario.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/originales-sha256.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/hallazgos.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/auditoria-inv.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/auditoria-caf.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/auditoria-hot.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/auditoria-inm.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/afirmaciones.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → .specify/memory/constitution.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/arquitectura/vision-general.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/arquitectura/dependencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/arquitectura/decisiones/ADR-001.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/arquitectura/decisiones/ADR-002.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/arquitectura/decisiones/ADR-003.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/arquitectura/decisiones/ADR-004.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/trazabilidad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion/estado-del-arte.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion/matriz-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion/fuentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/arquitectura/economia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/arquitectura/aclaraciones.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/arquitectura/fases.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/validacion.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/validacion-local.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/registro-cambios.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/auditorias/spec-kit.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion-competitiva/informe-final.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion-competitiva/matriz-evidencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion-competitiva/urls-verificadas.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion-competitiva/historias-propuestas.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion-competitiva/cambios.patch"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion-competitiva/continuacion-01/informe.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion-competitiva/hotel/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion-competitiva/inmobiliaria/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local README.md → docs/investigacion-competitiva/constructora/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/arquitectura/aclaraciones.md → ../investigacion-competitiva/decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion/estado-del-arte.md → ../originales/estado-del-arte-extraido.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion/matriz-evidencia.md → ../originales/estado-del-arte-extraido.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/agentes.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → continuacion-01/informe.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → hotel/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → hotel/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → inmobiliaria/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → inmobiliaria/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → constructora/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → constructora/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → continuacion-01/trazabilidad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → continuacion-01/cambios.patch"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → continuacion-01/validacion.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → inventario-plataformas.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → matriz-comparativa.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → matriz-evidencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → urls-verificadas.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → historias-propuestas.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → oportunidades.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → rea.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → ../auditorias/validacion-local.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → validacion.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → registro-cambios.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → cambios.patch"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → cambios.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → archivos-entrega.txt"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/matriz-comparativa.md → continuacion-01/matriz-detallada.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/rea.md → ../../../investigacion-herramientas/rea/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/rea.md → ../../../investigacion-herramientas/rea/docs/mcp-contracts.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/constructora/flujos.md → revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/constructora/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/constructora/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/constructora/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/constructora/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../hotel/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../hotel/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../inmobiliaria/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../inmobiliaria/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../constructora/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../constructora/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → matriz-detallada.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → trazabilidad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → cambios.patch"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → medicion-por-flujo.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/hotel/flujos.md → revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/hotel/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/hotel/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/hotel/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/hotel/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/inmobiliaria/flujos.md → revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/inmobiliaria/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/inmobiliaria/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/inmobiliaria/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local docs/investigacion-competitiva/inmobiliaria/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/plan.md → spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/research.md → ../../docs/investigacion/estado-del-arte.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/research.md → ../../docs/investigacion/matriz-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/research.md → ../../docs/investigacion-competitiva/metodologia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/plan.md → spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/research.md → ../../docs/investigacion/estado-del-arte.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/research.md → ../../docs/investigacion/matriz-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/research.md → ../../docs/investigacion-competitiva/metodologia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/plan.md → spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/research.md → ../../docs/investigacion/estado-del-arte.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/research.md → ../../docs/investigacion/matriz-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/research.md → ../../docs/investigacion-competitiva/metodologia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/plan.md → spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/research.md → ../../docs/investigacion/estado-del-arte.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/research.md → ../../docs/investigacion/matriz-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/research.md → ../../docs/investigacion-competitiva/metodologia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/plan.md → spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/research.md → ../../docs/investigacion/estado-del-arte.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/research.md → ../../docs/investigacion/matriz-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/research.md → ../../docs/investigacion-competitiva/metodologia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/arquitectura/seguridad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Una única constitución activa; baseline archivada excluida"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Cinco features esperadas"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Dependencias internas propuestas sin ciclos"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin código funcional en core/verticales"
+    }
+  ],
+  "fr": 77,
+  "sc": 31
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "INV",
+    "ruta": "Estado del arte IA agéntica en hotel, inmobiliaria y cafetería (oct 2026) (1).docx",
+    "sha256": "ddf8d0b1d42a28fc9a9c76d8f05f1a23865929f6256bd52ebb66a30fe1420b50",
+    "bytes": 32365,
+    "mtime": "2026-10-16T15:27:49.314096+00:00"
+  },
+  {
+    "id": "CAF",
+    "ruta": "Spec SDD 01 Cafetería (mesas, POS inteligente y control de gastos) (1).md",
+    "sha256": "0a35bad5077c2e2148c038a93e52e99d23fa10b8320adf0ec601c7502331396f",
+    "bytes": 15088,
+    "mtime": "2026-10-16T15:27:44.318671+00:00"
+  },
+  {
+    "id": "HOT",
+    "ruta": "Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md",
+    "sha256": "0e698456a0551f33ecdc7da86bea6eef2c9a8fc4f0ea7dce9cbc6c4e57ffbcc2",
+    "bytes": 13494,
+    "mtime": "2026-10-16T15:27:45.116126+00:00"
+  },
+  {
+    "id": "INM",
+    "ruta": "Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md",
+    "sha256": "ed4f54e4102a91c8855ab9da2339e03cfa36782c379801d4c0c03a11785dfaef",
+    "bytes": 14421,
+    "mtime": "2026-10-16T15:27:46.686440+00:00"
+  }
+]

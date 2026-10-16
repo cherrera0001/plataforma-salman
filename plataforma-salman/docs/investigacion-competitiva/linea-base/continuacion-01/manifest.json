@@ -1,0 +1,202 @@
+[
+  {
+    "ruta": "specs/000-core/acceptance.md",
+    "sha256": "e8f0b579775d70d4cb2da9d89ee6e65fa99b9a862fc108f8f0a4236211affb72"
+  },
+  {
+    "ruta": "specs/000-core/data-model.md",
+    "sha256": "3fde30171b6b5fa8472da8072ec7c790206639ac0b92e74330e777cee7f4c260"
+  },
+  {
+    "ruta": "specs/000-core/plan.md",
+    "sha256": "76f20e0270ee25612b8d4feafa001c232f54575e221ef50e9e92d70fbba4d0cc"
+  },
+  {
+    "ruta": "specs/000-core/quickstart.md",
+    "sha256": "17d0a72969900f6d767ac9b21e62805d41b5736759f2ec8787f37ce087c02638"
+  },
+  {
+    "ruta": "specs/000-core/research.md",
+    "sha256": "3c8fa5625d491bcb6d2550290d4142594342401aea5332ecb445cd8510f77dfb"
+  },
+  {
+    "ruta": "specs/000-core/spec.md",
+    "sha256": "374d0c4cc8244a3b986279f280c1b755b3dab4736507ac5b89fe5104591fa8a7"
+  },
+  {
+    "ruta": "specs/000-core/tasks.md",
+    "sha256": "a2fae0a5b54d40ab11ad6bbddcb52bdb62905ab62b299f7f43b454ccb2404a85"
+  },
+  {
+    "ruta": "specs/001-cafeteria-mesas-pos/acceptance.md",
+    "sha256": "d83f1b63ad11113e4523923a39a679ee778a6b38185a7b1df450a968469c109a"
+  },
+  {
+    "ruta": "specs/001-cafeteria-mesas-pos/data-model.md",
+    "sha256": "979ba980921dc1ac90b7ec333e43536f52b49d6d5ede49a8289d20b4c6cab372"
+  },
+  {
+    "ruta": "specs/001-cafeteria-mesas-pos/plan.md",
+    "sha256": "767a80d218424ad955e8f736e7befc50e20f1abb113d1ce71bd6350fed6a80cb"
+  },
+  {
+    "ruta": "specs/001-cafeteria-mesas-pos/quickstart.md",
+    "sha256": "8f5891e61233d492e19c4969b49403c34ff3606857f998ca0f47976fedc04cab"
+  },
+  {
+    "ruta": "specs/001-cafeteria-mesas-pos/research.md",
+    "sha256": "8904fe15a3265d8b06ba3310b2d34240f9d763afa301b88eebde88ad43aa15c1"
+  },
+  {
+    "ruta": "specs/001-cafeteria-mesas-pos/spec.md",
+    "sha256": "9e161792fb81c7662468904a463bbb17b636e7209305c96615da92c803545064"
+  },
+  {
+    "ruta": "specs/001-cafeteria-mesas-pos/tasks.md",
+    "sha256": "36b81a61179ee003d775e2d7faecfe62f0a8609019ffae5a6f90262cc3e07473"
+  },
+  {
+    "ruta": "specs/002-hotel-reservas-concierge/acceptance.md",
+    "sha256": "2ded8359d23fa7f26de8a4a9146e9fd0ea88df33205fd09ef40ade104d4af71f"
+  },
+  {
+    "ruta": "specs/002-hotel-reservas-concierge/data-model.md",
+    "sha256": "9c9615f77da052e9b7bf64736fd9379b6953cf6cf4e92b02099666bb3d4ea33d"
+  },
+  {
+    "ruta": "specs/002-hotel-reservas-concierge/plan.md",
+    "sha256": "bc2d3dacf996959f604cd4941849b0b2f46d5bc4f19aa2adedbd727bff253995"
+  },
+  {
+    "ruta": "specs/002-hotel-reservas-concierge/quickstart.md",
+    "sha256": "c702d38439e5a2bf2c41db5b3a10eb1509820d1f93320ae5234cca75f793b263"
+  },
+  {
+    "ruta": "specs/002-hotel-reservas-concierge/research.md",
+    "sha256": "62b892f15450da4963ff5b0dcbb1cdc4dd952b2cd0153aaac71b9388fa5f9a06"
+  },
+  {
+    "ruta": "specs/002-hotel-reservas-concierge/spec.md",
+    "sha256": "7c100f91c4f6fdd209a8572cbceb8fb2635b129ef883131c3fabc15e5c2db4d9"
+  },
+  {
+    "ruta": "specs/002-hotel-reservas-concierge/tasks.md",
+    "sha256": "0c216cb63cd0975e7426f9c4877b7fdb16fc726ff8202c0fc8e780014dbe074a"
+  },
+  {
+    "ruta": "specs/003-inmobiliaria-comercial/acceptance.md",
+    "sha256": "577ae85ea3cb69ad8a4bdbc2b2e771c9c82da7c9c8aa71d3434a0d895da0b51e"
+  },
+  {
+    "ruta": "specs/003-inmobiliaria-comercial/data-model.md",
+    "sha256": "11bd3a029b7c1bcc8879a17d3cb267d2ba7d63aa05762efb811a00f3bba0164b"
+  },
+  {
+    "ruta": "specs/003-inmobiliaria-comercial/plan.md",
+    "sha256": "135f2f7e4cd9524d51f3e2a6a520166e029ba29fa4061e580edfb3fecc1e538e"
+  },
+  {
+    "ruta": "specs/003-inmobiliaria-comercial/quickstart.md",
+    "sha256": "e8dc8b15a3ddc2c97d7b02ec505e9401c67ff86b9e9c9038321dcbeb39d903c0"
+  },
+  {
+    "ruta": "specs/003-inmobiliaria-comercial/research.md",
+    "sha256": "d5f9eb95e5261eb341f5659c18a77e2363ab529d0f05d6ffe113d3a24d9c1ba7"
+  },
+  {
+    "ruta": "specs/003-inmobiliaria-comercial/spec.md",
+    "sha256": "5c3cf421303dd08fe8f096fcebbdf2119637352089a1e82e8be43dfb026c225f"
+  },
+  {
+    "ruta": "specs/003-inmobiliaria-comercial/tasks.md",
+    "sha256": "dddd029ad05f76fb06d089b72c4e678074605cc4b20a867df3e2de97a2592306"
+  },
+  {
+    "ruta": "specs/004-constructora-obra/acceptance.md",
+    "sha256": "e0f62d755eaf1accab17065b7c01cf0f3f3b28a17fe8ee9053b3dd0cd46482bc"
+  },
+  {
+    "ruta": "specs/004-constructora-obra/data-model.md",
+    "sha256": "6c54f7889e205d8b6c13a74ef582f3adb8a568af564678958c4c87daead07eaf"
+  },
+  {
+    "ruta": "specs/004-constructora-obra/plan.md",
+    "sha256": "bc98d6d05da4c28d36be214ed0db9ab67e8e089d2a9279a672ed4e79eda9706f"
+  },
+  {
+    "ruta": "specs/004-constructora-obra/quickstart.md",
+    "sha256": "c4f27440b19eb3eca09612925420a5d4cb520b2c8c0f7d82f95336a5771ef5a0"
+  },
+  {
+    "ruta": "specs/004-constructora-obra/research.md",
+    "sha256": "8e36f81b71b8e1abdec9f26720dc8d92fea7bb30c2709ae0d51cbed955a97d75"
+  },
+  {
+    "ruta": "specs/004-constructora-obra/spec.md",
+    "sha256": "a8c396fe038a074a9d66a9e6d6714fc238a0ed819242b271762dcf4dcc59c065"
+  },
+  {
+    "ruta": "specs/004-constructora-obra/tasks.md",
+    "sha256": "66549e5b106825ae5e8ac62d4509ca2621d62baab65f4679fd25b95e59f59d5b"
+  },
+  {
+    "ruta": "specs/000-core/checklists/requirements.md",
+    "sha256": "cee02e96d456ac42328792a545f9de10194a26f6c385c44b61d0119a5e2f6561"
+  },
+  {
+    "ruta": "specs/000-core/contracts/README.md",
+    "sha256": "bd7bda6cd760a4425f288694d1c58e8d9917caf3fc861857c1d9d353208e8b69"
+  },
+  {
+    "ruta": "specs/001-cafeteria-mesas-pos/checklists/requirements.md",
+    "sha256": "1c81b6cc63cf14a91a226ab2f3ac151a228b4a867cf049882dc967c114b9ea59"
+  },
+  {
+    "ruta": "specs/001-cafeteria-mesas-pos/contracts/README.md",
+    "sha256": "8ab93a060a781bb999dd58fc6f1dee8cb06bd6cf5a0e5a7dd9de8fd05582155a"
+  },
+  {
+    "ruta": "specs/002-hotel-reservas-concierge/checklists/requirements.md",
+    "sha256": "6ab4187f2e83881be9c2f260516ff3a0a2095d4bef3ed873fd71c0ad848ede30"
+  },
+  {
+    "ruta": "specs/002-hotel-reservas-concierge/contracts/README.md",
+    "sha256": "acb58a0d45d0885e36c608158114477e3490368b003185a2276b9d72ec3205ef"
+  },
+  {
+    "ruta": "specs/003-inmobiliaria-comercial/checklists/requirements.md",
+    "sha256": "6ae848b41b0297f33b73c0507ab912af9b549d015c6f620fcfce4ca208bcd494"
+  },
+  {
+    "ruta": "specs/003-inmobiliaria-comercial/contracts/README.md",
+    "sha256": "fd2fd631b629cd5e8e2cf4aa7a58d48475de4cb1aa4fa7615cb264be38412a46"
+  },
+  {
+    "ruta": "specs/004-constructora-obra/checklists/requirements.md",
+    "sha256": "b8b465906c2887be711527b6b0835774cbad8f031bded2d6b87abde96ac492f6"
+  },
+  {
+    "ruta": "specs/004-constructora-obra/contracts/README.md",
+    "sha256": "8671e64f56e7e0c9451218c1bbe55204230f14e816a0284f1ba9b9bbd734fc70"
+  },
+  {
+    "ruta": ".specify/memory/constitution.md",
+    "sha256": "329d63d1cf8c4842b1abdc4f2becdac18fdfa55eef9c877702bf4437e11e1b97"
+  },
+  {
+    "ruta": "docs/auditorias/catalogo-requisitos.json",
+    "sha256": "17558d101dc89b70c40776231a7057eed18b15a3523adfeec3b50244127b7073"
+  },
+  {
+    "ruta": "docs/investigacion-competitiva/evidencias.json",
+    "sha256": "b64fee8b95635a94c8f8a3957142de0871d4c03a53c8c2835e211df2059405e0"
+  },
+  {
+    "ruta": "docs/investigacion-competitiva/historias.json",
+    "sha256": "28eed836dc8bf963adf5c8758f09ff882a0c815edadf643650da2c77813d62e4"
+  },
+  {
+    "ruta": "docs/investigacion-competitiva/informe-final.md",
+    "sha256": "4b140d40d897b72a969c5b37554666837f631a73fded67d44e70ed406f6a3aad"
+  }
+]

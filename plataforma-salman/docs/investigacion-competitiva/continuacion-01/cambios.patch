@@ -1,7 +1,7 @@
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\acceptance.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\acceptance.md"
-index fb447e0..304924d 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\acceptance.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\acceptance.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/acceptance.md b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/acceptance.md
+index fb447e0..304924d 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/acceptance.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/acceptance.md
 @@ -50,3 +50,17 @@ Propuestos; no ejecutados sobre producto. Los números de ejemplo prueban aritm
  | AT-011 | FR-011 | Dado intento pendiente con evento autorizado vigente, cuando llegan diez duplicados y un evento antiguo de inicio, entonces conserva una única imputación y no retrocede; una devolución posterior requiere transición y autorización propias. Denegar recurso de otro tenant y conservar evidencia. |
  
@@ -20,10 +20,10 @@ index fb447e0..304924d 100644
 +| Prueba | Requisito | Escenario propuesto |
 +|---|---|---|
 +| AT-012 | FR-012 | Dada herramienta de contacto con flag de envío, cuando solo se autorizó guardar datos, entonces el adaptador no envía correo y registra los efectos excluidos. Probar también permiso insuficiente y referencia de otro tenant. |
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\data-model.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\data-model.md"
-index 060c20b..e8af8d1 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\data-model.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\data-model.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/data-model.md b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/data-model.md
+index 060c20b..e8af8d1 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/data-model.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/data-model.md
 @@ -31,3 +31,11 @@ PerfilConector (tenant, referenciaCuenta opaca, proveedor, país/plan opcionales
  No retroceder resultado conciliado por un mensaje antiguo. Una devolución posterior es transición de negocio autorizada, no un evento antiguo ignorado. Si no hay secuencia confiable, consultar autoridad y marcar incertidumbre, sin deducir orden por timestamp.
  
@@ -36,10 +36,10 @@ index 060c20b..e8af8d1 100644
 +Una herramienta denominada guardar/consultar puede producir comunicación; denegar si el perfil no acredita todos sus efectos. Una revisión de perfil no transfiere aprobaciones antiguas a nuevos flags.
 +
 +Los nombres describen conceptos propios propuestos; no son tablas o componentes internos observados. Las invariantes se revisan con los AC nuevos y deben ratificarse antes de esquema técnico.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\plan.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\plan.md"
-index 8e4f395..770c933 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\plan.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\plan.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/plan.md b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/plan.md
+index 8e4f395..770c933 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/plan.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/plan.md
 @@ -48,3 +48,11 @@ Las historias US-CORE detallan estados y validaciones de negocio; los nuevos FR-
  Propiedad de datos: PerfilConector (tenant, referenciaCuenta opaca, proveedor, país/plan opcionales, capacidades, permisos, revisión/versionado) → EvidenciaRevisión. EventoExterno (identidad proveedor, operación, recibido/ocurrido, correlación, estado) → Intento → CasoConciliación (motivo, responsable, resolución). Mantener estos registros en el dominio; solo perfil de capacidad, correlación/auditoría y controles reutilizables residen en core. La transferencia humana de cada negocio no introduce un motor CRM global en 000. No hay nuevas dependencias obligatorias entre verticales ni ciclos. ADR-005 documenta impacto y alternativas; ADR-001/002/004 siguen propuestos.
  
@@ -52,10 +52,10 @@ index 8e4f395..770c933 100644
 +Una herramienta denominada guardar/consultar puede producir comunicación; denegar si el perfil no acredita todos sus efectos. Una revisión de perfil no transfiere aprobaciones antiguas a nuevos flags.
 +
 +Mantener propiedad de datos en el dominio; core solo valida capacidades/efectos, evidencia y referencias comunes. No elegir motor workflow, cola, aplicación móvil o ERP por aparecer en un proveedor. Recuperación exige registrar estado conocido/desconocido y reconciliar antes de repetir; no requiere prometer una tecnología de persistencia concreta en esta etapa. ADR-006 compara alternativas y preserva dependencias del ADR-005. Constitución revisada sin modificaciones; gates pendientes siguen bloqueando implementación.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\quickstart.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\quickstart.md"
-index 9d4a851..f572327 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\quickstart.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\quickstart.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/quickstart.md b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/quickstart.md
+index 9d4a851..f572327 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/quickstart.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/quickstart.md
 @@ -14,3 +14,9 @@ No hay aplicación, servidor, migraciones ni comandos de arranque de producto. L
  Revisar cada US-CORE del spec con sus fuentes y ejecutar en mesa de revisión sus AC propuestos: preparar precondiciones y decisiones cliente → recorrer flujo normal → introducir excepción → verificar estado/evidencia/tenant y quién puede continuar. Usar los ejemplos de acceptance.md; no hay servidor para ejecutar el flujo. Registrar resultado revisado, pendiente o no aplicable, sin marcar una prueba como pasada por leerla.
  
@@ -66,10 +66,10 @@ index 9d4a851..f572327 100644
 +- RF-CORE-01: preparar «tenant/cuenta verificados, operación soportada y permisos/revisión definidos» y recorrer los tres AC de US-CORE-003. Registrar quién aprueba y estados antes/después; no ejecutar operación real.
 +
 +Contrastar el resultado con la línea base de continuación en `docs/investigacion-competitiva/linea-base/continuacion-01/`. El patch incremental se entrega en continuacion-01/cambios.patch; Git diff --no-index es comparación documental, no commit ni análisis de Spec Kit.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\research.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\research.md"
-index 1510014..d794be8 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\research.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\research.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/research.md b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/research.md
+index 1510014..d794be8 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/research.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/research.md
 @@ -27,3 +27,9 @@ Fuentes específicas: C04, C06, H01, H10, I06, I07, I10; [matriz verificable](..
  Recomendaciones: adoptar estados, validaciones y casos borde como propuestas, sin replicar código, límites regionales ni reglas fiscales ajenas. En particular: No retroceder resultado conciliado por un mensaje antiguo. Una devolución posterior es transición de negocio autorizada, no un evento antiguo ignorado. Si no hay secuencia confiable, consultar autoridad y marcar incertidumbre, sin deducir orden por timestamp.
  
@@ -80,10 +80,10 @@ index 1510014..d794be8 100644
 +Fuentes nuevas y previas pertinentes: H13, H15, I11, I17. Análisis funcional detallado en [continuación](../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md) y fichas verticales. No se validan integraciones por encontrar una URL: I17 muestra un placeholder, I18/I19 y O15 tienen acceso incompleto, H17 corresponde a Channels Plus y no prueba el conector PMS requerido. Mantener estas diferencias al comparar construir/adaptar/contratar.
 +
 +Los casos RF-CORE-01 separan estados que antes podían confundirse. Recomendación: revisar contratos y reglas con operador real; exigir origen, límites por versión y muestra de error/recuperación. Ningún nuevo FR implica contratar un proveedor, implementar un optimizador o adoptar su arquitectura.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\spec.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\spec.md"
-index 9d7f8db..fc8c864 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\spec.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\spec.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/spec.md b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/spec.md
+index 9d7f8db..fc8c864 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/spec.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/spec.md
 @@ -192,3 +192,60 @@ Son propuestas de comportamiento propio, sin atribuirlo como implementación obs
  | FR-011 | Conciliar eventos externos correlacionados y sus estados sin retroceso por mensajes repetidos o antiguos; conservar pendientes con motivo y responsable de regularización | H2 |
  
@@ -145,10 +145,10 @@ index 9d7f8db..fc8c864 100644
 +### Bloqueos adicionales de la profundización
 +
 +Q-CORE-04: ver [decisiones pendientes](../../docs/investigacion-competitiva/decisiones-pendientes.md). Son reglas para ratificar, no respuestas inferidas del mercado. Las historias permanecen propuestas y la feature **BLOCKED** para implementar.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\tasks.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\tasks.md"
-index 9776b97..bc91443 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\tasks.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\tasks.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/tasks.md b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/tasks.md
+index 9776b97..bc91443 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/tasks.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/tasks.md
 @@ -19,3 +19,11 @@ No se incluye implementar T008 ni tareas de despliegue. Crear tareas de implemen
  - [ ] T103 Precisar casos AC-US-CORE con muestras, permisos, errores y conectores por plan; revisar contratos/modelo. Depende de T102/T005. Salida: fixtures autorizados y matriz de casos esperados, antes de código.
  - [ ] T104 Evaluar en demo autorizada las observaciones que faltan, mediante REA solo cuando disponible; conservar evidencia y límites. Depende de Q-REA-01/02 y T103. No cerrar afirmaciones de runtime con documentación.
@@ -161,10 +161,10 @@ index 9776b97..bc91443 100644
 +- [ ] T203 Revisar invariantes y contratos lógicos con casos de timeout, repetición, parcialidad y corrección; conservar resultado esperado por cada AC nuevo. Depende de T202/T005. Salida: fixtures autorizados y contrato por proveedor, sin endpoint supuesto.
 +- [ ] T204 Comprobar conducta en demo/entorno propio autorizado con REA cuando esté disponible; conservar captura y límites. Depende de Q-REA-01/02/03. Documentación pública no cierra esta tarea.
 +- [ ] T205 Revisar costos y latencias por etapa, no solo resolución final, y actualizar gate de siguiente fase. Depende de T203 y decisiones Q del dominio. Salida: plan de evaluación y backlog de desarrollo ratificado posteriormente.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\acceptance.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\acceptance.md"
-index 8bc9112..dce641c 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\acceptance.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\acceptance.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/acceptance.md b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/acceptance.md
+index 8bc9112..dce641c 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/acceptance.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/acceptance.md
 @@ -62,3 +62,37 @@ Propuestos; no ejecutados sobre producto. Los números de ejemplo prueban aritm
  | AT-017 | FR-017 | Dada oferta cuyo canal no acredita vigencia dentro de política aprobada, cuando se intenta confirmar, entonces queda pendiente sin prometer cupo; transferencia humana registra receptor y estado, sin marcar resuelto por enviarla. Denegar recurso de otro tenant y conservar evidencia. |
  
@@ -203,10 +203,10 @@ index 8bc9112..dce641c 100644
 +| AT-018 | FR-018 | Dada reserva pagada y política de ejemplo que permite devolución, cuando recepción cancela, entonces la reserva puede quedar cancelada pero el dinero permanece sin devolver hasta operación financiera autorizada y confirmada. Probar también permiso insuficiente y referencia de otro tenant. |
 +| AT-019 | FR-019 | Dada configuración de ejemplo de desayuno por persona/noche para dos personas y tres noches y una botella por estadía, cuando se calcula, entonces desayuno tiene seis unidades y botella una, con reglas visibles. Probar también permiso insuficiente y referencia de otro tenant. |
 +| AT-020 | FR-020 | Dada falla de almacenamiento antes de recepción durable, cuando llega reserva del canal, entonces no se declara acuse exitoso ni confirmación local. Probar también permiso insuficiente y referencia de otro tenant. |
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\data-model.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\data-model.md"
-index 5880302..fca579a 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\data-model.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\data-model.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/data-model.md b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/data-model.md
+index 5880302..fca579a 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/data-model.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/data-model.md
 @@ -31,3 +31,14 @@ CupoPorFechaTipo separado de AsignaciónHabitación y Preparación (limpieza, in
  Una habitación limpia puede seguir no asignable por mantenimiento; una habitación sucia hoy puede contribuir al inventario futuro según reglas aprobadas. Trasladar atención no confirma cancelación ni resuelve conversación. Fuente sin vigencia definida bloquea compromiso automático.
  
@@ -222,10 +222,10 @@ index 5880302..fca579a 100644
 +
 +
 +Nota de protocolo: acuse de recepción y aceptación/aplicación se separan conceptualmente, pero el punto de acuse debe respetar el contrato real del canal. El ID de notificación externo se usa solo si el proveedor lo define; sin él, la clave/huella y recuperación requieren investigación, sin inventar campos ni deduplicar todos los cambios por ID de reserva.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\plan.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\plan.md"
-index 6bd39da..19e73e9 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\plan.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\plan.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/plan.md b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/plan.md
+index 6bd39da..19e73e9 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/plan.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/plan.md
 @@ -48,3 +48,11 @@ Las historias US-HOT detallan estados y validaciones de negocio; los nuevos FR-0
  Propiedad de datos: CupoPorFechaTipo separado de AsignaciónHabitación y Preparación (limpieza, inspección opcional, bloqueo técnico). OfertaVersionada → EvidenciaCanal (referencia externa, último estado confirmado, antigüedad). Atención → TransferenciaHumana. Mantener estos registros en el dominio; solo perfil de capacidad, correlación/auditoría y controles reutilizables residen en core. La transferencia humana de cada negocio no introduce un motor CRM global en 000. No hay nuevas dependencias obligatorias entre verticales ni ciclos. ADR-005 documenta impacto y alternativas; ADR-001/002/004 siguen propuestos.
  
@@ -238,10 +238,10 @@ index 6bd39da..19e73e9 100644
 +La identidad de reserva externa no basta para deduplicar sus cambios. Acusar receipt no equivale a aplicar ni aceptar comercialmente. No modificar precio aceptado sin nueva revisión. Reserva, devolución, cargo, pago y tarea tienen transiciones propias; el tenant y contribuyente son explícitos en referencias.
 +
 +Mantener propiedad de datos en el dominio; core solo valida capacidades/efectos, evidencia y referencias comunes. No elegir motor workflow, cola, aplicación móvil o ERP por aparecer en un proveedor. Recuperación exige registrar estado conocido/desconocido y reconciliar antes de repetir; no requiere prometer una tecnología de persistencia concreta en esta etapa. ADR-006 compara alternativas y preserva dependencias del ADR-005. Constitución revisada sin modificaciones; gates pendientes siguen bloqueando implementación.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\quickstart.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\quickstart.md"
-index caafd8c..9a210ed 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\quickstart.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\quickstart.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/quickstart.md b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/quickstart.md
+index caafd8c..9a210ed 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/quickstart.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/quickstart.md
 @@ -14,3 +14,12 @@ No hay aplicación, servidor, migraciones ni comandos de arranque de producto. L
  Revisar cada US-HOT del spec con sus fuentes y ejecutar en mesa de revisión sus AC propuestos: preparar precondiciones y decisiones cliente → recorrer flujo normal → introducir excepción → verificar estado/evidencia/tenant y quién puede continuar. Usar los ejemplos de acceptance.md; no hay servidor para ejecutar el flujo. Registrar resultado revisado, pendiente o no aplicable, sin marcar una prueba como pasada por leerla.
  
@@ -255,10 +255,10 @@ index caafd8c..9a210ed 100644
 +- RF-HOT-04: preparar «identidad para datos privados, datos vigentes, política de acción y receptor humano definidos» y recorrer los tres AC de US-HOT-003. Registrar quién aprueba y estados antes/después; no ejecutar operación real.
 +
 +Contrastar el resultado con la línea base de continuación en `docs/investigacion-competitiva/linea-base/continuacion-01/`. El patch incremental se entrega en continuacion-01/cambios.patch; Git diff --no-index es comparación documental, no commit ni análisis de Spec Kit.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\research.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\research.md"
-index 5cd1b9d..8633867 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\research.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\research.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/research.md b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/research.md
+index 5cd1b9d..8633867 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/research.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/research.md
 @@ -27,3 +27,9 @@ Fuentes específicas: H01, H02, H03, H04, H05, H06, H07, H08, H09, H10; [matriz
  Recomendaciones: adoptar estados, validaciones y casos borde como propuestas, sin replicar código, límites regionales ni reglas fiscales ajenas. En particular: Una habitación limpia puede seguir no asignable por mantenimiento; una habitación sucia hoy puede contribuir al inventario futuro según reglas aprobadas. Trasladar atención no confirma cancelación ni resuelve conversación. Fuente sin vigencia definida bloquea compromiso automático.
  
@@ -269,10 +269,10 @@ index 5cd1b9d..8633867 100644
 +Fuentes nuevas y previas pertinentes: H06, H07, H08, H09, H11, H12, H13, H14, H15, H16, H17, H18. Análisis funcional detallado en [continuación](../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md) y fichas verticales. No se validan integraciones por encontrar una URL: I17 muestra un placeholder, I18/I19 y O15 tienen acceso incompleto, H17 corresponde a Channels Plus y no prueba el conector PMS requerido. Mantener estas diferencias al comparar construir/adaptar/contratar.
 +
 +Los casos RF-HOT-01, RF-HOT-02, RF-HOT-03, RF-HOT-04 separan estados que antes podían confundirse. Recomendación: revisar contratos y reglas con operador real; exigir origen, límites por versión y muestra de error/recuperación. Ningún nuevo FR implica contratar un proveedor, implementar un optimizador o adoptar su arquitectura.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\spec.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\spec.md"
-index 4e5db43..407d9b6 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\spec.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\spec.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/spec.md b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/spec.md
+index 4e5db43..407d9b6 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/spec.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/spec.md
 @@ -267,3 +267,196 @@ Son propuestas de comportamiento propio, sin atribuirlo como implementación obs
  | FR-017 | Registrar vigencia y estado de sincronización por canal y procedencia de la oferta; no confirmar disponibilidad incierta y gestionar transferencia humana con estado explícito | H1/H3 |
  
@@ -470,10 +470,10 @@ index 4e5db43..407d9b6 100644
 +
 +
 +Nota de protocolo: acuse de recepción y aceptación/aplicación se separan conceptualmente, pero el punto de acuse debe respetar el contrato real del canal. El ID de notificación externo se usa solo si el proveedor lo define; sin él, la clave/huella y recuperación requieren investigación, sin inventar campos ni deduplicar todos los cambios por ID de reserva.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\tasks.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\tasks.md"
-index e919cdd..3526b98 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\tasks.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\tasks.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/tasks.md b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/tasks.md
+index e919cdd..3526b98 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/tasks.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/tasks.md
 @@ -19,3 +19,11 @@ No se incluye implementar T008 ni tareas de despliegue. Crear tareas de implemen
  - [ ] T103 Precisar casos AC-US-HOT con muestras, permisos, errores y conectores por plan; revisar contratos/modelo. Depende de T102/T005. Salida: fixtures autorizados y matriz de casos esperados, antes de código.
  - [ ] T104 Evaluar en demo autorizada las observaciones que faltan, mediante REA solo cuando disponible; conservar evidencia y límites. Depende de Q-REA-01/02 y T103. No cerrar afirmaciones de runtime con documentación.
@@ -486,10 +486,10 @@ index e919cdd..3526b98 100644
 +- [ ] T203 Revisar invariantes y contratos lógicos con casos de timeout, repetición, parcialidad y corrección; conservar resultado esperado por cada AC nuevo. Depende de T202/T005. Salida: fixtures autorizados y contrato por proveedor, sin endpoint supuesto.
 +- [ ] T204 Comprobar conducta en demo/entorno propio autorizado con REA cuando esté disponible; conservar captura y límites. Depende de Q-REA-01/02/03. Documentación pública no cierra esta tarea.
 +- [ ] T205 Revisar costos y latencias por etapa, no solo resolución final, y actualizar gate de siguiente fase. Depende de T203 y decisiones Q del dominio. Salida: plan de evaluación y backlog de desarrollo ratificado posteriormente.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\acceptance.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\acceptance.md"
-index 69ee303..8a3ef99 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\acceptance.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\acceptance.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/acceptance.md b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/acceptance.md
+index 69ee303..8a3ef99 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/acceptance.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/acceptance.md
 @@ -52,3 +52,38 @@ Propuestos; no ejecutados sobre producto. Los números de ejemplo prueban aritm
  | AT-013 | FR-016 | Dado retiro de permiso de contacto o atención humana activa, cuando se intenta automatizar seguimiento, entonces se suspende y conserva origen/motivo; transferencia sin aceptación no cierra caso ni expone deuda a nuevo destinatario. Denegar recurso de otro tenant y conservar evidencia. |
  
@@ -529,10 +529,10 @@ index 69ee303..8a3ef99 100644
 +| AT-015 | FR-018 | Dado ejemplo cuya política requiere dos firmantes y solo uno firmó, cuando se consulta la promesa, entonces muestra pendiente y no unidad promesada por ese hecho. Probar también permiso insuficiente y referencia de otro tenant. |
 +| AT-016 | FR-019 | Dado guardar un contacto autorizado sin permiso de envío, cuando el conector ofrece enviar información de propiedad por un flag, entonces lo excluye y no envía; la persona/consulta conservan origen y no se fusionan por coincidencia débil. Probar también permiso insuficiente y referencia de otro tenant. |
 +| AT-017 | FR-020 | Dada persona A vinculada a U1 y U2 y reasignación autorizada solo del acceso corriente a U1 a B, cuando se aplica, entonces U2 no cambia y A no obtiene documentos corrientes de U1 por una sesión antigua. Probar también permiso insuficiente y referencia de otro tenant. |
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\data-model.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\data-model.md"
-index 6174fff..1e0b2a4 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\data-model.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\data-model.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/data-model.md b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/data-model.md
+index 6174fff..1e0b2a4 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/data-model.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/data-model.md
 @@ -31,3 +31,11 @@ Contacto separado de ConsultaOrigen y de DeclaraciónCalificación (campo, fuent
  No fusionar identidad por coincidencia única. Una promesa requiere firma y versión aprobada; un resultado del modelo no acredita financiamiento. Cambio de destinatario invalida permiso de envío privado hasta revalidación.
  
@@ -545,10 +545,10 @@ index 6174fff..1e0b2a4 100644
 +Firma parcial no es documento completado. Corrección de Persona no reasigna ninguna unidad y la reasignación de acceso no transfiere dominio legal. Permiso de lectura de documentos se revalida por vínculo vigente, incluso para enlace/sesión previos; el acceso histórico tiene política pendiente. El envío de información desde guardar contacto necesita intención autorizada.
 +
 +Los nombres describen conceptos propios propuestos; no son tablas o componentes internos observados. Las invariantes se revisan con los AC nuevos y deben ratificarse antes de esquema técnico.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\plan.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\plan.md"
-index afd8ac2..a3e1b16 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\plan.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\plan.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/plan.md b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/plan.md
+index afd8ac2..a3e1b16 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/plan.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/plan.md
 @@ -48,3 +48,11 @@ Las historias US-INM detallan estados y validaciones de negocio; los nuevos FR-0
  Propiedad de datos: Contacto separado de ConsultaOrigen y de DeclaraciónCalificación (campo, fuente, fecha, confianza). Cita (propuesta/confirmada/cancelada) → CotizaciónVersionada → ReservaUnidad → EvidenciaFirma/Promesa. AtenciónPostventa con responsable, transferencia y reapertura. Mantener estos registros en el dominio; solo perfil de capacidad, correlación/auditoría y controles reutilizables residen en core. La transferencia humana de cada negocio no introduce un motor CRM global en 000. No hay nuevas dependencias obligatorias entre verticales ni ciclos. ADR-005 documenta impacto y alternativas; ADR-001/002/004 siguen propuestos.
  
@@ -561,10 +561,10 @@ index afd8ac2..a3e1b16 100644
 +Firma parcial no es documento completado. Corrección de Persona no reasigna ninguna unidad y la reasignación de acceso no transfiere dominio legal. Permiso de lectura de documentos se revalida por vínculo vigente, incluso para enlace/sesión previos; el acceso histórico tiene política pendiente. El envío de información desde guardar contacto necesita intención autorizada.
 +
 +Mantener propiedad de datos en el dominio; core solo valida capacidades/efectos, evidencia y referencias comunes. No elegir motor workflow, cola, aplicación móvil o ERP por aparecer en un proveedor. Recuperación exige registrar estado conocido/desconocido y reconciliar antes de repetir; no requiere prometer una tecnología de persistencia concreta en esta etapa. ADR-006 compara alternativas y preserva dependencias del ADR-005. Constitución revisada sin modificaciones; gates pendientes siguen bloqueando implementación.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\quickstart.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\quickstart.md"
-index 4843231..37c0891 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\quickstart.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\quickstart.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/quickstart.md b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/quickstart.md
+index 4843231..37c0891 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/quickstart.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/quickstart.md
 @@ -14,3 +14,12 @@ No hay aplicación, servidor, migraciones ni comandos de arranque de producto. L
  Revisar cada US-INM del spec con sus fuentes y ejecutar en mesa de revisión sus AC propuestos: preparar precondiciones y decisiones cliente → recorrer flujo normal → introducir excepción → verificar estado/evidencia/tenant y quién puede continuar. Usar los ejemplos de acceptance.md; no hay servidor para ejecutar el flujo. Registrar resultado revisado, pendiente o no aplicable, sin marcar una prueba como pasada por leerla.
  
@@ -578,10 +578,10 @@ index 4843231..37c0891 100644
 +- RF-INM-04: preparar «cliente/unidad autorizados, catálogo de fallas y reglas de plazo/garantía ratificados» y recorrer los tres AC de US-INM-002. Registrar quién aprueba y estados antes/después; no ejecutar operación real.
 +
 +Contrastar el resultado con la línea base de continuación en `docs/investigacion-competitiva/linea-base/continuacion-01/`. El patch incremental se entrega en continuacion-01/cambios.patch; Git diff --no-index es comparación documental, no commit ni análisis de Spec Kit.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\research.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\research.md"
-index 1b86205..e623553 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\research.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\research.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/research.md b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/research.md
+index 1b86205..e623553 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/research.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/research.md
 @@ -27,3 +27,9 @@ Fuentes específicas: I01, I02, I03, I04, I05, I06, I09, I10; [matriz verificabl
  Recomendaciones: adoptar estados, validaciones y casos borde como propuestas, sin replicar código, límites regionales ni reglas fiscales ajenas. En particular: No fusionar identidad por coincidencia única. Una promesa requiere firma y versión aprobada; un resultado del modelo no acredita financiamiento. Cambio de destinatario invalida permiso de envío privado hasta revalidación.
  
@@ -592,10 +592,10 @@ index 1b86205..e623553 100644
 +Fuentes nuevas y previas pertinentes: I11, I12, I13, I14, I15, I16, I18. Análisis funcional detallado en [continuación](../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md) y fichas verticales. No se validan integraciones por encontrar una URL: I17 muestra un placeholder, I18/I19 y O15 tienen acceso incompleto, H17 corresponde a Channels Plus y no prueba el conector PMS requerido. Mantener estas diferencias al comparar construir/adaptar/contratar.
 +
 +Los casos RF-INM-01, RF-INM-02, RF-INM-03, RF-INM-04 separan estados que antes podían confundirse. Recomendación: revisar contratos y reglas con operador real; exigir origen, límites por versión y muestra de error/recuperación. Ningún nuevo FR implica contratar un proveedor, implementar un optimizador o adoptar su arquitectura.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\spec.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\spec.md"
-index a87f162..2ba06c2 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\spec.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\spec.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/spec.md b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/spec.md
+index a87f162..2ba06c2 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/spec.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/spec.md
 @@ -213,3 +213,193 @@ Son propuestas de comportamiento propio, sin atribuirlo como implementación obs
  | FR-016 | Registrar origen y permiso de contacto, incertidumbre de identidad, responsable y estado de transferencia; suspender automatización ante retiro o revisión humana sin cerrar falsamente el caso | H1/H2 |
  
@@ -790,10 +790,10 @@ index a87f162..2ba06c2 100644
 +### Bloqueos adicionales de la profundización
 +
 +Q-INM-05/06/07: ver [decisiones pendientes](../../docs/investigacion-competitiva/decisiones-pendientes.md). Son reglas para ratificar, no respuestas inferidas del mercado. Las historias permanecen propuestas y la feature **BLOCKED** para implementar.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\tasks.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\tasks.md"
-index f6881df..6d223e8 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\tasks.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\tasks.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/tasks.md b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/tasks.md
+index f6881df..6d223e8 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/tasks.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/tasks.md
 @@ -19,3 +19,11 @@ No se incluye implementar T008 ni tareas de despliegue. Crear tareas de implemen
  - [ ] T103 Precisar casos AC-US-INM con muestras, permisos, errores y conectores por plan; revisar contratos/modelo. Depende de T102/T005. Salida: fixtures autorizados y matriz de casos esperados, antes de código.
  - [ ] T104 Evaluar en demo autorizada las observaciones que faltan, mediante REA solo cuando disponible; conservar evidencia y límites. Depende de Q-REA-01/02 y T103. No cerrar afirmaciones de runtime con documentación.
@@ -806,10 +806,10 @@ index f6881df..6d223e8 100644
 +- [ ] T203 Revisar invariantes y contratos lógicos con casos de timeout, repetición, parcialidad y corrección; conservar resultado esperado por cada AC nuevo. Depende de T202/T005. Salida: fixtures autorizados y contrato por proveedor, sin endpoint supuesto.
 +- [ ] T204 Comprobar conducta en demo/entorno propio autorizado con REA cuando esté disponible; conservar captura y límites. Depende de Q-REA-01/02/03. Documentación pública no cierra esta tarea.
 +- [ ] T205 Revisar costos y latencias por etapa, no solo resolución final, y actualizar gate de siguiente fase. Depende de T203 y decisiones Q del dominio. Salida: plan de evaluación y backlog de desarrollo ratificado posteriormente.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\acceptance.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\acceptance.md"
-index 5bcdada..207f2b0 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\acceptance.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\acceptance.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/acceptance.md b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/acceptance.md
+index 5bcdada..207f2b0 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/acceptance.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/acceptance.md
 @@ -43,3 +43,37 @@ Propuestos; no ejecutados sobre producto. Los números de ejemplo prueban aritm
  | AT-009 | FR-020 | Dada orden aprobada de 10 unidades y recepción parcial de 6, cuando se confirma dos veces el mismo evento, entonces se reciben 6 y quedan 4; unidad/precio/versión discrepantes requieren revisión sin compra automática. Denegar recurso de otro tenant y conservar evidencia. |
  
@@ -848,10 +848,10 @@ index 5bcdada..207f2b0 100644
 +| AT-010 | FR-021 | Dados dos partes legítimos de turnos distintos en una obra/día y un reenvío del primero, cuando se reciben, entonces conserva ambos aportes y no duplica el reenvío. Probar también permiso insuficiente y referencia de otro tenant. |
 +| AT-011 | FR-022 | Dada orden de diez unidades y entrega física de seis con cinco aceptadas y una rechazada a reponer por política configurada, cuando se valida, entonces stock aumenta cinco y pendientes de suministro son cinco, con rechazo documentado. Probar también permiso insuficiente y referencia de otro tenant. |
 +| AT-012 | FR-023 | Dado presupuesto de ejemplo 100 y compromiso total 50 que ya incluye devengo 20 y pago 10, cuando se calcula disponible sin otras obligaciones, entonces es 50 y no 20 al descontar los tres estados otra vez. Probar también permiso insuficiente y referencia de otro tenant. |
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\data-model.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\data-model.md"
-index 319a8a0..073e3ac 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\data-model.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\data-model.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/data-model.md b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/data-model.md
+index 319a8a0..073e3ac 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/data-model.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/data-model.md
 @@ -31,3 +31,11 @@ Q-OBR-01: obras propias o terceros, presupuesto y módulo previo no entregado; Q
  Cerrar exige rol; proponer solución no cierra. Cantidad recibida aceptada no excede pedido aprobado sin revisión de exceso. Convertir unidad requiere regla revisada; recibir no consume ni aumenta avance. Ubicación sugerida se diferencia de verificada.
  
@@ -864,10 +864,10 @@ index 319a8a0..073e3ac 100644
 +Dos partes del mismo día no son duplicados por esa sola coincidencia. Los porcentajes acumulados no se suman. Rechazo/devolución no borra recepción ni crea abono financiero automático. El costo comprometido que contiene un devengo no se descuenta dos veces. Una respuesta técnica no autoriza un cambio de contrato/presupuesto ni certifica seguridad.
 +
 +Los nombres describen conceptos propios propuestos; no son tablas o componentes internos observados. Las invariantes se revisan con los AC nuevos y deben ratificarse antes de esquema técnico.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\plan.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\plan.md"
-index 658df87..1c08fe8 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\plan.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\plan.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/plan.md b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/plan.md
+index 658df87..1c08fe8 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/plan.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/plan.md
 @@ -48,3 +48,11 @@ Las historias US-OBR detallan estados y validaciones de negocio; los nuevos FR-0
  Propiedad de datos: ÍtemInspección → Observación (abierta/asignada/solución propuesta/cerrada/reabierta) → EvidenciaSolución y AprobaciónCierre. SolicitudCompraVersionada → LíneaOrdenAprobada → RecepciónParcial → Discrepancia. CampoExtraído enlaza evidencia original y revisión. Mantener estos registros en el dominio; solo perfil de capacidad, correlación/auditoría y controles reutilizables residen en core. La transferencia humana de cada negocio no introduce un motor CRM global en 000. No hay nuevas dependencias obligatorias entre verticales ni ciclos. ADR-005 documenta impacto y alternativas; ADR-001/002/004 siguen propuestos.
  
@@ -880,10 +880,10 @@ index 658df87..1c08fe8 100644
 +Dos partes del mismo día no son duplicados por esa sola coincidencia. Los porcentajes acumulados no se suman. Rechazo/devolución no borra recepción ni crea abono financiero automático. El costo comprometido que contiene un devengo no se descuenta dos veces. Una respuesta técnica no autoriza un cambio de contrato/presupuesto ni certifica seguridad.
 +
 +Mantener propiedad de datos en el dominio; core solo valida capacidades/efectos, evidencia y referencias comunes. No elegir motor workflow, cola, aplicación móvil o ERP por aparecer en un proveedor. Recuperación exige registrar estado conocido/desconocido y reconciliar antes de repetir; no requiere prometer una tecnología de persistencia concreta en esta etapa. ADR-006 compara alternativas y preserva dependencias del ADR-005. Constitución revisada sin modificaciones; gates pendientes siguen bloqueando implementación.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\quickstart.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\quickstart.md"
-index 385b27e..7f2afe1 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\quickstart.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\quickstart.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/quickstart.md b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/quickstart.md
+index 385b27e..7f2afe1 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/quickstart.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/quickstart.md
 @@ -14,3 +14,12 @@ No hay aplicación, servidor, migraciones ni comandos de arranque de producto. L
  Revisar cada US-OBR del spec con sus fuentes y ejecutar en mesa de revisión sus AC propuestos: preparar precondiciones y decisiones cliente → recorrer flujo normal → introducir excepción → verificar estado/evidencia/tenant y quién puede continuar. Usar los ejemplos de acceptance.md; no hay servidor para ejecutar el flujo. Registrar resultado revisado, pendiente o no aplicable, sin marcar una prueba como pasada por leerla.
  
@@ -897,10 +897,10 @@ index 385b27e..7f2afe1 100644
 +- RF-OBR-04: preparar «observación vinculada a evidencia/partida, responsables y permisos de solución/cierre definidos» y recorrer los tres AC de US-OBR-004. Registrar quién aprueba y estados antes/después; no ejecutar operación real.
 +
 +Contrastar el resultado con la línea base de continuación en `docs/investigacion-competitiva/linea-base/continuacion-01/`. El patch incremental se entrega en continuacion-01/cambios.patch; Git diff --no-index es comparación documental, no commit ni análisis de Spec Kit.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\research.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\research.md"
-index 28510f5..c61e18b 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\research.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\research.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/research.md b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/research.md
+index 28510f5..c61e18b 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/research.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/research.md
 @@ -27,3 +27,9 @@ Fuentes específicas: O01, O02, O03, O05, O06, O07, O08, O09; [matriz verificabl
  Recomendaciones: adoptar estados, validaciones y casos borde como propuestas, sin replicar código, límites regionales ni reglas fiscales ajenas. En particular: Cerrar exige rol; proponer solución no cierra. Cantidad recibida aceptada no excede pedido aprobado sin revisión de exceso. Convertir unidad requiere regla revisada; recibir no consume ni aumenta avance. Ubicación sugerida se diferencia de verificada.
  
@@ -911,10 +911,10 @@ index 28510f5..c61e18b 100644
 +Fuentes nuevas y previas pertinentes: O10, O11, O12, O13, O14, O15, O16, O17, O18. Análisis funcional detallado en [continuación](../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md) y fichas verticales. No se validan integraciones por encontrar una URL: I17 muestra un placeholder, I18/I19 y O15 tienen acceso incompleto, H17 corresponde a Channels Plus y no prueba el conector PMS requerido. Mantener estas diferencias al comparar construir/adaptar/contratar.
 +
 +Los casos RF-OBR-01, RF-OBR-02, RF-OBR-03, RF-OBR-04 separan estados que antes podían confundirse. Recomendación: revisar contratos y reglas con operador real; exigir origen, límites por versión y muestra de error/recuperación. Ningún nuevo FR implica contratar un proveedor, implementar un optimizador o adoptar su arquitectura.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\spec.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\spec.md"
-index db99873..11a6f3f 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\spec.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\spec.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/spec.md b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/spec.md
+index db99873..11a6f3f 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/spec.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/spec.md
 @@ -148,3 +148,192 @@ Son propuestas de comportamiento propio, sin atribuirlo como implementación obs
  | FR-020 | Mantener solicitudes y recepciones por línea, cantidad/unidad, referencia de precio/convenio y versión aprobada; admitir recepción parcial y discrepancias sin duplicar movimientos ni ejecutar compra desde extracción | H3/H4 |
  
@@ -1108,10 +1108,10 @@ index db99873..11a6f3f 100644
 +### Bloqueos adicionales de la profundización
 +
 +Q-OBR-04/05/06: ver [decisiones pendientes](../../docs/investigacion-competitiva/decisiones-pendientes.md). Son reglas para ratificar, no respuestas inferidas del mercado. Las historias permanecen propuestas y la feature **BLOCKED** para implementar.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\tasks.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\tasks.md"
-index 64fca1c..c06c29c 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\tasks.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\tasks.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/tasks.md b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/tasks.md
+index 64fca1c..c06c29c 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/tasks.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/tasks.md
 @@ -19,3 +19,11 @@ No se incluye implementar T008 ni tareas de despliegue. Crear tareas de implemen
  - [ ] T103 Precisar casos AC-US-OBR con muestras, permisos, errores y conectores por plan; revisar contratos/modelo. Depende de T102/T005. Salida: fixtures autorizados y matriz de casos esperados, antes de código.
  - [ ] T104 Evaluar en demo autorizada las observaciones que faltan, mediante REA solo cuando disponible; conservar evidencia y límites. Depende de Q-REA-01/02 y T103. No cerrar afirmaciones de runtime con documentación.
@@ -1124,10 +1124,10 @@ index 64fca1c..c06c29c 100644
 +- [ ] T203 Revisar invariantes y contratos lógicos con casos de timeout, repetición, parcialidad y corrección; conservar resultado esperado por cada AC nuevo. Depende de T202/T005. Salida: fixtures autorizados y contrato por proveedor, sin endpoint supuesto.
 +- [ ] T204 Comprobar conducta en demo/entorno propio autorizado con REA cuando esté disponible; conservar captura y límites. Depende de Q-REA-01/02/03. Documentación pública no cierra esta tarea.
 +- [ ] T205 Revisar costos y latencias por etapa, no solo resolución final, y actualizar gate de siguiente fase. Depende de T203 y decisiones Q del dominio. Salida: plan de evaluación y backlog de desarrollo ratificado posteriormente.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\checklists\\requirements.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\checklists\\requirements.md"
-index c13be43..76be5df 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\checklists\\requirements.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\checklists\\requirements.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/checklists/requirements.md b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/checklists/requirements.md
+index c13be43..76be5df 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/checklists/requirements.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/checklists/requirements.md
 @@ -26,3 +26,13 @@ Estado **BLOCKED**: Q-CORE-01: empresas, roles y autorización entre empresas; Q
  - [ ] Experiencia de usuario y flujos alternativos observados en demo autorizada.
  - [ ] Evidencia REA obtenida si se requiere confirmar comportamiento dinámico.
@@ -1142,10 +1142,10 @@ index c13be43..76be5df 100644
 +- [ ] Simular caída entre pasos, reenvío y estado parcial en sandbox autorizado; comprobar que no haya doble efecto.
 +- [ ] Verificar interpretación de fechas/unidades y correspondencia de IDs por cuenta/proveedor.
 +- [ ] Evidencia dinámica REA y análisis oficial Spec Kit disponibles y ejecutados donde corresponda.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\contracts\\README.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\contracts\\README.md"
-index 5d8a857..c50ab3f 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\000-core\\contracts\\README.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\000-core\\contracts\\README.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/contracts/README.md b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/contracts/README.md
+index 5d8a857..c50ab3f 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/contracts/README.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/000-core/contracts/README.md
 @@ -29,3 +29,9 @@ Q-CORE-01: empresas, roles y autorización entre empresas; Q-CORE-02: tratamient
  Interfaz lógica perfil de capacidad y resultado externo correlacionado. Entradas: contexto verificado, operación, referencia, versión, evento y huella; salida habilitado/denegado/pendiente con razón. Identidad de evento depende del proveedor, no se inventa webhook común.
  
@@ -1156,10 +1156,10 @@ index 5d8a857..c50ab3f 100644
 +Contrato lógico de invocación: perfil/version, contexto verificado, intención y huella de parámetros; vista previa de efectos y resultado por efecto. Contrato incompleto o placeholder no permite habilitar. No existe endpoint nuevo ni se publica esquema del proveedor como contrato propio.
 +
 +Cada operación exige identidad/tenant, permiso, referencia, versión y correlación; las mutaciones conservan idempotencia y aprobación de parámetros exactos. Reintento y nueva operación son distintos. Mensajes, payloads y respuestas del vendor no pueden otorgar permiso. Ejemplos en acceptance.md; transporte/endpoints y contratos ejecutables siguen bloqueados por decisiones.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\checklists\\requirements.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\checklists\\requirements.md"
-index e6a12ac..3c80bae 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\checklists\\requirements.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\checklists\\requirements.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/checklists/requirements.md b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/checklists/requirements.md
+index e6a12ac..3c80bae 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/checklists/requirements.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/checklists/requirements.md
 @@ -26,3 +26,13 @@ Estado **BLOCKED**: Q-HOT-01: PMS actual y fuente de inventario; Q-HOT-02: acces
  - [ ] Experiencia de usuario y flujos alternativos observados en demo autorizada.
  - [ ] Evidencia REA obtenida si se requiere confirmar comportamiento dinámico.
@@ -1174,10 +1174,10 @@ index e6a12ac..3c80bae 100644
 +- [ ] Simular caída entre pasos, reenvío y estado parcial en sandbox autorizado; comprobar que no haya doble efecto.
 +- [ ] Verificar interpretación de fechas/unidades y correspondencia de IDs por cuenta/proveedor.
 +- [ ] Evidencia dinámica REA y análisis oficial Spec Kit disponibles y ejecutados donde corresponda.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\contracts\\README.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\contracts\\README.md"
-index e7599f5..6e3de37 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\002-hotel-reservas-concierge\\contracts\\README.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\002-hotel-reservas-concierge\\contracts\\README.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/contracts/README.md b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/contracts/README.md
+index e7599f5..6e3de37 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/contracts/README.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/002-hotel-reservas-concierge/contracts/README.md
 @@ -35,3 +35,12 @@ Q-HOT-01: PMS actual y fuente de inventario; Q-HOT-02: acceso OTA/channel manage
  Interfaz lógica consultar oferta con vigencia y revalidar antes de confirmar. Transferencia: referencia conversación, motivo, receptor y contexto minimizado; salida pendiente/aceptada/en atención/cerrada. No asumir que cotización ejecuta reserva. Cada conector declara su alcance.
  
@@ -1191,10 +1191,10 @@ index e7599f5..6e3de37 100644
 +
 +
 +Nota de protocolo: acuse de recepción y aceptación/aplicación se separan conceptualmente, pero el punto de acuse debe respetar el contrato real del canal. El ID de notificación externo se usa solo si el proveedor lo define; sin él, la clave/huella y recuperación requieren investigación, sin inventar campos ni deduplicar todos los cambios por ID de reserva.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\checklists\\requirements.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\checklists\\requirements.md"
-index 03f8a21..2538238 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\checklists\\requirements.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\checklists\\requirements.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/checklists/requirements.md b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/checklists/requirements.md
+index 03f8a21..2538238 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/checklists/requirements.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/checklists/requirements.md
 @@ -26,3 +26,13 @@ Estado **BLOCKED**: Q-INM-01: proyectos, CRM y captura autorizada de leads; Q-IN
  - [ ] Experiencia de usuario y flujos alternativos observados en demo autorizada.
  - [ ] Evidencia REA obtenida si se requiere confirmar comportamiento dinámico.
@@ -1209,10 +1209,10 @@ index 03f8a21..2538238 100644
 +- [ ] Simular caída entre pasos, reenvío y estado parcial en sandbox autorizado; comprobar que no haya doble efecto.
 +- [ ] Verificar interpretación de fechas/unidades y correspondencia de IDs por cuenta/proveedor.
 +- [ ] Evidencia dinámica REA y análisis oficial Spec Kit disponibles y ejecutados donde corresponda.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\contracts\\README.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\contracts\\README.md"
-index f586aa9..027690b 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\003-inmobiliaria-comercial\\contracts\\README.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\003-inmobiliaria-comercial\\contracts\\README.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/contracts/README.md b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/contracts/README.md
+index f586aa9..027690b 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/contracts/README.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/003-inmobiliaria-comercial/contracts/README.md
 @@ -31,3 +31,9 @@ Q-INM-01: proyectos, CRM y captura autorizada de leads; Q-INM-02: reserva, vigen
  Interfaz lógica registrar consulta con origen permitido y clave de deduplicación; devolver creado/vinculado/revisión identidad. Proponer visita no agenda sin confirmar disponibilidad; transición contractual exige evidencia específica, no booleano genérico de éxito.
  
@@ -1223,10 +1223,10 @@ index f586aa9..027690b 100644
 +Interfaces lógicas proponer/confirmar/cambiar visita con modo de agenda y resultado; preparar/aprobar/enviar/consultar firma por versión; corregir persona o reasignar vínculo (operaciones distintas); proponer/aceptar cierre de postventa. Errores: identidad ambigua, horario incierto, calendario inaccesible, documento cambiado, firma incompleta y acceso revocado. No habilitar endpoint Tokko placeholder ni suponer send-information seguro por omisión.
 +
 +Cada operación exige identidad/tenant, permiso, referencia, versión y correlación; las mutaciones conservan idempotencia y aprobación de parámetros exactos. Reintento y nueva operación son distintos. Mensajes, payloads y respuestas del vendor no pueden otorgar permiso. Ejemplos en acceptance.md; transporte/endpoints y contratos ejecutables siguen bloqueados por decisiones.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\checklists\\requirements.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\checklists\\requirements.md"
-index 813cc8f..b91afb2 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\checklists\\requirements.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\checklists\\requirements.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/checklists/requirements.md b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/checklists/requirements.md
+index 813cc8f..b91afb2 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/checklists/requirements.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/checklists/requirements.md
 @@ -26,3 +26,13 @@ Estado **BLOCKED**: Q-OBR-01: obras propias o terceros, presupuesto y módulo pr
  - [ ] Experiencia de usuario y flujos alternativos observados en demo autorizada.
  - [ ] Evidencia REA obtenida si se requiere confirmar comportamiento dinámico.
@@ -1241,10 +1241,10 @@ index 813cc8f..b91afb2 100644
 +- [ ] Simular caída entre pasos, reenvío y estado parcial en sandbox autorizado; comprobar que no haya doble efecto.
 +- [ ] Verificar interpretación de fechas/unidades y correspondencia de IDs por cuenta/proveedor.
 +- [ ] Evidencia dinámica REA y análisis oficial Spec Kit disponibles y ejecutados donde corresponda.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\contracts\\README.md" "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\contracts\\README.md"
-index d357700..3e8d50f 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\specs\\004-constructora-obra\\contracts\\README.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\specs\\004-constructora-obra\\contracts\\README.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/contracts/README.md b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/contracts/README.md
+index d357700..3e8d50f 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/contracts/README.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/specs/004-constructora-obra/contracts/README.md
 @@ -27,3 +27,9 @@ Q-OBR-01: obras propias o terceros, presupuesto y módulo previo no entregado; Q
  Interfaces lógicas reportar observación y proponer/certificar cierre con versión; registrar recepción por línea y evento con cantidad/unidad y referencia de orden. Resultado parcial/conciliado/discrepancia; fallo o IA desactivada permite captura manual con los mismos controles.
  
@@ -1255,10 +1255,10 @@ index d357700..3e8d50f 100644
 +Interfaces lógicas recibir parte y aprobar cantidades/corrección; registrar entrega/aceptación/rechazo/devolución por línea/tramo con idempotencia; evaluar exposición presupuestaria por regla y versión; revisar solución de observación por rol. Errores: base/unidad faltante, IA sin conexión, evidencia contradictoria, excedente no aprobado, entrega repetida y cierre sin autoridad. No se define API de subcontratos o RFI sin alcance ratificado.
 +
 +Cada operación exige identidad/tenant, permiso, referencia, versión y correlación; las mutaciones conservan idempotencia y aprobación de parámetros exactos. Reintento y nueva operación son distintos. Mensajes, payloads y respuestas del vendor no pueden otorgar permiso. Ejemplos en acceptance.md; transporte/endpoints y contratos ejecutables siguen bloqueados por decisiones.
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\docs\\auditorias\\catalogo-requisitos.json" "b/F:\\Code\\RSalman\\plataforma-salman\\docs\\auditorias\\catalogo-requisitos.json"
-index 7f99e35..b18b33a 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\docs\\auditorias\\catalogo-requisitos.json"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\docs\\auditorias\\catalogo-requisitos.json"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/auditorias/catalogo-requisitos.json b/mnt/f/Code/RSalman/plataforma-salman/docs/auditorias/catalogo-requisitos.json
+index 7f99e35..b18b33a 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/auditorias/catalogo-requisitos.json
++++ b/mnt/f/Code/RSalman/plataforma-salman/docs/auditorias/catalogo-requisitos.json
 @@ -12,7 +12,8 @@
          "FR-008",
          "FR-009",
@@ -1306,10 +1306,10 @@ index 7f99e35..b18b33a 100644
        ],
        "sc": [
          "SC-008",
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\docs\\investigacion-competitiva\\evidencias.json" "b/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\evidencias.json"
-index 5425608..875c9f2 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\docs\\investigacion-competitiva\\evidencias.json"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\evidencias.json"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/evidencias.json b/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/evidencias.json
+index 5425608..875c9f2 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/evidencias.json
++++ b/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/evidencias.json
 @@ -628,5 +628,395 @@
      "fecha_consulta": "2026-10-16",
      "observacion_runtime": false,
@@ -1706,10 +1706,10 @@ index 5425608..875c9f2 100644
 +    "confianza": "media; declaración de producto"
    }
  ]
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\docs\\investigacion-competitiva\\historias.json" "b/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\historias.json"
-index 612272c..d3bbb81 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\docs\\investigacion-competitiva\\historias.json"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\historias.json"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/historias.json b/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/historias.json
+index 612272c..d3bbb81 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/historias.json
++++ b/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/historias.json
 @@ -34,12 +34,22 @@
      "evidencias": [
        "I06",
@@ -1936,10 +1936,10 @@ index 612272c..d3bbb81 100644
      ]
    }
  ]
-diff --git "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\docs\\investigacion-competitiva\\informe-final.md" "b/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\informe-final.md"
-index c9aca4e..4dc8dbc 100644
---- "a/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\linea-base\\continuacion-01\\docs\\investigacion-competitiva\\informe-final.md"
-+++ "b/F:\\Code\\RSalman\\plataforma-salman\\docs\\investigacion-competitiva\\informe-final.md"
+diff --git a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/informe-final.md b/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/informe-final.md
+index c9aca4e..4dc8dbc 100755
+--- a/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/informe-final.md
++++ b/mnt/f/Code/RSalman/plataforma-salman/docs/investigacion-competitiva/informe-final.md
 @@ -1,3 +1,17 @@
 +# Informe vigente de investigación competitiva
 +

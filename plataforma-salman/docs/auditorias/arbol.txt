@@ -265,6 +265,7 @@ plataforma-salman/
   docs/originales/Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md
   docs/originales/estado-del-arte-extraido.md
   scripts/auditar_consolidacion.py
+  scripts/crear_y_subir_repositorio_github.py
   scripts/ejecutar_pruebas_postgresql.py
   scripts/generar_y_validar_arquitectura.py
   scripts/validar_arquitectura_visual_ejecutable.py

@@ -6,19 +6,19 @@
   "resultados": [
     {
       "resultado": "PASS",
-      "comprobacion": "Hash original plataforma-salman\\docs\\originales\\Estado del arte IA agéntica en hotel, inmobiliaria y cafetería (oct 2026) (1).docx"
+      "comprobacion": "Hash original plataforma-salman/docs/originales/Estado del arte IA agéntica en hotel, inmobiliaria y cafetería (oct 2026) (1).docx"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Hash original plataforma-salman\\docs\\originales\\Spec SDD 01 Cafetería (mesas, POS inteligente y control de gastos) (1).md"
+      "comprobacion": "Hash original plataforma-salman/docs/originales/Spec SDD 01 Cafetería (mesas, POS inteligente y control de gastos) (1).md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Hash original plataforma-salman\\docs\\originales\\Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md"
+      "comprobacion": "Hash original plataforma-salman/docs/originales/Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Hash original plataforma-salman\\docs\\originales\\Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md"
+      "comprobacion": "Hash original plataforma-salman/docs/originales/Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md"
     },
     {
       "resultado": "PASS",
@@ -1182,1023 +1182,1023 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\aclaraciones.md → ../investigacion-competitiva/decisiones-pendientes.md"
+      "comprobacion": "Enlace local docs/arquitectura/aclaraciones.md → ../investigacion-competitiva/decisiones-pendientes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\README.md → trazabilidad-modelos.md"
+      "comprobacion": "Enlace local docs/arquitectura/README.md → trazabilidad-modelos.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\README.md → validacion-global.md"
+      "comprobacion": "Enlace local docs/arquitectura/README.md → validacion-global.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\README.md → decisiones-pendientes.md"
+      "comprobacion": "Enlace local docs/arquitectura/README.md → decisiones-pendientes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\README.md → core/"
+      "comprobacion": "Enlace local docs/arquitectura/README.md → core/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\README.md → cafeteria/"
+      "comprobacion": "Enlace local docs/arquitectura/README.md → cafeteria/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\README.md → hotel/"
+      "comprobacion": "Enlace local docs/arquitectura/README.md → hotel/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\README.md → inmobiliaria/"
+      "comprobacion": "Enlace local docs/arquitectura/README.md → inmobiliaria/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\README.md → constructora/"
+      "comprobacion": "Enlace local docs/arquitectura/README.md → constructora/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\README.md → transversal/"
+      "comprobacion": "Enlace local docs/arquitectura/README.md → transversal/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\README.md → pruebas/"
+      "comprobacion": "Enlace local docs/arquitectura/README.md → pruebas/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → core/mer.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/mer.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → core/mer.mmd"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/mer.mmd"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → core/modelo-relacional.dbml"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/modelo-relacional.dbml"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → core/modelo-relacional.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/modelo-relacional.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → core/esquema-propuesto.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/esquema-propuesto.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → core/estados.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/estados.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → core/secuencias.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/secuencias.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → core/validacion.md"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → core/validacion.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → cafeteria/mer.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/mer.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → cafeteria/mer.mmd"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/mer.mmd"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → cafeteria/modelo-relacional.dbml"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/modelo-relacional.dbml"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → cafeteria/modelo-relacional.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/modelo-relacional.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → cafeteria/esquema-propuesto.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/esquema-propuesto.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → cafeteria/estados.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/estados.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → cafeteria/secuencias.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/secuencias.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → cafeteria/validacion.md"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → cafeteria/validacion.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → hotel/mer.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/mer.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → hotel/mer.mmd"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/mer.mmd"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → hotel/modelo-relacional.dbml"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/modelo-relacional.dbml"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → hotel/modelo-relacional.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/modelo-relacional.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → hotel/esquema-propuesto.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/esquema-propuesto.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → hotel/estados.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/estados.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → hotel/secuencias.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/secuencias.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → hotel/validacion.md"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → hotel/validacion.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → inmobiliaria/mer.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/mer.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → inmobiliaria/mer.mmd"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/mer.mmd"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → inmobiliaria/modelo-relacional.dbml"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/modelo-relacional.dbml"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → inmobiliaria/modelo-relacional.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/modelo-relacional.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → inmobiliaria/esquema-propuesto.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/esquema-propuesto.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → inmobiliaria/estados.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/estados.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → inmobiliaria/secuencias.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/secuencias.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → inmobiliaria/validacion.md"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → inmobiliaria/validacion.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → constructora/mer.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/mer.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → constructora/mer.mmd"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/mer.mmd"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → constructora/modelo-relacional.dbml"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/modelo-relacional.dbml"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → constructora/modelo-relacional.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/modelo-relacional.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → constructora/esquema-propuesto.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/esquema-propuesto.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → constructora/estados.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/estados.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → constructora/secuencias.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/secuencias.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → constructora/validacion.md"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → constructora/validacion.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → transversal/mer-integrado.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → transversal/mer-integrado.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → transversal/modelo-integrado.dbml"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → transversal/modelo-integrado.dbml"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → transversal/c4-contexto.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → transversal/c4-contexto.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → transversal/c4-contenedores.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → transversal/c4-contenedores.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → transversal/dependencias.drawio"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → transversal/dependencias.drawio"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → pruebas/sql/00_init_roles_schemas.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/00_init_roles_schemas.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → pruebas/sql/01_core.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/01_core.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → pruebas/sql/02_cafeteria.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/02_cafeteria.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → pruebas/sql/03_hotel.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/03_hotel.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → pruebas/sql/04_inmobiliaria.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/04_inmobiliaria.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → pruebas/sql/05_constructora.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/sql/05_constructora.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → pruebas/integridad/test_constraints_fks.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/integridad/test_constraints_fks.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → pruebas/aislamiento-tenant/test_rls_policies.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/aislamiento-tenant/test_rls_policies.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → pruebas/concurrencia/test_concurrency_locks.sql"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/concurrencia/test_concurrency_locks.sql"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\arquitectura\\validacion-global.md → pruebas/resultados/ejecucion_postgresql.log"
+      "comprobacion": "Enlace local docs/arquitectura/validacion-global.md → pruebas/resultados/ejecucion_postgresql.log"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\auditoria\\consolidacion-final.md → inventario-consolidacion.json"
+      "comprobacion": "Enlace local docs/auditoria/consolidacion-final.md → inventario-consolidacion.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\auditoria\\consolidacion-final.md → equivalencias-eliminados.json"
+      "comprobacion": "Enlace local docs/auditoria/consolidacion-final.md → equivalencias-eliminados.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\auditoria\\consolidacion-final.md → validacion-consolidada.json"
+      "comprobacion": "Enlace local docs/auditoria/consolidacion-final.md → validacion-consolidada.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\auditoria\\consolidacion-final.md → seguridad-consolidacion.json"
+      "comprobacion": "Enlace local docs/auditoria/consolidacion-final.md → seguridad-consolidacion.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../investigacion-competitiva/rea.md"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/rea.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../investigacion-competitiva/informe-final.md"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/informe-final.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../../../investigacion-herramientas/rea/"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../../../investigacion-herramientas/rea/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../investigacion-competitiva/rea.md"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/rea.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../investigacion-competitiva/decisiones-pendientes.md"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/decisiones-pendientes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../../scripts/validar_continuacion.py"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../../scripts/validar_continuacion.py"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../auditorias/validacion-local.json"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../auditorias/validacion-local.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../investigacion-competitiva/validacion.json"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/validacion.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../investigacion-competitiva/continuacion-01/validacion.json"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/continuacion-01/validacion.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../auditorias/catalogo-requisitos.json"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../auditorias/catalogo-requisitos.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../../specs/"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../../specs/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../../specs/"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../../specs/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\conflictos.md → ../investigacion-competitiva/linea-base/continuacion-01/manifest.json"
+      "comprobacion": "Enlace local docs/consolidacion/conflictos.md → ../investigacion-competitiva/linea-base/continuacion-01/manifest.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\decisiones.md → ../../.specify/memory/constitution.md"
+      "comprobacion": "Enlace local docs/consolidacion/decisiones.md → ../../.specify/memory/constitution.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\decisiones.md → ../../specs/"
+      "comprobacion": "Enlace local docs/consolidacion/decisiones.md → ../../specs/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\decisiones.md → ../../../investigacion-herramientas/rea/"
+      "comprobacion": "Enlace local docs/consolidacion/decisiones.md → ../../../investigacion-herramientas/rea/"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\consolidacion\\informe-final.md → ../auditoria/consolidacion-final.md"
+      "comprobacion": "Enlace local docs/consolidacion/informe-final.md → ../auditoria/consolidacion-final.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion\\estado-del-arte.md → ../originales/estado-del-arte-extraido.md"
+      "comprobacion": "Enlace local docs/investigacion/estado-del-arte.md → ../originales/estado-del-arte-extraido.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion\\matriz-evidencia.md → ../originales/estado-del-arte-extraido.md"
+      "comprobacion": "Enlace local docs/investigacion/matriz-evidencia.md → ../originales/estado-del-arte-extraido.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\agentes.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/agentes.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → ../arquitectura/seguridad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → ../arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\historias-propuestas.md → continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/historias-propuestas.md → continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → continuacion-01/informe.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → continuacion-01/informe.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → hotel/revision-profunda.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → hotel/revision-profunda.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → hotel/cobertura.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → hotel/cobertura.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → inmobiliaria/revision-profunda.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → inmobiliaria/revision-profunda.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → inmobiliaria/cobertura.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → inmobiliaria/cobertura.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → constructora/revision-profunda.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → constructora/revision-profunda.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → constructora/cobertura.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → constructora/cobertura.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → continuacion-01/trazabilidad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → continuacion-01/trazabilidad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → continuacion-01/cambios.patch"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → continuacion-01/cambios.patch"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → continuacion-01/validacion.json"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → continuacion-01/validacion.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → inventario-plataformas.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → inventario-plataformas.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → matriz-comparativa.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → matriz-comparativa.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → matriz-evidencias.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → matriz-evidencias.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → urls-verificadas.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → urls-verificadas.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → historias-propuestas.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → historias-propuestas.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → oportunidades.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → oportunidades.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → rea.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → rea.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → ../auditorias/validacion-local.json"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → ../auditorias/validacion-local.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → validacion.json"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → validacion.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → registro-cambios.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → registro-cambios.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → cambios.patch"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → cambios.patch"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → cambios.json"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → cambios.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → archivos-entrega.txt"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → archivos-entrega.txt"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\informe-final.md → decisiones-pendientes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/informe-final.md → decisiones-pendientes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\matriz-comparativa.md → continuacion-01/matriz-detallada.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/matriz-comparativa.md → continuacion-01/matriz-detallada.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\rea.md → ../../../investigacion-herramientas/rea/README.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/rea.md → ../../../investigacion-herramientas/rea/README.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\rea.md → ../../../investigacion-herramientas/rea/docs/mcp-contracts.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/rea.md → ../../../investigacion-herramientas/rea/docs/mcp-contracts.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\constructora\\flujos.md → revision-profunda.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/constructora/flujos.md → revision-profunda.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\constructora\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/constructora/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\constructora\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/constructora/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\constructora\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/constructora/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\constructora\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/constructora/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → ../hotel/revision-profunda.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../hotel/revision-profunda.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → ../hotel/cobertura.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../hotel/cobertura.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → ../inmobiliaria/revision-profunda.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../inmobiliaria/revision-profunda.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → ../inmobiliaria/cobertura.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../inmobiliaria/cobertura.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → ../constructora/revision-profunda.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../constructora/revision-profunda.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → ../constructora/cobertura.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → ../constructora/cobertura.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → matriz-detallada.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → matriz-detallada.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → trazabilidad.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → trazabilidad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → cambios.patch"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → cambios.patch"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\continuacion-01\\informe.md → medicion-por-flujo.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/continuacion-01/informe.md → medicion-por-flujo.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\hotel\\flujos.md → revision-profunda.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/hotel/flujos.md → revision-profunda.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\hotel\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/hotel/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\hotel\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/hotel/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\hotel\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/hotel/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\hotel\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/hotel/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\inmobiliaria\\flujos.md → revision-profunda.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/inmobiliaria/flujos.md → revision-profunda.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\inmobiliaria\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/inmobiliaria/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\inmobiliaria\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/inmobiliaria/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\inmobiliaria\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/inmobiliaria/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local docs\\investigacion-competitiva\\inmobiliaria\\revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local docs/investigacion-competitiva/inmobiliaria/revision-profunda.md → ../continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\plan.md → spec.md"
+      "comprobacion": "Enlace local specs/000-core/plan.md → spec.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\research.md → ../../docs/investigacion/estado-del-arte.md"
+      "comprobacion": "Enlace local specs/000-core/research.md → ../../docs/investigacion/estado-del-arte.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\research.md → ../../docs/investigacion/matriz-evidencia.md"
+      "comprobacion": "Enlace local specs/000-core/research.md → ../../docs/investigacion/matriz-evidencia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
+      "comprobacion": "Enlace local specs/000-core/research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\research.md → ../../docs/investigacion-competitiva/metodologia.md"
+      "comprobacion": "Enlace local specs/000-core/research.md → ../../docs/investigacion-competitiva/metodologia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+      "comprobacion": "Enlace local specs/000-core/research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\000-core\\spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
+      "comprobacion": "Enlace local specs/000-core/spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\plan.md → spec.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/plan.md → spec.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\research.md → ../../docs/investigacion/estado-del-arte.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/research.md → ../../docs/investigacion/estado-del-arte.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\research.md → ../../docs/investigacion/matriz-evidencia.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/research.md → ../../docs/investigacion/matriz-evidencia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\research.md → ../../docs/investigacion-competitiva/metodologia.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/research.md → ../../docs/investigacion-competitiva/metodologia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\001-cafeteria-mesas-pos\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/001-cafeteria-mesas-pos/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\plan.md → spec.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/plan.md → spec.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\research.md → ../../docs/investigacion/estado-del-arte.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/research.md → ../../docs/investigacion/estado-del-arte.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\research.md → ../../docs/investigacion/matriz-evidencia.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/research.md → ../../docs/investigacion/matriz-evidencia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\research.md → ../../docs/investigacion-competitiva/metodologia.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/research.md → ../../docs/investigacion-competitiva/metodologia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\002-hotel-reservas-concierge\\spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
+      "comprobacion": "Enlace local specs/002-hotel-reservas-concierge/spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\plan.md → spec.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/plan.md → spec.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\research.md → ../../docs/investigacion/estado-del-arte.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/research.md → ../../docs/investigacion/estado-del-arte.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\research.md → ../../docs/investigacion/matriz-evidencia.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/research.md → ../../docs/investigacion/matriz-evidencia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\research.md → ../../docs/investigacion-competitiva/metodologia.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/research.md → ../../docs/investigacion-competitiva/metodologia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\003-inmobiliaria-comercial\\spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
+      "comprobacion": "Enlace local specs/003-inmobiliaria-comercial/spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\plan.md → spec.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/plan.md → spec.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\research.md → ../../docs/investigacion/estado-del-arte.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/research.md → ../../docs/investigacion/estado-del-arte.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\research.md → ../../docs/investigacion/matriz-evidencia.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/research.md → ../../docs/investigacion/matriz-evidencia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/research.md → ../../docs/investigacion-competitiva/matriz-evidencias.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\research.md → ../../docs/investigacion-competitiva/metodologia.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/research.md → ../../docs/investigacion-competitiva/metodologia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/research.md → ../../docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\spec.md → ../../docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\spec.md → ../../docs/arquitectura/seguridad.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/arquitectura/seguridad.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Enlace local specs\\004-constructora-obra\\spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
+      "comprobacion": "Enlace local specs/004-constructora-obra/spec.md → ../../docs/investigacion-competitiva/decisiones-pendientes.md"
     },
     {
       "resultado": "PASS",

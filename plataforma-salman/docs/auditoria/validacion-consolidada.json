@@ -1,0 +1,32 @@
+{
+  "suites": [
+    {
+      "categoria": "documental",
+      "script": "validar_documentacion.py",
+      "codigo": 0
+    },
+    {
+      "categoria": "semantica_investigacion",
+      "script": "validar_investigacion.py",
+      "codigo": 0
+    },
+    {
+      "categoria": "semantica_continuacion",
+      "script": "validar_continuacion.py",
+      "codigo": 0
+    },
+    {
+      "categoria": "modelos_datos",
+      "script": "validar_modelo_datos.py",
+      "codigo": 0
+    },
+    {
+      "categoria": "estructura_visual_y_evidencia_historica",
+      "script": "validar_arquitectura_visual_ejecutable.py",
+      "codigo": 0
+    }
+  ],
+  "postgresql_actual": "NO EJECUTADO",
+  "revision_visual_actual": "NO EJECUTADA",
+  "alcance": "XML y logs históricos no prueban ejecución SQL actual ni revisión visual."
+}

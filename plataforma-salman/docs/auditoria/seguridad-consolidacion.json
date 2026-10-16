@@ -1,0 +1,7 @@
+{
+  "blobs_historicos_examinados": 313,
+  "archivos_actuales": 327,
+  "hallazgos": [],
+  "env_versionados": [],
+  "limite": "Patrones de credenciales y coincidencia con secretos locales; no garantiza detección universal."
+}

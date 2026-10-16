@@ -1,0 +1,2071 @@
+{
+  "archivos": [
+    {
+      "ruta": ".env",
+      "clase": "REFERENCE",
+      "motivo": "Secreto local excluido; contenido y hash omitidos"
+    },
+    {
+      "ruta": ".gitignore",
+      "sha256": "4399a06fe7323f995e906193fd5d622bfee37f6d402d41851cb6b2cbc9659df8",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "investigacion-herramientas/README.md",
+      "sha256": "96825bc192b07b3c4c0a68375adf0ee50e1add40fa9269e7a032e12e28ce2b8b",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/.specify/memory/constitution.md",
+      "sha256": "329d63d1cf8c4842b1abdc4f2becdac18fdfa55eef9c877702bf4437e11e1b97",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/AGENTS.md",
+      "sha256": "cd12f0b3ed5f334a6d68c4baaa53b7d418f1374b28a847a3e805929c83f93eeb",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/core/README.md",
+      "sha256": "e84f40c6d76a8df5ca2f9e0b18cce164524f317989baa71b8e8b64cbed4bc5c0",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/aclaraciones.md",
+      "sha256": "0b8e28eba5e6dc97913039fc57c1d1ed26b9106490442df940ae4a1a3bc1c3ba",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/cafeteria/esquema-propuesto.sql",
+      "sha256": "240919c96f0dc63ac34f79e5bdfd540d0ed7f4eefd2971b1d5f81432970cddd6",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/cafeteria/estados.drawio",
+      "sha256": "92187bf05203c33fec568b1ad3b2bbed9d92ac5688128ba3e8417d8ae8a4b41d",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/cafeteria/mer.drawio",
+      "sha256": "db5c0ff80b4fe85bedd4de9ad60ac41ccdd71d6d7f1e8e42ea16493bfc99c3e8",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/cafeteria/mer.mmd",
+      "sha256": "5802748fd87cc3a75dc2b3db3ed6d0e843f2f7fbfdcbfe6b3d99244f655c97d7",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/cafeteria/modelo-relacional.dbml",
+      "sha256": "12314e76933b48d0dda18f8ca6e40fb341489bd39f0a96949b269cff0366c095",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/cafeteria/modelo-relacional.drawio",
+      "sha256": "0bebaa50914eca0872dfb430f8723c9e34cde87fb60d8a9b9615bb9f6f4c5dae",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/cafeteria/secuencias.drawio",
+      "sha256": "448bbf2add697bdff90161c1c623e216f406ded3db649f7c78551e8f60330969",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/cafeteria/validacion.md",
+      "sha256": "fc270866fda0c08124130c6caa84c99ad6d530fce50721040c55fb3afa86a550",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/constructora/esquema-propuesto.sql",
+      "sha256": "a4acb12b0f73015dd8754b6611dc290fd92ac664c4de66eeb9da510775b6ee2b",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/constructora/estados.drawio",
+      "sha256": "266815ee63e710745e13c8614f03cfc23d54a065b35c65b2468dce38539a04f2",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/constructora/mer.drawio",
+      "sha256": "fcae33937d89b8361336d199ec8626d111b73ce6944ec299e325f2f588322a6f",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/constructora/mer.mmd",
+      "sha256": "2cfddaa68f90d2b4001d3f19616ae8ff74a53d5cb3927813f2151c37934c5a0a",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/constructora/modelo-relacional.dbml",
+      "sha256": "a9a451b35cbd1e7ea974bcdbed0a0e1cb3825e4bb1733d426455a8805a93ab1f",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/constructora/modelo-relacional.drawio",
+      "sha256": "6c63a4d583979312237a23a18266c674dd1c90eb5cd5f3a762610ec978ea72f2",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/constructora/secuencias.drawio",
+      "sha256": "38da1cbb40a18b3b5f156d6318893ba26366fbacd0ca275e3e9073731cf91cf5",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/constructora/validacion.md",
+      "sha256": "3e8453c378912e3e3372f8e1de474473295b8e1a4cab5d2502d3899d665ae0cb",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/core/esquema-propuesto.sql",
+      "sha256": "7e4348d40c085ce2c07da102d55596f2227cb3459ad94e75bcf4106bf9839f98",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/core/estados.drawio",
+      "sha256": "e9e93341aef4a7ccbcedf34bb842853b298178f8bea5fcafcd14ad9819c115f9",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/core/mer.drawio",
+      "sha256": "e76f7ff7a81b15fd7ac8ae03b86395bbfbaaa8fa71b501694286728614abf10e",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/core/mer.mmd",
+      "sha256": "91116e341de907bf99ebccc97171194258e7cb71d0cc19c22107a849f10da06a",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/core/modelo-relacional.dbml",
+      "sha256": "8b1236ea847b9b88f2da6038f3b202e08a0d9e302f401fad69f481a08d3bf4d5",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/core/modelo-relacional.drawio",
+      "sha256": "a45f4bea63e0d5e568c48c46a35576acef83567d82fea3aa3dde75d2ac48b90d",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/core/secuencias.drawio",
+      "sha256": "3ccaeb4968336fd3f66969d7d9dd3f308f0008363f1b12913b6345921253df6b",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/core/validacion.md",
+      "sha256": "d29b64fd8e94ddca28b5d00891c6198d847c3c55981b0a1aa6d6ff97b46c320b",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/datos/contratos-integracion.md",
+      "sha256": "e39718dba5ab4f905f8bab86ef60d0e4a6f260320a14fb8f811c626d745b8c1c",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/datos/diagrama-c4.md",
+      "sha256": "319bfe68a6a4093616a782c93a203991606853c0672b84ac21027b7640699068",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/datos/diagramas-comportamiento.md",
+      "sha256": "4ad5db8fcb100b7ad2e108fc4d8caf96f326320d397e0360930260f3a02d5d64",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/datos/hallazgos-datos.md",
+      "sha256": "66c68d1b06538c951ad8e3128b2163faf909fd072b853ab96b09969e104af3cb",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/datos/mer-conceptual.md",
+      "sha256": "230983b3eb58b12cf687440ebd5fc8f710c2ad398261b6e6e1e5903afe39b9e6",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/datos/modelo-fisico.md",
+      "sha256": "e416cb48dd9b7131e506a8727809237db3586f3b0c3611fac2f665f6e2e25635",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/datos/mr-logico.md",
+      "sha256": "b33cf142c6764d78a55196a4b328344c2709fa044236a11da0a741c9194c180a",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/datos/trazabilidad-datos.md",
+      "sha256": "68e7ca24f65b78f677e1c4ff07a623b263ffc7cb9b5e7569f4a4c7d03a828477",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/decisiones/ADR-001.md",
+      "sha256": "2347ee7baf0e19985308a12ca45d34667af2c7aa820bb6bf936470b14ce78591",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/decisiones/ADR-002.md",
+      "sha256": "5111fde1d14942a89c0ced48a8bbc34d6a8a31279e767a9c519f1ece6b004cf7",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/decisiones/ADR-003.md",
+      "sha256": "bd222b0ba6fba9abeb551d1f91b27f3278c0db879438f0ff7f6a6b3aae6b53c9",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/decisiones/ADR-004.md",
+      "sha256": "55952dae74b7cfee56b35457be8073d609c92abab9dbe46dfa825bf13d1a0699",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/decisiones/ADR-005.md",
+      "sha256": "9b24452bd6df6f01dc9e7abded11e5d1b34558e3cd3b5a3d52265527feeea1b5",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/decisiones/ADR-006.md",
+      "sha256": "aa36d6a37bced6bd8b4116822aaf474e776b6d94f2aa239a36edceb2a3af9b00",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/decisiones-pendientes.md",
+      "sha256": "b53a58f5b0a95560945ceec50f532b4683e6ea8ab7f853a36244c56c573baaac",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/dependencias.md",
+      "sha256": "4b16043e84189d4085e549362b7f5f68f0b5c1e89ad4357960ce60f70b37b099",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/economia.md",
+      "sha256": "3c1fb1f592e3edcc2b233af955eb7e291559b9150439c4e2be096d84df72673c",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/fases.md",
+      "sha256": "e2744e4574227a5b744f562064434a71dd86dc219f3ea29cc5b55245cd79fa96",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/hotel/esquema-propuesto.sql",
+      "sha256": "565adf0984ab467edc9bc972cda79c4998862845b7426332606051f3e3f08e32",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/hotel/estados.drawio",
+      "sha256": "98b5c2bc0e8f4c7446169fc73dbe32b2bea0fa9b9d54e10427acc9c6fa500bb5",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/hotel/mer.drawio",
+      "sha256": "404ae61346c4f443e704fa7205513875d3e82248965e67d3f3163ae3754cdb98",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/hotel/mer.mmd",
+      "sha256": "ac5f1f2b4a5bd52dbd7181955f5de3d86a7b2e49b4110fbe4e6a0d4f0aca40d9",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/hotel/modelo-relacional.dbml",
+      "sha256": "4dfd5b7f79716a90412ca34fee223556a36932e0b2c63291c4e0bc37d12d319e",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/hotel/modelo-relacional.drawio",
+      "sha256": "5dc72fad8f0f2a049ca2b2ddfbb70331aa53edbde735cdc0914e31d34b91aff0",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/hotel/secuencias.drawio",
+      "sha256": "be010114fcd2e1cb1e9ca6490e339e808aff755c1de534016f9f358f36fb22fe",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/hotel/validacion.md",
+      "sha256": "999b4d6ee121f7e44884cd864e7fe59c6edd799c631ca37db9990f38f33fc0e7",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/inmobiliaria/esquema-propuesto.sql",
+      "sha256": "3ac83cd0fe7346610827668644e4e7ea450bb80dec42a21a0343fb0f60d495b0",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/inmobiliaria/estados.drawio",
+      "sha256": "ef231ec1a17685fb2f1aa224c444d7c66d0a4ec2da8d1888093ffb92b4379fa9",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/inmobiliaria/mer.drawio",
+      "sha256": "22a8e2fcfda80802edce8119afc00a024889b927d31e9dedbcc0cadee8117748",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/inmobiliaria/mer.mmd",
+      "sha256": "8c87da7a42d60576a4ed064ac90599048c9235eac0243ce68b85141310c41358",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/inmobiliaria/modelo-relacional.dbml",
+      "sha256": "7bf40d729f337a8e7dbbd9f434f04482d8b14ef52291c7a7aaa308535f533106",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/inmobiliaria/modelo-relacional.drawio",
+      "sha256": "ccce3a9fe503af6853b205bcf092b79071a9ca898dbe4e1eb0d09578a8b9e503",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/inmobiliaria/secuencias.drawio",
+      "sha256": "12a17b9fe9e6285266a42ea764c25e4a9c42e8940936d81aa96751c4aadef096",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/inmobiliaria/validacion.md",
+      "sha256": "d6d1d947866668bc8f574172fd014c6f166d1576e872f1d4951aca154de519ff",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/aislamiento-tenant/test_rls_policies.sql",
+      "sha256": "17a997b404c8f9bdf8f68ebf66aa20afe266ed7fce0e53e745ce4feb7513de98",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/concurrencia/test_concurrency_locks.sql",
+      "sha256": "4179dcf80d6c2ed640c96978d941952ad50577e4b78964d6e8ba7f1d623c7035",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/integridad/test_constraints_fks.sql",
+      "sha256": "cd4ea834b9ceef0993df16e1bed93d19069e0645c342dcd1a0391beef5d8bcdb",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/resultados/ejecucion_postgresql.log",
+      "sha256": "a9db89d9955ed4bd17f8e35edfd9f71200f06c2ad961dd07c2d0d2a11c22bfcb",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/resultados/validacion_arquitectura.json",
+      "sha256": "d3c58f5c6b6a991401845e93374452c8996104290024fb5f03d9526bfbf72e00",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/sql/00_init_roles_schemas.sql",
+      "sha256": "8b8eeff173bcba401d59b5369f14b4e3d9bb088181cf4fdfefceb62b4e479fca",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/sql/01_core.sql",
+      "sha256": "7e4348d40c085ce2c07da102d55596f2227cb3459ad94e75bcf4106bf9839f98",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/sql/02_cafeteria.sql",
+      "sha256": "240919c96f0dc63ac34f79e5bdfd540d0ed7f4eefd2971b1d5f81432970cddd6",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/sql/03_hotel.sql",
+      "sha256": "565adf0984ab467edc9bc972cda79c4998862845b7426332606051f3e3f08e32",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/sql/04_inmobiliaria.sql",
+      "sha256": "3ac83cd0fe7346610827668644e4e7ea450bb80dec42a21a0343fb0f60d495b0",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/pruebas/sql/05_constructora.sql",
+      "sha256": "a4acb12b0f73015dd8754b6611dc290fd92ac664c4de66eeb9da510775b6ee2b",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/README.md",
+      "sha256": "8462d96cd1395012a6b1b579f6c2029122bd4cf50da29b4b521b51f28220b490",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/seguridad.md",
+      "sha256": "55af35a4d7e96e40f55f2edfdb6f09fd631082cb5738ff74b5b2f1129942f721",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/transversal/c4-contenedores.drawio",
+      "sha256": "0ad1b92707d0bbff0a0fa03345c10b8b098d8ed426440dbddc03b2144a049107",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/transversal/c4-contexto.drawio",
+      "sha256": "4abacae89d33a4bed47ce1db67c34332854674b6e73599fcbf291631c0bbcc9b",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/transversal/dependencias.drawio",
+      "sha256": "aaf6ae9afc2bb7bf1d74486edf0ce2fecfd2ed44fc2496164e6fa31749891216",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/transversal/mer-integrado.drawio",
+      "sha256": "9ab4aabe3b4d0d126870ce976d0da2ba2e8c3775cecb6fab9c86dd42220be99d",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/transversal/modelo-integrado.dbml",
+      "sha256": "4c82bbe056f882ce25294508da8a2fcd41a22b1b5a8df5f23c4fe33723b8ef39",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/trazabilidad-modelos.md",
+      "sha256": "945628031cb43da2190f12cab95694267c25744f237a18198e7247603284a47b",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/validacion-global.md",
+      "sha256": "3a95b94fcefcdb9e3c220961190c38677f56b515563f987ce9bf9e33353da7a3",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/vision-general.md",
+      "sha256": "5cfc11f731d9b39bfeacb7e5203471ff63a42159efd574596bd4a2018a364d49",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditoria/consolidacion-final.md",
+      "sha256": "15065e1ff11b6314225512551838afc5a2d886363354b4664c9da3ee5b5433e0",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditoria/equivalencias-eliminados.json",
+      "sha256": "94a6a3bf55d19075b70ba99a6153012b950f5fedf39edfe61e3db79854d56726",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditoria/inventario-consolidacion.json",
+      "clase": "GENERATED",
+      "motivo": "Informe de esta ejecución; se omite hash autorreferencial"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditoria/seguridad-consolidacion.json",
+      "clase": "GENERATED",
+      "motivo": "Informe de esta ejecución; se omite hash autorreferencial"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditoria/validacion-consolidada.json",
+      "sha256": "57091abdcb77c4078b2f74a412c443b6f7c4ce994cb57194b35e330402ce77fb",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/afirmaciones.md",
+      "sha256": "3826823e41d26d661b3b7a989a9929bb85730409302bee9f93693012e58a8aef",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/arbol.txt",
+      "sha256": "84bf8d150fb4d8e63814bef0431cecdc4757903f8b4c3e7988223654d3216050",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/auditoria-caf.md",
+      "sha256": "671114f33fea7a8faf375e31473ec44b54ae8bac6c16a533cbe40519c0d47622",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/auditoria-hot.md",
+      "sha256": "cec3e1b957a6a834f578adad54441dea1f38d574e634308d8b06ab4b86ca8fd5",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/auditoria-inm.md",
+      "sha256": "82f72d688ed09b85b40fc77bf429e68451da580940a7a3dc33f741f19e5922ef",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/auditoria-inv.md",
+      "sha256": "07f1b8cc175b3ee52d988055491764a91cee9d379baf2bbb5420fa431c2a4f63",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/cambios-cafeteria.diff",
+      "sha256": "16cea73a50fc3f84ae8c042fb55afb8b7d9ab54b003c666cd5fc0b0d7ac5671e",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/cambios-hotel.diff",
+      "sha256": "7a77ff8df4dc8f70bb171569e5f7837e47360fb00289d2d4c75bd351ebbd7543",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/cambios-inmobiliaria.diff",
+      "sha256": "70b578d8c5aff53c09a2b2de1da12e279ba2fa05c350fb28116bdba3ddd2ea6a",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/catalogo-requisitos.json",
+      "sha256": "b31196b1045ccb6f3534c45cf15192e4301f58c4858741849828fea48620062c",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/hallazgos.md",
+      "sha256": "5f9ac043ae5dc306798be7292cdacbf4711c5c1c17829b14013731d0c2aa2aa5",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/inventario.md",
+      "sha256": "fb27133d42e7a00261d6251225cf69162c47f6a404f690f8d653d068a095e5ff",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/originales-sha256.json",
+      "sha256": "c4cc0bc42a1fe6d87a3c8679c45b9222e82f04e40f3b15cd779c733c703c948a",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/registro-cambios.md",
+      "sha256": "883c500319f055876d1fd6784bc4b63f8c39ffc7f198d49b70ab29bc29a45ee2",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/spec-kit.md",
+      "sha256": "2a11b2dab00b10b5763183fb483d894d804686a85f01db4b989111a72b6fb93e",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/trazabilidad.md",
+      "sha256": "72a536f30190cf50cfc27ef868f0e213a2cb4c5844eab62d3db4770bbfa59eea",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/validacion-local.json",
+      "sha256": "4231c7957df1e65edf61640278b5e486a1bb5757fbb4a5515b69e8a8639a9e73",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/auditorias/validacion.md",
+      "sha256": "a6a7b180fab4dad74f4dffb3f73f6e3129d368099f475151a0d85441008edadc",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/consolidacion/conflictos.md",
+      "sha256": "57fe8185434f2e3fd87bf37e0f3143c4e7d04951e40188beb4b91e008dc59be0",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/consolidacion/decisiones.md",
+      "sha256": "514509903dc05f8fb75bee057909d61ac13ac04ef35c9abaaf10fb5e54d519c7",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/consolidacion/informe-final.md",
+      "sha256": "3611ee5bc9f90430473ff8892a5c2867be62d090098866dcf21ff6d6b1e9d7e8",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/consolidacion/matriz-reconciliacion.md",
+      "sha256": "0785287ae157dd52fada4c8cf6e79664fb10495f28a44fae7953e2acdbfdfd02",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/consolidacion/trazabilidad.md",
+      "sha256": "62e01676a8a2d757429ae7b5ac6bde015bbf3fff0b01ba411bf0f35c57b5c4fa",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion/estado-del-arte.md",
+      "sha256": "50b79932ff09c1c6adb756e0f5eb187659f5941aae5616656c819b68c3a0d4a9",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion/fuentes.md",
+      "sha256": "f7519c71e899e1790e7bbbbd7cd93c2b1e90c4b9ce75ce26459cc4de7bd05ba9",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion/matriz-evidencia.md",
+      "sha256": "8417f7914e0458bd9f655fdcbdd2f347208e9e96fe1eceba725a31267ef310e6",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/agentes.md",
+      "sha256": "10a7e1f0791a76f9f77cbc1d427013502fe8788abbf16ef57361a297a0c91ee2",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/archivos-entrega.txt",
+      "sha256": "9ca2319688bcd4caa09079fe19fa72d24343c0b51385c2831be7727d7534dc78",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/cafeteria/flujos.md",
+      "sha256": "db67789ec15a2cbc54195b139f521fea8bd67b9c393abb8833b56853b7f76f7c",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/cambios.json",
+      "sha256": "5d623f13598784b0051294742c40c38c41f651da17f49d57c1da966c40da5c0d",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/cambios.patch",
+      "sha256": "52a93ec2799c63626d530f1cf8ad7272f0643a4a006667a6fe9386355b36d617",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/constructora/cobertura.md",
+      "sha256": "8c3fe49b319757f0656d6618f62cdedd25f2ea9fa355b2e7064e53b9c084325b",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/constructora/flujos.md",
+      "sha256": "fdcfcf3c593326d3b9e31fd11c6b06eaa1a0ce5c240945b6740894fffe60a53e",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/constructora/revision-profunda.md",
+      "sha256": "74609175f41fe06c376c6843589269afc66e73a9093b952aa64cbfaf42fe6d41",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md",
+      "sha256": "d00ab0443673d55c6b1c90a2ce1e1c7e03932ee59a40012ac74743dbe8a9512e",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/archivos-entrega.txt",
+      "sha256": "452d8a21aa1f3c02192ffa5f78aeb50db9812ce6e88e8bd81e82a699ab173693",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/cambios.json",
+      "sha256": "fd84d356e507e186e6570db83344ee3009419644f95d7db8aef4dd6cd0f08816",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/cambios.patch",
+      "sha256": "eb4ae2cac9a35ab7f3e218961e9116d814781cf4881dc0bd80acd801a993dc6a",
+      "clase": "GENERATED",
+      "motivo": "Salida reproducible o evidencia histórica identificada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/evidencias-nuevas.json",
+      "sha256": "37d1d8d6e9ef647b25af3559ac15c183b53f066cd595dd4a40aa2d2e57a80731",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/informe.md",
+      "sha256": "af7fb7489e7d93cde12ede64d2aa26c963a46a98770f3de8b4efa2a34361fe6f",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/matriz-detallada.md",
+      "sha256": "c0f2994edf7ec76f6cceb8280f198c60f9d6e253e1600d7392d5afafb719191c",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/medicion-por-flujo.md",
+      "sha256": "43161801bd062b6e33eb1b3c5b87ce27223669340791bc9e25fd2f5e842b905f",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/perfiles-agentes.md",
+      "sha256": "77bd42b05f96ab3a5203c38e9f6bbb338c5889d15e0b2ba3ee8b3eb21a877f24",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/refinamientos.json",
+      "sha256": "967d7f8dc00dcaa3f0ec6b228fcbdf56e4eb3dc58240e18070b4e272a86369b2",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/trazabilidad.md",
+      "sha256": "5e29d2c0e54a44ba653dc581d2f1eab99d479e7f9f5a93fb83bb4c0ed43b54ac",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/validacion.json",
+      "sha256": "c0b281bff510960cb537194fdcc1e3e862119bc02fc88d873f24dd61338019e4",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/decisiones-pendientes.md",
+      "sha256": "43e7f63045030d678a7eb7f0fdba36666e870bbb399ebb545fece5a91d9f140a",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/evidencias.json",
+      "sha256": "2ec310e3a359de87d06e1bcb6c4b81d2dd8bb00a11269eef64023f0db2dcfdcf",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/historias-propuestas.md",
+      "sha256": "7e0e204bb98a4327ea36577460b9514475be52607e83ae5fc5b9c930fbddb5c0",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/historias.json",
+      "sha256": "248dbaf343a9c860321cfaffff1dbe8f01d40ff5e0f2effe78d7c9c8b8f04ef4",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/hotel/cobertura.md",
+      "sha256": "05f2dab22797e3c3e08bd22d0edcc0ddf94534fd79921f9bb5c03687249583f4",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/hotel/flujos.md",
+      "sha256": "9a85eecd6efefcdc03a243e27c0207dcfc0010fd34663a40cd6a3ecc40459700",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/hotel/revision-profunda.md",
+      "sha256": "ba3dddd661aef66b7f7f4ecb15b43354f5390589e48a8616bba4d21eb22d2789",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/informe-final.md",
+      "sha256": "4d846fa56081ea0ab7e4c06dbd9e4f595575390fed1fb03b411f47425227b43c",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/inmobiliaria/cobertura.md",
+      "sha256": "951b464fc18cb01fe96dc14531f05cf21be56c3963c704c8858e96e49d301c58",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/inmobiliaria/flujos.md",
+      "sha256": "3271ba72d24de1b2614c2ded1734ebdb6d1a7eee7cb55d8a9ebfeadc9de33f41",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/inmobiliaria/revision-profunda.md",
+      "sha256": "28bfe9315834656fea824a62a346e7043fa7472812e2b791ec96012df1d8f294",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/inventario-plataformas.md",
+      "sha256": "b887769bab31f6bab4fb7949ed711818af52e19e3b438ea97a2d98da0013c468",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/.specify/memory/constitution.md",
+      "sha256": "329d63d1cf8c4842b1abdc4f2becdac18fdfa55eef9c877702bf4437e11e1b97",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/.specify/memory/constitution.md",
+      "sha256": "329d63d1cf8c4842b1abdc4f2becdac18fdfa55eef9c877702bf4437e11e1b97",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/auditorias/catalogo-requisitos.json",
+      "sha256": "17558d101dc89b70c40776231a7057eed18b15a3523adfeec3b50244127b7073",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/evidencias.json",
+      "sha256": "b64fee8b95635a94c8f8a3957142de0871d4c03a53c8c2835e211df2059405e0",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/historias.json",
+      "sha256": "28eed836dc8bf963adf5c8758f09ff882a0c815edadf643650da2c77813d62e4",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/informe-final.md",
+      "sha256": "4b140d40d897b72a969c5b37554666837f631a73fded67d44e70ed406f6a3aad",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/manifest.json",
+      "sha256": "a2b989de98604c98d99e5d441d18c9e2f2fedbe6bb925bae2e75ce04817aa7b3",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/acceptance.md",
+      "sha256": "e8f0b579775d70d4cb2da9d89ee6e65fa99b9a862fc108f8f0a4236211affb72",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/checklists/requirements.md",
+      "sha256": "cee02e96d456ac42328792a545f9de10194a26f6c385c44b61d0119a5e2f6561",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/contracts/README.md",
+      "sha256": "bd7bda6cd760a4425f288694d1c58e8d9917caf3fc861857c1d9d353208e8b69",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/data-model.md",
+      "sha256": "3fde30171b6b5fa8472da8072ec7c790206639ac0b92e74330e777cee7f4c260",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/plan.md",
+      "sha256": "76f20e0270ee25612b8d4feafa001c232f54575e221ef50e9e92d70fbba4d0cc",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/quickstart.md",
+      "sha256": "17d0a72969900f6d767ac9b21e62805d41b5736759f2ec8787f37ce087c02638",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/research.md",
+      "sha256": "3c8fa5625d491bcb6d2550290d4142594342401aea5332ecb445cd8510f77dfb",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/spec.md",
+      "sha256": "374d0c4cc8244a3b986279f280c1b755b3dab4736507ac5b89fe5104591fa8a7",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/tasks.md",
+      "sha256": "a2fae0a5b54d40ab11ad6bbddcb52bdb62905ab62b299f7f43b454ccb2404a85",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/acceptance.md",
+      "sha256": "d83f1b63ad11113e4523923a39a679ee778a6b38185a7b1df450a968469c109a",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/checklists/requirements.md",
+      "sha256": "1c81b6cc63cf14a91a226ab2f3ac151a228b4a867cf049882dc967c114b9ea59",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/contracts/README.md",
+      "sha256": "8ab93a060a781bb999dd58fc6f1dee8cb06bd6cf5a0e5a7dd9de8fd05582155a",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/data-model.md",
+      "sha256": "979ba980921dc1ac90b7ec333e43536f52b49d6d5ede49a8289d20b4c6cab372",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/plan.md",
+      "sha256": "767a80d218424ad955e8f736e7befc50e20f1abb113d1ce71bd6350fed6a80cb",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/quickstart.md",
+      "sha256": "8f5891e61233d492e19c4969b49403c34ff3606857f998ca0f47976fedc04cab",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/research.md",
+      "sha256": "8904fe15a3265d8b06ba3310b2d34240f9d763afa301b88eebde88ad43aa15c1",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/spec.md",
+      "sha256": "9e161792fb81c7662468904a463bbb17b636e7209305c96615da92c803545064",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/tasks.md",
+      "sha256": "36b81a61179ee003d775e2d7faecfe62f0a8609019ffae5a6f90262cc3e07473",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/acceptance.md",
+      "sha256": "2ded8359d23fa7f26de8a4a9146e9fd0ea88df33205fd09ef40ade104d4af71f",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/checklists/requirements.md",
+      "sha256": "6ab4187f2e83881be9c2f260516ff3a0a2095d4bef3ed873fd71c0ad848ede30",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/contracts/README.md",
+      "sha256": "acb58a0d45d0885e36c608158114477e3490368b003185a2276b9d72ec3205ef",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/data-model.md",
+      "sha256": "9c9615f77da052e9b7bf64736fd9379b6953cf6cf4e92b02099666bb3d4ea33d",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/plan.md",
+      "sha256": "bc2d3dacf996959f604cd4941849b0b2f46d5bc4f19aa2adedbd727bff253995",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/quickstart.md",
+      "sha256": "c702d38439e5a2bf2c41db5b3a10eb1509820d1f93320ae5234cca75f793b263",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/research.md",
+      "sha256": "62b892f15450da4963ff5b0dcbb1cdc4dd952b2cd0153aaac71b9388fa5f9a06",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/spec.md",
+      "sha256": "7c100f91c4f6fdd209a8572cbceb8fb2635b129ef883131c3fabc15e5c2db4d9",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/tasks.md",
+      "sha256": "0c216cb63cd0975e7426f9c4877b7fdb16fc726ff8202c0fc8e780014dbe074a",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/acceptance.md",
+      "sha256": "577ae85ea3cb69ad8a4bdbc2b2e771c9c82da7c9c8aa71d3434a0d895da0b51e",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/checklists/requirements.md",
+      "sha256": "6ae848b41b0297f33b73c0507ab912af9b549d015c6f620fcfce4ca208bcd494",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/contracts/README.md",
+      "sha256": "fd2fd631b629cd5e8e2cf4aa7a58d48475de4cb1aa4fa7615cb264be38412a46",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/data-model.md",
+      "sha256": "11bd3a029b7c1bcc8879a17d3cb267d2ba7d63aa05762efb811a00f3bba0164b",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/plan.md",
+      "sha256": "135f2f7e4cd9524d51f3e2a6a520166e029ba29fa4061e580edfb3fecc1e538e",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/quickstart.md",
+      "sha256": "e8dc8b15a3ddc2c97d7b02ec505e9401c67ff86b9e9c9038321dcbeb39d903c0",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/research.md",
+      "sha256": "d5f9eb95e5261eb341f5659c18a77e2363ab529d0f05d6ffe113d3a24d9c1ba7",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/spec.md",
+      "sha256": "5c3cf421303dd08fe8f096fcebbdf2119637352089a1e82e8be43dfb026c225f",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/tasks.md",
+      "sha256": "dddd029ad05f76fb06d089b72c4e678074605cc4b20a867df3e2de97a2592306",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/acceptance.md",
+      "sha256": "e0f62d755eaf1accab17065b7c01cf0f3f3b28a17fe8ee9053b3dd0cd46482bc",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/checklists/requirements.md",
+      "sha256": "b8b465906c2887be711527b6b0835774cbad8f031bded2d6b87abde96ac492f6",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/contracts/README.md",
+      "sha256": "8671e64f56e7e0c9451218c1bbe55204230f14e816a0284f1ba9b9bbd734fc70",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/data-model.md",
+      "sha256": "6c54f7889e205d8b6c13a74ef582f3adb8a568af564678958c4c87daead07eaf",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/plan.md",
+      "sha256": "bc98d6d05da4c28d36be214ed0db9ab67e8e089d2a9279a672ed4e79eda9706f",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/quickstart.md",
+      "sha256": "c4f27440b19eb3eca09612925420a5d4cb520b2c8c0f7d82f95336a5771ef5a0",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/research.md",
+      "sha256": "8e36f81b71b8e1abdec9f26720dc8d92fea7bb30c2709ae0d51cbed955a97d75",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/spec.md",
+      "sha256": "a8c396fe038a074a9d66a9e6d6714fc238a0ed819242b271762dcf4dcc59c065",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/tasks.md",
+      "sha256": "66549e5b106825ae5e8ac62d4509ca2621d62baab65f4679fd25b95e59f59d5b",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/docs/arquitectura/dependencias.md",
+      "sha256": "aa04c777836d26d688c705063b82bf36d3439320ce2e8114b5c74b49cdc2e120",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/docs/auditorias/catalogo-requisitos.json",
+      "sha256": "96c3642f8a75412324d886cfec8c7562f1a2cfeab2d9090046af2f4292782941",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/docs/auditorias/trazabilidad.md",
+      "sha256": "385f2739e402552c58b291d5d5747e877c0ff774fe49207207e9f83184dea3b7",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/manifest.json",
+      "sha256": "4de2f7045559ad58926bb2c6dd31ec31f43d319d865e3739ab0d6f47a7913673",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/README.md",
+      "sha256": "68d1d8acae556e9f4eac3b0b0f9f6342f86453717ed3818e31a529cbfb03dfe7",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/scripts/validar_documentacion.py",
+      "sha256": "eec6a9db223d83f484f58c55f1e2872f46e19609fa364e50ea02048100254bd1",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/000-core/acceptance.md",
+      "sha256": "1be664ee76127e216e4b9529bfa6f3ab8253f63654e8eab91e004589b60916a2",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/000-core/checklists/requirements.md",
+      "sha256": "bb2eb1fe1a6bf6cd906999db23c24594d36d11b0b517e14ea9db58600ecb8da0",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/000-core/contracts/README.md",
+      "sha256": "d285a2e640af617db04a245f00bbc945026d66d20e9c2ec7ba95683422704ece",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/000-core/data-model.md",
+      "sha256": "4bdafefc477f61571f9f24c347daa7cd33cffe15f5ce0ec746ff746bbebac7bf",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/000-core/plan.md",
+      "sha256": "67514e8c27b93a1b501c403be6a09b6384b26dd41618ec2aa7552c9c47a97884",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/000-core/quickstart.md",
+      "sha256": "ebaf82df2c049fb2b42134f3c3a8a50888f42421626a0377de98a471ffc0cc67",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/000-core/research.md",
+      "sha256": "e11a2affd2a5368e41f900e44d98b27a3504d1180fa7eb3766b9194826e931e6",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/000-core/spec.md",
+      "sha256": "575945d28c21dc1c4b5916ff67cbb77f20571a9778bb5a2fcfba7d63a7529eba",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/000-core/tasks.md",
+      "sha256": "76509d97d9b803f3bb7a4831197bcc0bad136eeaee7d054dc44ed4bad9a009e7",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/acceptance.md",
+      "sha256": "09faab659cda47c3488240aab3dcd9cc485f3a77997a78ab8bbea1f046b0ff9f",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/checklists/requirements.md",
+      "sha256": "9d9db7ee68293184b1b392d653d598422d45512b115eb49e85960d0181418fcc",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/contracts/README.md",
+      "sha256": "12dc36a25f0635d032de440c471dea5b938d9e396e7918fee37a37d62ef74e13",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/data-model.md",
+      "sha256": "3c0df674ae0d2349174fceea99480d51967cabd904a3cebf5e28d656ee4dad98",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/plan.md",
+      "sha256": "a772d386ed1c08bb5b2246068a0a5f4bf70d9280ec8c9f75b93dabc04b80e573",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/quickstart.md",
+      "sha256": "cf1dfabc6ff8ca5267bed0a22ded720212dbcf0ffd56d7bc2395c66348e4d839",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/research.md",
+      "sha256": "5688463ea06a7ea25f8a1e8022dd5310c4d76ead1e8b882f678e6d6017cef045",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/spec.md",
+      "sha256": "a0ad0221be06793b6db26eb4d27a9906df9305a3beb9a07f9da6643f7f30d551",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/tasks.md",
+      "sha256": "bd0ca9f34d1411696af55f444e03cf6b9b20d403e4cf02263cdc6fa8ac8ca5fc",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/acceptance.md",
+      "sha256": "6b5437aa68b2f23f14243c53deb9542c8d544f3222de2a7a236d7d43293201a9",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/checklists/requirements.md",
+      "sha256": "2ea1ccd8a57f9abcc473f590cf7e8a1ac6bd7e3de787733144c0debb7f49ec54",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/contracts/README.md",
+      "sha256": "53cfa7ad17115398c834c08db5e11baac03a3f642267e161181a35239d7ce52c",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/data-model.md",
+      "sha256": "60ff68abcfaba3b379209356ac1d46476da7807507c4bfdac81ec26309e3536d",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/plan.md",
+      "sha256": "d044fdb3544bb1a7a14199f4e96bfaa120c31b255820df84db24803b887af42a",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/quickstart.md",
+      "sha256": "f49112bf191ddf33891915d9f38a228b9f4ed327e4c61d9cbc66f40891267bfa",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/research.md",
+      "sha256": "b345854595baed2835209dfe01c1d8eff52d0eb61c30ee627515ce29192b6faa",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/spec.md",
+      "sha256": "19482afd534e01eb88c2313d218a2eca923c3b5987cb4ec475c329091bcfb58d",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/tasks.md",
+      "sha256": "14f57c458d533d7ab00639118e1dc35ec1547fdb86cacef6fe1cef88ea91afaa",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/acceptance.md",
+      "sha256": "4567595b06040594b2c6452d8ef712b18991afc39842dfedfe07cc7b306c5c8d",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/checklists/requirements.md",
+      "sha256": "32e88e6b62afb582c6520398a23daea48beb7005a7f24cb09879f8be681b16e9",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/contracts/README.md",
+      "sha256": "c05bf08cf75efe7cbb6f459bb777c5a34d24431531e06d49be4ebaba5d1a4f63",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/data-model.md",
+      "sha256": "05fa42a58ed1c0acb298a2de65c3c409987f70abdac6999956ac275025375a0e",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/plan.md",
+      "sha256": "cb3cd1e5c9bb7cf2668ce1fd5c14ef58d4633f2583180376765f0fb1ab0bc448",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/quickstart.md",
+      "sha256": "529852980145c95279c3bf33c04960113fe638492498585f74f806a807d87330",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/research.md",
+      "sha256": "0643986497c903c2885f79b076b137c6fa54ee5fa59d40ede85b0f425b90b362",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/spec.md",
+      "sha256": "b56274768d76f23313ab9503be015cfafd00b51d5060acfad48d633572166064",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/tasks.md",
+      "sha256": "93dc193f07356b3ef6416b6565ec95dde290dcac15f3f016d7b80aeb3c2c5a87",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/acceptance.md",
+      "sha256": "54931d4da21095e4980ea2ffc738b1570d5777bfab681ca4b7b77870c85f8c6e",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/checklists/requirements.md",
+      "sha256": "fbcf4691b13af71e0f69adbeb283f35eb9eb15a8551dcdcfd9731794b4484dc3",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/contracts/README.md",
+      "sha256": "a99391995cb7d063d21810f3253a5ade79c29d8cf8ba3e52493d02bc9016a89f",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/data-model.md",
+      "sha256": "2c55a9a882a23c5e433ff654f33c712820abfd352d614f429cbeff3c42d5ed09",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/plan.md",
+      "sha256": "6e8545a7492a9c05f7fd4e355268c66fcd71d797cac2a873aa5307d830d43575",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/quickstart.md",
+      "sha256": "187abe8023aeeec165c0b00f90d01787ee87a1e5a0fddfb98a1d15ca03427087",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/research.md",
+      "sha256": "7da02c865f85e1b365b6892d15dc0d8138d2dd989662833e291237af010d9823",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/spec.md",
+      "sha256": "617ebacee12381c66764d852a137aea86d1761279286e645d12968cbbec2ce17",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/tasks.md",
+      "sha256": "2aa0f621c1045f6e49fa512fbbe5d6030fdc9c1333604347a0785ee6b602785f",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/matriz-comparativa.md",
+      "sha256": "3707776624101b8c8dfc3b0162f9220962770918f993228bb6dc286903f7d795",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/matriz-evidencias.md",
+      "sha256": "bd23167aa6c28170773cecbeb6f1785a7828acc381544a7c53b939e15b0f6ecf",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/metodologia.md",
+      "sha256": "b560911339f89a093109170ea3c692796bff5523310e79a679e5cfa7395aceb1",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/oportunidades.md",
+      "sha256": "5310d0c439e2cff01eec3b6687652414a796bcab5a07f76f16b0f9d250b8e690",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/priorizacion.json",
+      "sha256": "d2e3e954c02e14dd53e178f97ccf27e3c21a8579b5356dd21fd1017f8ed0b6cd",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/rea.md",
+      "sha256": "3f965303edcc58dd514e92f6f7a3f6a73db48d3ed609e2718d4bed8fb202ae55",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/registro-cambios.md",
+      "sha256": "d3536a791056344fb20d1a7d8ff9eda10b45c7193cf0d4703a63d5312a26ed77",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/trazabilidad.md",
+      "sha256": "699b501729488469e4e7411f798060f86691eac3bd9aa7ac81a5cb5416ba732f",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/urls-verificadas.md",
+      "sha256": "89eefdcf6140bb468530382ae3ed28c5ff83f0187bdd82cf397c93bc11543c2e",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/validacion.json",
+      "sha256": "bce6a625c5f99b4190f9d0b4b870fec8feb6800fe69cc73e27d2fcdaafe46af9",
+      "clase": "REFERENCE",
+      "motivo": "Contexto o artefacto preservado; autoridad según README"
+    },
+    {
+      "ruta": "plataforma-salman/docs/originales/Estado del arte IA agéntica en hotel, inmobiliaria y cafetería (oct 2026) (1).docx",
+      "sha256": "ddf8d0b1d42a28fc9a9c76d8f05f1a23865929f6256bd52ebb66a30fe1420b50",
+      "clase": "REFERENCE",
+      "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/originales/estado-del-arte-extraido.md",
+      "sha256": "1868d7b714eae307257a532490ee224aee9d1f63abb061716b1eaf87be250ac5",
+      "clase": "REFERENCE",
+      "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/originales/Spec SDD 01 Cafetería (mesas, POS inteligente y control de gastos) (1).md",
+      "sha256": "0a35bad5077c2e2148c038a93e52e99d23fa10b8320adf0ec601c7502331396f",
+      "clase": "REFERENCE",
+      "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/originales/Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md",
+      "sha256": "0e698456a0551f33ecdc7da86bea6eef2c9a8fc4f0ea7dce9cbc6c4e57ffbcc2",
+      "clase": "REFERENCE",
+      "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
+    },
+    {
+      "ruta": "plataforma-salman/docs/originales/Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md",
+      "sha256": "ed4f54e4102a91c8855ab9da2339e03cfa36782c379801d4c0c03a11785dfaef",
+      "clase": "REFERENCE",
+      "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
+    },
+    {
+      "ruta": "plataforma-salman/README.md",
+      "sha256": "727f6efec9eafce82a33c2118cae30f01968079d2cbae2cc86200dc943e5ff79",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/scripts/auditar_consolidacion.py",
+      "sha256": "5269cc08643437978d29fe55b35bc28f0365c09e2528c9fdea6b8a06f3041bfd",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/scripts/ejecutar_pruebas_postgresql.py",
+      "sha256": "f59070ea163ca157bdab82810ecd9b0145c355bda9b113bbf39ff8261c42deeb",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/scripts/generar_y_validar_arquitectura.py",
+      "sha256": "9ce68fd97a3e0201dd8ddbd94c3383a337e6f9c486a2da027f5579cb20759047",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/scripts/validar_arquitectura_visual_ejecutable.py",
+      "sha256": "872d298ceab8a05f9eeb23299210ec7b697782f876cd55f539fabfa2b19afe0a",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/scripts/validar_continuacion.py",
+      "sha256": "f169edbacd0815447228e6fdc9c826a421d151a104ab7b6a8d6505445042b1bd",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/scripts/validar_documentacion.py",
+      "sha256": "f427e69a15f58e4d44d9b9406124a9612c3787b84b9d8992a3c5a401bf64da99",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/scripts/validar_investigacion.py",
+      "sha256": "43be8a8bf920f68fce48abea904d662a4290c4b97e402719acc15d409276a860",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/scripts/validar_modelo_datos.py",
+      "sha256": "563235039ff46aabc62dbb445f1ea7c1268157caec9c0cee78bf63e1529005f6",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/scripts/validar_todo.py",
+      "sha256": "165dcde185c2c640eb7c4b14215110efbe0d5c4ae89fd0fd03e47ca1de93c2b5",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/000-core/acceptance.md",
+      "sha256": "4c8a73d0dcbf00a7af0223b1e29582f4387e5f2084764631161331429ece09c3",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/000-core/checklists/requirements.md",
+      "sha256": "22926525993eccf0300aacadc1994cbdaac3bc1e8914d7fb22cbe9e937a04bbe",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/000-core/contracts/README.md",
+      "sha256": "9fec47076e6ddde299cdf7294e98cea4047754557b65938adeea648ad8139c92",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/000-core/data-model.md",
+      "sha256": "75acb4a5d1ab08f3401804a2aaec2825c8420c008061086e18787b2f7ef0bd20",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/000-core/plan.md",
+      "sha256": "12e71ee14f7760b6060f7dd0b6d28a5c33b946dfaac063bee522dec9c0a52b90",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/000-core/quickstart.md",
+      "sha256": "c55a6aabbb579f37f89c53ecc09d0dbd8242911084fd93469a7530978cffb02c",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/000-core/research.md",
+      "sha256": "a09fea20287fbc02ff25292d0e9716735cd67bde7079f2ba920e20f412419df9",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/000-core/spec.md",
+      "sha256": "bcee8b7d6f8dbc450b4b3fc3de4a9aef1b031316287b3b58b31d3e637232a572",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/000-core/tasks.md",
+      "sha256": "cd54739a792e8a71833faac2a5ef0145868cd79794872c4e497a69ac95036f4f",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/001-cafeteria-mesas-pos/acceptance.md",
+      "sha256": "d83f1b63ad11113e4523923a39a679ee778a6b38185a7b1df450a968469c109a",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/001-cafeteria-mesas-pos/checklists/requirements.md",
+      "sha256": "1c81b6cc63cf14a91a226ab2f3ac151a228b4a867cf049882dc967c114b9ea59",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/001-cafeteria-mesas-pos/contracts/README.md",
+      "sha256": "8ab93a060a781bb999dd58fc6f1dee8cb06bd6cf5a0e5a7dd9de8fd05582155a",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/001-cafeteria-mesas-pos/data-model.md",
+      "sha256": "979ba980921dc1ac90b7ec333e43536f52b49d6d5ede49a8289d20b4c6cab372",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/001-cafeteria-mesas-pos/plan.md",
+      "sha256": "767a80d218424ad955e8f736e7befc50e20f1abb113d1ce71bd6350fed6a80cb",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/001-cafeteria-mesas-pos/quickstart.md",
+      "sha256": "8f5891e61233d492e19c4969b49403c34ff3606857f998ca0f47976fedc04cab",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/001-cafeteria-mesas-pos/research.md",
+      "sha256": "8904fe15a3265d8b06ba3310b2d34240f9d763afa301b88eebde88ad43aa15c1",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/001-cafeteria-mesas-pos/spec.md",
+      "sha256": "9e161792fb81c7662468904a463bbb17b636e7209305c96615da92c803545064",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/001-cafeteria-mesas-pos/tasks.md",
+      "sha256": "36b81a61179ee003d775e2d7faecfe62f0a8609019ffae5a6f90262cc3e07473",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/002-hotel-reservas-concierge/acceptance.md",
+      "sha256": "417a5a44ff3c3bdd6e5545329227aa947de64b748a0db08314f4dcdec1167aa1",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/002-hotel-reservas-concierge/checklists/requirements.md",
+      "sha256": "d2ae0a97d61f14e83858c2637e0fdcb7dcb316921391887603db24d3bc297973",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/002-hotel-reservas-concierge/contracts/README.md",
+      "sha256": "92b27813d4bc935b1ed7704c06737c7286f683c74d64d0d0edba814669760c58",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/002-hotel-reservas-concierge/data-model.md",
+      "sha256": "fe92f9bd00481ba94eb32ab4e2f1dd20e3fb5aad1c3c655c55c5401bf361489a",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/002-hotel-reservas-concierge/plan.md",
+      "sha256": "97826bc2e0aca526ae1265cb4cf1d571af68d7d8aa20bbad1f9f0bdc35a7214e",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/002-hotel-reservas-concierge/quickstart.md",
+      "sha256": "d20df9c6a26d2a9d8046878846c5f01fbb30dfcdc88480e19a639c4142cd79ad",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/002-hotel-reservas-concierge/research.md",
+      "sha256": "60cc8856ce07cd6a09df4fc2e34062880c9fb135ebd9cef9e31871fcf2465881",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/002-hotel-reservas-concierge/spec.md",
+      "sha256": "b31b6ece93fce8b28d55a79c2e4bf52c007f66be393b11682bd43c96f8c55a7c",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/002-hotel-reservas-concierge/tasks.md",
+      "sha256": "95db7ed5f4a2e3fb0310d74216d801800b78a5663b501f5d0d7e5f6dd648a366",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/003-inmobiliaria-comercial/acceptance.md",
+      "sha256": "74fa8cc79632c40d6d7abde8fa6674ffc3576e2086f9776c369e2fc40ceb37be",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/003-inmobiliaria-comercial/checklists/requirements.md",
+      "sha256": "5fedb02a82de1daac3be78c1df1d1f97551d813b3cb2adfb49e97eb21c8f6acd",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/003-inmobiliaria-comercial/contracts/README.md",
+      "sha256": "eeda782cbe305835d9a823f71451a74b8395d45a1fa5830147ae3ef6bd6b0886",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/003-inmobiliaria-comercial/data-model.md",
+      "sha256": "4be866b692076f601d0a15a211969f425c4201849100d6a3d8813069b449c22d",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/003-inmobiliaria-comercial/plan.md",
+      "sha256": "00bea11e8aa909e42cb125709885081ce729ff0dbfc16a904ac0e63b2f689138",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/003-inmobiliaria-comercial/quickstart.md",
+      "sha256": "89b81df998b90cc9745b92f070e96fd961a014f42cdb2af7d22383fbd0136535",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/003-inmobiliaria-comercial/research.md",
+      "sha256": "2295c17a1efd83a003ae12b2066d6ca6f5f198758b4c5c9fc893c8a9f10cb0d1",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/003-inmobiliaria-comercial/spec.md",
+      "sha256": "eadddaf092054a4363d4958b7675c9b6346d63b6e3faeafaa27c589a21ed6fec",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/003-inmobiliaria-comercial/tasks.md",
+      "sha256": "195f5c5c60cf541f042b0deda19c14461a30eae7b13fadab9189381fb7974f94",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/004-constructora-obra/acceptance.md",
+      "sha256": "a57d1847166a9b6e97bf42c388a8c3dd0787bc8739a466e3586c6f610470c7e9",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/004-constructora-obra/checklists/requirements.md",
+      "sha256": "d772f93f190ea820c68883861e91d22621d73060b60f1f09ed17384218513b11",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/004-constructora-obra/contracts/README.md",
+      "sha256": "8d481c29b678d9b02d56b560534535d8a44b836541e2f8010b54ac718322d296",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/004-constructora-obra/data-model.md",
+      "sha256": "431efd14b7cd40ad50b9aa6ff8bb9fe7c6b94ad90907c397ac8d2cb40a4f6ebd",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/004-constructora-obra/plan.md",
+      "sha256": "0b523dec29bf108760f01714de0c508746cbaea091ebe4614bdf7f0e5aee9b3d",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/004-constructora-obra/quickstart.md",
+      "sha256": "6ad36fa48d53a82b7532fe68fcffb4953c94b6d4dcc8973f0e85f1bc197a0125",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/004-constructora-obra/research.md",
+      "sha256": "44c1ec56671a30f0d72e7d95b866bb71fe11ecec697ad3519a6b9545ae7bf2de",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/004-constructora-obra/spec.md",
+      "sha256": "e8fb14233b99fb7fd9bcf58dcedd26834a1058fcf0456dcd4cd365dc537eb90a",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/specs/004-constructora-obra/tasks.md",
+      "sha256": "ff6a4fe69ad3c3bb2d685d11feb383b8376754ee9f7367f22954eefa261484af",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/verticales/cafeteria/README.md",
+      "sha256": "ce6ffa33050a90bd986cdf648bf5ca238510b17d462603a885253dea39d0f3ef",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/verticales/constructora/README.md",
+      "sha256": "4034cf10e53c968c0afdd3a06918edcccf8ff1b25e6f585f6dea5e8877830b44",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/verticales/hotel/README.md",
+      "sha256": "1f600c971b7a73021525a99c368b5dbcb71f4051ec778d7bd39df49652d1a45c",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/verticales/inmobiliaria/README.md",
+      "sha256": "d99cbc31dafaa8daa2824ee47ce989ed7001898c024ef30d619f2b706229ff23",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "README.md",
+      "sha256": "91ac719d214454dee4b792c0e7f6a6f709dca103fc11fbbd28098e3796cce0b6",
+      "clase": "REFERENCE",
+      "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
+    }
+  ],
+  "duplicados_exactos": [
+    {
+      "sha256": "329d63d1cf8c4842b1abdc4f2becdac18fdfa55eef9c877702bf4437e11e1b97",
+      "rutas": [
+        "plataforma-salman/.specify/memory/constitution.md",
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/.specify/memory/constitution.md",
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/.specify/memory/constitution.md"
+      ]
+    },
+    {
+      "sha256": "240919c96f0dc63ac34f79e5bdfd540d0ed7f4eefd2971b1d5f81432970cddd6",
+      "rutas": [
+        "plataforma-salman/docs/arquitectura/cafeteria/esquema-propuesto.sql",
+        "plataforma-salman/docs/arquitectura/pruebas/sql/02_cafeteria.sql"
+      ]
+    },
+    {
+      "sha256": "a4acb12b0f73015dd8754b6611dc290fd92ac664c4de66eeb9da510775b6ee2b",
+      "rutas": [
+        "plataforma-salman/docs/arquitectura/constructora/esquema-propuesto.sql",
+        "plataforma-salman/docs/arquitectura/pruebas/sql/05_constructora.sql"
+      ]
+    },
+    {
+      "sha256": "7e4348d40c085ce2c07da102d55596f2227cb3459ad94e75bcf4106bf9839f98",
+      "rutas": [
+        "plataforma-salman/docs/arquitectura/core/esquema-propuesto.sql",
+        "plataforma-salman/docs/arquitectura/pruebas/sql/01_core.sql"
+      ]
+    },
+    {
+      "sha256": "565adf0984ab467edc9bc972cda79c4998862845b7426332606051f3e3f08e32",
+      "rutas": [
+        "plataforma-salman/docs/arquitectura/hotel/esquema-propuesto.sql",
+        "plataforma-salman/docs/arquitectura/pruebas/sql/03_hotel.sql"
+      ]
+    },
+    {
+      "sha256": "3ac83cd0fe7346610827668644e4e7ea450bb80dec42a21a0343fb0f60d495b0",
+      "rutas": [
+        "plataforma-salman/docs/arquitectura/inmobiliaria/esquema-propuesto.sql",
+        "plataforma-salman/docs/arquitectura/pruebas/sql/04_inmobiliaria.sql"
+      ]
+    },
+    {
+      "sha256": "d83f1b63ad11113e4523923a39a679ee778a6b38185a7b1df450a968469c109a",
+      "rutas": [
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/acceptance.md",
+        "plataforma-salman/specs/001-cafeteria-mesas-pos/acceptance.md"
+      ]
+    },
+    {
+      "sha256": "1c81b6cc63cf14a91a226ab2f3ac151a228b4a867cf049882dc967c114b9ea59",
+      "rutas": [
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/checklists/requirements.md",
+        "plataforma-salman/specs/001-cafeteria-mesas-pos/checklists/requirements.md"
+      ]
+    },
+    {
+      "sha256": "8ab93a060a781bb999dd58fc6f1dee8cb06bd6cf5a0e5a7dd9de8fd05582155a",
+      "rutas": [
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/contracts/README.md",
+        "plataforma-salman/specs/001-cafeteria-mesas-pos/contracts/README.md"
+      ]
+    },
+    {
+      "sha256": "979ba980921dc1ac90b7ec333e43536f52b49d6d5ede49a8289d20b4c6cab372",
+      "rutas": [
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/data-model.md",
+        "plataforma-salman/specs/001-cafeteria-mesas-pos/data-model.md"
+      ]
+    },
+    {
+      "sha256": "767a80d218424ad955e8f736e7befc50e20f1abb113d1ce71bd6350fed6a80cb",
+      "rutas": [
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/plan.md",
+        "plataforma-salman/specs/001-cafeteria-mesas-pos/plan.md"
+      ]
+    },
+    {
+      "sha256": "8f5891e61233d492e19c4969b49403c34ff3606857f998ca0f47976fedc04cab",
+      "rutas": [
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/quickstart.md",
+        "plataforma-salman/specs/001-cafeteria-mesas-pos/quickstart.md"
+      ]
+    },
+    {
+      "sha256": "8904fe15a3265d8b06ba3310b2d34240f9d763afa301b88eebde88ad43aa15c1",
+      "rutas": [
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/research.md",
+        "plataforma-salman/specs/001-cafeteria-mesas-pos/research.md"
+      ]
+    },
+    {
+      "sha256": "9e161792fb81c7662468904a463bbb17b636e7209305c96615da92c803545064",
+      "rutas": [
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/spec.md",
+        "plataforma-salman/specs/001-cafeteria-mesas-pos/spec.md"
+      ]
+    },
+    {
+      "sha256": "36b81a61179ee003d775e2d7faecfe62f0a8609019ffae5a6f90262cc3e07473",
+      "rutas": [
+        "plataforma-salman/docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/tasks.md",
+        "plataforma-salman/specs/001-cafeteria-mesas-pos/tasks.md"
+      ]
+    }
+  ]
+}

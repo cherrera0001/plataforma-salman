@@ -67,6 +67,7 @@ plataforma-salman/
   docs/arquitectura/pruebas/concurrencia/test_concurrency_locks.sql
   docs/arquitectura/pruebas/integridad/test_constraints_fks.sql
   docs/arquitectura/pruebas/resultados/ejecucion_postgresql.log
+  docs/arquitectura/pruebas/resultados/validacion_arquitectura.json
   docs/arquitectura/pruebas/sql/00_init_roles_schemas.sql
   docs/arquitectura/pruebas/sql/01_core.sql
   docs/arquitectura/pruebas/sql/02_cafeteria.sql
@@ -82,6 +83,11 @@ plataforma-salman/
   docs/arquitectura/trazabilidad-modelos.md
   docs/arquitectura/validacion-global.md
   docs/arquitectura/vision-general.md
+  docs/auditoria/consolidacion-final.md
+  docs/auditoria/equivalencias-eliminados.json
+  docs/auditoria/inventario-consolidacion.json
+  docs/auditoria/seguridad-consolidacion.json
+  docs/auditoria/validacion-consolidada.json
   docs/auditorias/afirmaciones.md
   docs/auditorias/arbol.txt
   docs/auditorias/auditoria-caf.md
@@ -258,12 +264,15 @@ plataforma-salman/
   docs/originales/Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md
   docs/originales/Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md
   docs/originales/estado-del-arte-extraido.md
+  scripts/auditar_consolidacion.py
   scripts/ejecutar_pruebas_postgresql.py
   scripts/generar_y_validar_arquitectura.py
+  scripts/validar_arquitectura_visual_ejecutable.py
   scripts/validar_continuacion.py
   scripts/validar_documentacion.py
   scripts/validar_investigacion.py
   scripts/validar_modelo_datos.py
+  scripts/validar_todo.py
   specs/000-core/acceptance.md
   specs/000-core/checklists/requirements.md
   specs/000-core/contracts/README.md

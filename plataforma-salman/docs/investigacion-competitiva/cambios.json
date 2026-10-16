@@ -2,7 +2,7 @@
   {
     "ruta": "README.md",
     "sha256_antes": "68d1d8acae556e9f4eac3b0b0f9f6342f86453717ed3818e31a529cbfb03dfe7",
-    "sha256_despues": "17807c18dc947b9bd22380676713cf495b52c58a98949050b95b91f7e38313b0",
+    "sha256_despues": "727f6efec9eafce82a33c2118cae30f01968079d2cbae2cc86200dc943e5ff79",
     "estado_anterior": "línea base conservada",
     "estado_nuevo": "enriquecido documentalmente; BLOCKED para implementación",
     "justificacion": "comportamientos de negocio y controles derivados de evidencia; trazabilidad por historia en trazabilidad.md",
@@ -38,7 +38,7 @@
   {
     "ruta": "scripts/validar_documentacion.py",
     "sha256_antes": "eec6a9db223d83f484f58c55f1e2872f46e19609fa364e50ea02048100254bd1",
-    "sha256_despues": "ea04b6a9253ed5673df8ad09deb283572f238a2dd8b038445395b8d312418a70",
+    "sha256_despues": "f427e69a15f58e4d44d9b9406124a9612c3787b84b9d8992a3c5a401bf64da99",
     "estado_anterior": "línea base conservada",
     "estado_nuevo": "enriquecido documentalmente; BLOCKED para implementación",
     "justificacion": "comportamientos de negocio y controles derivados de evidencia; trazabilidad por historia en trazabilidad.md",

@@ -1,0 +1,34 @@
+[
+  {
+    "anterior": "Estado del arte IA agéntica en hotel, inmobiliaria y cafetería (oct 2026) (1).docx",
+    "sha256": "ddf8d0b1d42a28fc9a9c76d8f05f1a23865929f6256bd52ebb66a30fe1420b50",
+    "destino": "plataforma-salman/docs/originales/Estado del arte IA agéntica en hotel, inmobiliaria y cafetería (oct 2026) (1).docx",
+    "clase": "DUPLICATE",
+    "justificacion": "Copia binaria identica; contenido completo preservado en destino y Git.",
+    "recuperacion": "707b586160560709f3883b01bd3bdfc10a599467:Estado del arte IA agéntica en hotel, inmobiliaria y cafetería (oct 2026) (1).docx"
+  },
+  {
+    "anterior": "Spec SDD 01 Cafetería (mesas, POS inteligente y control de gastos) (1).md",
+    "sha256": "0a35bad5077c2e2148c038a93e52e99d23fa10b8320adf0ec601c7502331396f",
+    "destino": "plataforma-salman/docs/originales/Spec SDD 01 Cafetería (mesas, POS inteligente y control de gastos) (1).md",
+    "clase": "DUPLICATE",
+    "justificacion": "Copia binaria identica; contenido completo preservado en destino y Git.",
+    "recuperacion": "707b586160560709f3883b01bd3bdfc10a599467:Spec SDD 01 Cafetería (mesas, POS inteligente y control de gastos) (1).md"
+  },
+  {
+    "anterior": "Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md",
+    "sha256": "0e698456a0551f33ecdc7da86bea6eef2c9a8fc4f0ea7dce9cbc6c4e57ffbcc2",
+    "destino": "plataforma-salman/docs/originales/Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md",
+    "clase": "DUPLICATE",
+    "justificacion": "Copia binaria identica; contenido completo preservado en destino y Git.",
+    "recuperacion": "707b586160560709f3883b01bd3bdfc10a599467:Spec SDD 02 Hotel (reservas, operación y concierge agéntico) (1).md"
+  },
+  {
+    "anterior": "Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md",
+    "sha256": "ed4f54e4102a91c8855ab9da2339e03cfa36782c379801d4c0c03a11785dfaef",
+    "destino": "plataforma-salman/docs/originales/Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md",
+    "clase": "DUPLICATE",
+    "justificacion": "Copia binaria identica; contenido completo preservado en destino y Git.",
+    "recuperacion": "707b586160560709f3883b01bd3bdfc10a599467:Spec SDD 03 Inmobiliaria y constructora (plataforma comercial y control de obra) (1).md"
+  }
+]

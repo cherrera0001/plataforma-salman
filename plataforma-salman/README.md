@@ -1,5 +1,20 @@
 # plataforma-salman
 
+## Estado vigente de consolidación
+
+Consultar el [informe vigente](docs/auditoria/consolidacion-final.md), la
+[matriz de originales preservados](docs/auditoria/equivalencias-eliminados.json)
+y el [inventario clasificado](docs/auditoria/inventario-consolidacion.json).
+La raíz Git está en la carpeta padre. Las fuentes primarias se conservan únicamente
+en `docs/originales/`; sus copias idénticas de la carpeta padre se eliminaron tras
+verificar hashes y recuperabilidad. Catálogo activo: **77 FR y 31 SC**.
+
+Desde esta carpeta ejecutar `python scripts/validar_todo.py` para las cinco suites
+y `python scripts/auditar_consolidacion.py` para inventario y examen de secretos.
+PostgreSQL y revisión visual actuales quedan sin ejecutar. Los apartados históricos
+siguientes documentan fases previas; el informe vigente prevalece sobre estados
+anteriores de Git y preservación de copias.
+
 Base documental de ingeniería construida a partir de cuatro fuentes del 15-10-2026. Auditoría: 16-10-2026. **Sin implementación funcional**. Cinco features **BLOCKED para iniciar desarrollo**; no se presenta documentación incompleta como producto listo.
 
 | Feature | Estado | Decisión principal pendiente |

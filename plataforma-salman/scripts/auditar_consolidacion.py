@@ -60,10 +60,20 @@ def main():
         records.append({'ruta': rel.as_posix(), 'sha256': hashlib.sha256(data).hexdigest(), 'clase': kind, 'motivo': reason})
     objects = git('rev-list', '--objects', '--all').decode().splitlines()
     blobs = 0
-    for entry in objects:
-        oid = entry.split(' ', 1)[0]
-        if git('cat-file', '-t', oid).strip() == b'blob':
-            scan(git('cat-file', 'blob', oid), 'git:' + oid)
+    object_ids = [entry.split(' ', 1)[0] for entry in objects]
+    batch = subprocess.run(GIT + ['cat-file', '--batch'], cwd=REPO,
+                           input=('\n'.join(object_ids) + '\n').encode(),
+                           stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True).stdout
+    cursor = 0
+    for oid in object_ids:
+        end = batch.index(b'\n', cursor)
+        header = batch[cursor:end].split()
+        size = int(header[2])
+        cursor = end + 1
+        data = batch[cursor:cursor + size]
+        cursor += size + 1
+        if header[1] == b'blob':
+            scan(data, 'git:' + oid)
             blobs += 1
     tracked = git('ls-files', '-z').decode().split('\0')
     sensitive = [p for p in tracked if p and (Path(p).name == '.env' or Path(p).name.startswith('.env.') and Path(p).name != '.env.example')]

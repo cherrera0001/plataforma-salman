@@ -11,5 +11,7 @@ Material para la sesión de decisión de 90 minutos con la dirección del holdin
 | `02-presentacion.md` | Dirección del holding | La sesión (12 láminas) |
 | `03-cuestionario-previo.md` | Representante operativo de cada negocio | Responder antes de la sesión |
 | `04-acta-decision.md` | Facilitador de la sesión | Durante la sesión; se firma al cierre |
+| `05-documento-integrador.docx` | Dirección del holding | Versión Word de un solo archivo (imágenes + explicaciones) |
+| `diagramas/` | Generación | Fuentes Mermaid (`.mmd`) y PNG de cada diagrama; regenerables con `scripts/generar_documento_integrador.py` |
 
 **Estado de ratificación:** este paquete es material de apoyo elaborado por el comité de revisión independiente. No constituye ratificación de la constitución ni de los ADRs; esas decisiones corresponden al acta (`04`).

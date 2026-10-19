@@ -1,0 +1,12 @@
+sequenceDiagram
+    participant Ag as Agente (IA)
+    participant Op as Persona a cargo
+    participant Sis as Sistemas del negocio
+    Note over Ag,Sis: Caso 1: tarea sin dinero (responder reseña, agendar)
+    Ag->>Sis: ejecuta directamente
+    Note over Ag,Sis: Caso 2: gastar dinero (comprar insumos)
+    Ag->>Op: propuesta con monto y proveedor
+    Op-->>Ag: aprueba desde el celular
+    Ag->>Sis: ejecuta la compra
+    Note over Ag,Sis: Caso 3: boleta o factura (obligación con el SII)
+    Ag->>Sis: nunca decide: sistema de reglas fijo

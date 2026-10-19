@@ -1,0 +1,9 @@
+flowchart TD
+    E{"¿Se firman las decisiones<br/>en los próximos 90 días?"}
+    E -- "No" --> R1["PESIMISTA (~40%):<br/>se sigue documentando; Toteat/Fudo ganan;<br/>el grupo compra software suelto"]
+    E -- "Sí" --> F{"¿La primera vertical<br/>demuestra valor en 6 meses?"}
+    F -- "No" --> R2["BASE (~45%):<br/>un producto en 1-2 locales;<br/>resto congelado; decisión informada"]
+    F -- "Sí" --> R3["OPTIMISTA (~15%):<br/>2 verticales + farmacia<br/>+ primer grupo externo"]
+    style R1 fill:#ffe0e0
+    style R2 fill:#fff3d0
+    style R3 fill:#d0f0d0

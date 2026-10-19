@@ -1,0 +1,14 @@
+flowchart TD
+    subgraph OpcionA["Diseño actual (propuesto)"]
+        A["Cliente del hotel"] --> A1["Silo hotel"]
+        A2["Cliente de la cafetería"] --> A2b["Silo cafetería"]
+        A1 -. "jamás se cruzan" .- A2b
+    end
+    subgraph OpcionB["Lo que propone el comité"]
+        B["Persona"] --> B1["Hotel"]
+        B --> B2["Cafetería"]
+        B --> B3["Inmobiliaria"]
+        C["Consentimiento del cliente<br/>apagado por defecto"] -. "activa" .- B
+    end
+    style OpcionA fill:#ffe0e0
+    style OpcionB fill:#d0f0d0

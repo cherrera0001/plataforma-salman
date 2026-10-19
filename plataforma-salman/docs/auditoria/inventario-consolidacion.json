@@ -12,6 +12,12 @@
       "motivo": "Contexto o artefacto preservado; autoridad según README"
     },
     {
+      "ruta": "README.md",
+      "sha256": "91ac719d214454dee4b792c0e7f6a6f709dca103fc11fbbd28098e3796cce0b6",
+      "clase": "REFERENCE",
+      "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
+    },
+    {
       "ruta": "investigacion-herramientas/README.md",
       "sha256": "96825bc192b07b3c4c0a68375adf0ee50e1add40fa9269e7a032e12e28ce2b8b",
       "clase": "CANONICAL",
@@ -30,8 +36,20 @@
       "motivo": "Contexto o artefacto preservado; autoridad según README"
     },
     {
+      "ruta": "plataforma-salman/README.md",
+      "sha256": "727f6efec9eafce82a33c2118cae30f01968079d2cbae2cc86200dc943e5ff79",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
       "ruta": "plataforma-salman/core/README.md",
       "sha256": "e84f40c6d76a8df5ca2f9e0b18cce164524f317989baa71b8e8b64cbed4bc5c0",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/docs/arquitectura/README.md",
+      "sha256": "8462d96cd1395012a6b1b579f6c2029122bd4cf50da29b4b521b51f28220b490",
       "clase": "CANONICAL",
       "motivo": "Especificación activa, configuración o verificador"
     },
@@ -415,7 +433,7 @@
     },
     {
       "ruta": "plataforma-salman/docs/arquitectura/pruebas/resultados/validacion_arquitectura.json",
-      "sha256": "d3c58f5c6b6a991401845e93374452c8996104290024fb5f03d9526bfbf72e00",
+      "sha256": "9a63c2c5161c5fbbad091f4f9653efc8cee7df483537036f653863be5812b44c",
       "clase": "GENERATED",
       "motivo": "Salida reproducible o evidencia histórica identificada"
     },
@@ -454,12 +472,6 @@
       "sha256": "a4acb12b0f73015dd8754b6611dc290fd92ac664c4de66eeb9da510775b6ee2b",
       "clase": "GENERATED",
       "motivo": "Salida reproducible o evidencia histórica identificada"
-    },
-    {
-      "ruta": "plataforma-salman/docs/arquitectura/README.md",
-      "sha256": "8462d96cd1395012a6b1b579f6c2029122bd4cf50da29b4b521b51f28220b490",
-      "clase": "CANONICAL",
-      "motivo": "Especificación activa, configuración o verificador"
     },
     {
       "ruta": "plataforma-salman/docs/arquitectura/seguridad.md",
@@ -551,7 +563,7 @@
     },
     {
       "ruta": "plataforma-salman/docs/auditorias/arbol.txt",
-      "sha256": "84bf8d150fb4d8e63814bef0431cecdc4757903f8b4c3e7988223654d3216050",
+      "sha256": "3d374c96d872355022aa84b2bf7af7b3a868deb2868ee287dbd611112721acac",
       "clase": "GENERATED",
       "motivo": "Salida reproducible o evidencia histórica identificada"
     },
@@ -641,7 +653,7 @@
     },
     {
       "ruta": "plataforma-salman/docs/auditorias/validacion-local.json",
-      "sha256": "4231c7957df1e65edf61640278b5e486a1bb5757fbb4a5515b69e8a8639a9e73",
+      "sha256": "33e4489bd14fba022af3fafc6a7f18ae8257d94a43d74c4d4cffae9821aa3c6a",
       "clase": "GENERATED",
       "motivo": "Salida reproducible o evidencia histórica identificada"
     },
@@ -725,7 +737,7 @@
     },
     {
       "ruta": "plataforma-salman/docs/investigacion-competitiva/cambios.patch",
-      "sha256": "52a93ec2799c63626d530f1cf8ad7272f0643a4a006667a6fe9386355b36d617",
+      "sha256": "c45b6b98abdb7f49ba5bbb1ea5f512dea60ad067aeb888c73ce2edcff6c666f7",
       "clase": "GENERATED",
       "motivo": "Salida reproducible o evidencia histórica identificada"
     },
@@ -767,7 +779,7 @@
     },
     {
       "ruta": "plataforma-salman/docs/investigacion-competitiva/continuacion-01/cambios.patch",
-      "sha256": "eb4ae2cac9a35ab7f3e218961e9116d814781cf4881dc0bd80acd801a993dc6a",
+      "sha256": "93ff4fb2b312eb380c26268d38d50800d0b69da5b2f5032186e8d61445908ce2",
       "clase": "GENERATED",
       "motivo": "Salida reproducible o evidencia histórica identificada"
     },
@@ -894,6 +906,12 @@
     {
       "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/.specify/memory/constitution.md",
       "sha256": "329d63d1cf8c4842b1abdc4f2becdac18fdfa55eef9c877702bf4437e11e1b97",
+      "clase": "ARCHIVE",
+      "motivo": "Baseline inmutable requerida por validadores"
+    },
+    {
+      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/README.md",
+      "sha256": "68d1d8acae556e9f4eac3b0b0f9f6342f86453717ed3818e31a529cbfb03dfe7",
       "clase": "ARCHIVE",
       "motivo": "Baseline inmutable requerida por validadores"
     },
@@ -1224,12 +1242,6 @@
     {
       "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/manifest.json",
       "sha256": "4de2f7045559ad58926bb2c6dd31ec31f43d319d865e3739ab0d6f47a7913673",
-      "clase": "ARCHIVE",
-      "motivo": "Baseline inmutable requerida por validadores"
-    },
-    {
-      "ruta": "plataforma-salman/docs/investigacion-competitiva/linea-base/README.md",
-      "sha256": "68d1d8acae556e9f4eac3b0b0f9f6342f86453717ed3818e31a529cbfb03dfe7",
       "clase": "ARCHIVE",
       "motivo": "Baseline inmutable requerida por validadores"
     },
@@ -1565,19 +1577,13 @@
     },
     {
       "ruta": "plataforma-salman/docs/investigacion-competitiva/validacion.json",
-      "sha256": "bce6a625c5f99b4190f9d0b4b870fec8feb6800fe69cc73e27d2fcdaafe46af9",
+      "sha256": "e09d1864f66c045f887df49e650f48a335283a1c2901c685f1427fdad65a7141",
       "clase": "REFERENCE",
       "motivo": "Contexto o artefacto preservado; autoridad según README"
     },
     {
       "ruta": "plataforma-salman/docs/originales/Estado del arte IA agéntica en hotel, inmobiliaria y cafetería (oct 2026) (1).docx",
       "sha256": "ddf8d0b1d42a28fc9a9c76d8f05f1a23865929f6256bd52ebb66a30fe1420b50",
-      "clase": "REFERENCE",
-      "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
-    },
-    {
-      "ruta": "plataforma-salman/docs/originales/estado-del-arte-extraido.md",
-      "sha256": "1868d7b714eae307257a532490ee224aee9d1f63abb061716b1eaf87be250ac5",
       "clase": "REFERENCE",
       "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
     },
@@ -1600,14 +1606,20 @@
       "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
     },
     {
-      "ruta": "plataforma-salman/README.md",
-      "sha256": "727f6efec9eafce82a33c2118cae30f01968079d2cbae2cc86200dc943e5ff79",
-      "clase": "CANONICAL",
-      "motivo": "Especificación activa, configuración o verificador"
+      "ruta": "plataforma-salman/docs/originales/estado-del-arte-extraido.md",
+      "sha256": "1868d7b714eae307257a532490ee224aee9d1f63abb061716b1eaf87be250ac5",
+      "clase": "REFERENCE",
+      "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
     },
     {
       "ruta": "plataforma-salman/scripts/auditar_consolidacion.py",
       "sha256": "5269cc08643437978d29fe55b35bc28f0365c09e2528c9fdea6b8a06f3041bfd",
+      "clase": "CANONICAL",
+      "motivo": "Especificación activa, configuración o verificador"
+    },
+    {
+      "ruta": "plataforma-salman/scripts/crear_y_subir_repositorio_github.py",
+      "sha256": "e8342af260fb61e1612898e833b9f2521f9a0c63b0662a3b74b3ff8f485f7bd3",
       "clase": "CANONICAL",
       "motivo": "Especificación activa, configuración o verificador"
     },
@@ -1952,12 +1964,6 @@
       "sha256": "d99cbc31dafaa8daa2824ee47ce989ed7001898c024ef30d619f2b706229ff23",
       "clase": "CANONICAL",
       "motivo": "Especificación activa, configuración o verificador"
-    },
-    {
-      "ruta": "README.md",
-      "sha256": "91ac719d214454dee4b792c0e7f6a6f709dca103fc11fbbd28098e3796cce0b6",
-      "clase": "REFERENCE",
-      "motivo": "Fuente primaria; equivalencia semántica completa no acreditada"
     }
   ],
   "duplicados_exactos": [

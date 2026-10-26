@@ -1490,115 +1490,15 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/000-core/acceptance.md"
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/tasks.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/000-core/data-model.md"
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/quickstart.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/000-core/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/000-core/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/000-core/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/000-core/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/000-core/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/tasks.md"
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/spec.md"
     },
     {
       "resultado": "PASS",
@@ -1610,55 +1510,123 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/004-constructora-obra/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/004-constructora-obra/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
       "comprobacion": "Sin token reconocible specs/004-constructora-obra/research.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/004-constructora-obra/spec.md"
+      "comprobacion": "Sin token reconocible specs/004-constructora-obra/plan.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/004-constructora-obra/tasks.md"
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/tasks.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/000-core/checklists/requirements.md"
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/quickstart.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/000-core/contracts/README.md"
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/spec.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/checklists/requirements.md"
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/acceptance.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/contracts/README.md"
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/data-model.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/checklists/requirements.md"
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/research.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/contracts/README.md"
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/plan.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/checklists/requirements.md"
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/tasks.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/contracts/README.md"
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/plan.md"
     },
     {
       "resultado": "PASS",
@@ -1670,35 +1638,35 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/agentes.md"
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/checklists/requirements.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/cambios.json"
+      "comprobacion": "Sin token reconocible specs/003-inmobiliaria-comercial/contracts/README.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/cambios.patch"
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/checklists/requirements.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/decisiones-pendientes.md"
+      "comprobacion": "Sin token reconocible specs/001-cafeteria-mesas-pos/contracts/README.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/evidencias.json"
+      "comprobacion": "Sin token reconocible specs/000-core/checklists/requirements.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/historias-propuestas.md"
+      "comprobacion": "Sin token reconocible specs/000-core/contracts/README.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/historias.json"
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/checklists/requirements.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/informe-final.md"
+      "comprobacion": "Sin token reconocible specs/002-hotel-reservas-concierge/contracts/README.md"
     },
     {
       "resultado": "PASS",
@@ -1706,39 +1674,15 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/matriz-comparativa.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/matriz-evidencias.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/metodologia.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/oportunidades.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/priorizacion.json"
-    },
-    {
-      "resultado": "PASS",
       "comprobacion": "Sin token reconocible docs/investigacion-competitiva/rea.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/registro-cambios.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/agentes.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/trazabilidad.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/urls-verificadas.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/historias.json"
     },
     {
       "resultado": "PASS",
@@ -1746,7 +1690,71 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/cafeteria/flujos.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/trazabilidad.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/priorizacion.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/urls-verificadas.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/historias-propuestas.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/evidencias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/decisiones-pendientes.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/metodologia.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/matriz-evidencias.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/informe-final.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/cambios.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/matriz-comparativa.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/cambios.patch"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/registro-cambios.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/oportunidades.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/inmobiliaria/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/inmobiliaria/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/inmobiliaria/flujos.md"
     },
     {
       "resultado": "PASS",
@@ -1754,27 +1762,39 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/constructora/flujos.md"
-    },
-    {
-      "resultado": "PASS",
       "comprobacion": "Sin token reconocible docs/investigacion-competitiva/constructora/revision-profunda.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/constructora/flujos.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/cambios.json"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/README.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/cambios.patch"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/manifest.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/evidencias-nuevas.json"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/cafeteria/flujos.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/hotel/cobertura.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/hotel/revision-profunda.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/hotel/flujos.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/refinamientos.json"
     },
     {
       "resultado": "PASS",
@@ -1782,7 +1802,23 @@
     },
     {
       "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/alcance-y-evidencia.md"
+    },
+    {
+      "resultado": "PASS",
       "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/matriz-detallada.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/validacion.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/evidencias-nuevas.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/trazabilidad.md"
     },
     {
       "resultado": "PASS",
@@ -1794,51 +1830,11 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/refinamientos.json"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/cambios.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/trazabilidad.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/validacion.json"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/hotel/cobertura.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/hotel/flujos.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/hotel/revision-profunda.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/inmobiliaria/cobertura.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/inmobiliaria/flujos.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/inmobiliaria/revision-profunda.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/manifest.json"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/README.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/manifest.json"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/continuacion-01/cambios.patch"
     },
     {
       "resultado": "PASS",
@@ -1846,215 +1842,7 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/.specify/memory/constitution.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/.specify/memory/constitution.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/auditorias/catalogo-requisitos.json"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/evidencias.json"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/historias.json"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/informe-final.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/checklists/requirements.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/contracts/README.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/checklists/requirements.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/contracts/README.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/checklists/requirements.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/contracts/README.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/checklists/requirements.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/contracts/README.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/checklists/requirements.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/contracts/README.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/docs/arquitectura/dependencias.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/docs/auditorias/catalogo-requisitos.json"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/manifest.json"
     },
     {
       "resultado": "PASS",
@@ -2062,115 +1850,27 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/acceptance.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/docs/auditorias/catalogo-requisitos.json"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/data-model.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/docs/arquitectura/dependencias.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/plan.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/.specify/memory/constitution.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/quickstart.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/tasks.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/research.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/quickstart.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/tasks.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/acceptance.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/data-model.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/research.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/spec.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/tasks.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/spec.md"
     },
     {
       "resultado": "PASS",
@@ -2182,47 +1882,131 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/plan.md"
-    },
-    {
-      "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/quickstart.md"
-    },
-    {
-      "resultado": "PASS",
       "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/research.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/spec.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/plan.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/tasks.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/tasks.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/checklists/requirements.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/quickstart.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/contracts/README.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/spec.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/checklists/requirements.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/acceptance.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/contracts/README.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/data-model.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/checklists/requirements.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/research.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/contracts/README.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/contracts/README.md"
     },
     {
       "resultado": "PASS",
@@ -2234,11 +2018,227 @@
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/checklists/requirements.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/checklists/requirements.md"
     },
     {
       "resultado": "PASS",
-      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/004-constructora-obra/contracts/README.md"
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/001-cafeteria-mesas-pos/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/specs/002-hotel-reservas-concierge/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/auditorias/catalogo-requisitos.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/historias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/evidencias.json"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/docs/investigacion-competitiva/informe-final.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/.specify/memory/constitution.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/tasks.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/quickstart.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/spec.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/acceptance.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/data-model.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/research.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/plan.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/004-constructora-obra/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/003-inmobiliaria-comercial/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/001-cafeteria-mesas-pos/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/000-core/contracts/README.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/checklists/requirements.md"
+    },
+    {
+      "resultado": "PASS",
+      "comprobacion": "Sin token reconocible docs/investigacion-competitiva/linea-base/continuacion-01/specs/002-hotel-reservas-concierge/contracts/README.md"
     },
     {
       "resultado": "PASS",

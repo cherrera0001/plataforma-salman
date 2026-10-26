@@ -39,7 +39,7 @@ for folder,_,files in __import__('os').walk(ROOT):
    if target.startswith(('https://','http://','mailto:','#')):continue
    target=target.split('#')[0]
    check((p.parent/target).exists(),f'Enlace local {p.relative_to(ROOT)} → {target}')
-check(len([p for p in ROOT.rglob('constitution.md') if 'linea-base' not in p.parts])==1,'Una única constitución activa; baseline archivada excluida')
+check(len([p for p in ROOT.rglob('constitution.md') if 'linea-base' not in p.parts and 'Análisis' not in p.parts])==1,'Una única constitución activa; baseline archivada y Análisis/ excluidos')
 check(set(p.name for p in (ROOT/'specs').iterdir() if p.is_dir())==set(features),'Cinco features esperadas')
 # Grafo interno consumidor -> proveedor. La relación opcional también debe ser acíclica.
 edges={'000-core':[],'001-cafeteria-mesas-pos':['000-core'],'002-hotel-reservas-concierge':['000-core','001-cafeteria-mesas-pos'],'003-inmobiliaria-comercial':['000-core'],'004-constructora-obra':['000-core','003-inmobiliaria-comercial']}

@@ -1,0 +1,7 @@
+Continua la especificación de Grupo Salman / Hotel Herencia a partir del paquete V0.3 y la última carpeta salida_especificaciones que adjunto. No empieces desde cero ni ejecutes implementación.
+
+Lee AGENTS.md, el prompt, el último estado/manifest, decisiones, auditoría y archivos afectados. Comprueba versión y cambios; identifica el último lote realmente completado y el próximo bloque. No uses la historia del chat como única fuente.
+
+Conserva IDs y aprobaciones documentadas. Resuelve contradicciones mediante registro de cambios; no sobrescribas trabajo validado sin motivo. Continua el siguiente lote completo con los contratos y dependencias pertinentes. Parametriza pendientes no bloqueantes y no repitas preguntas resueltas.
+
+Entrega solo nuevo trabajo o correcciones justificadas con sus archivos, evidencia documental, matrices actualizadas y próximo checkpoint. No afirmes comandos nativos, pruebas de software, subagentes ni aprobaciones que no hayas ejecutado o comprobado.

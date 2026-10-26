@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.3",
+  "mode": "ESPECIFICAR",
+  "master_version": null,
+  "baseline_sha256": null,
+  "last_completed_batch": null,
+  "current_batch": null,
+  "files": [],
+  "decisions_pending": [],
+  "findings": [],
+  "resolved_dependency_changes": [],
+  "next_exact_action": null,
+  "native_commands_executed": [],
+  "application_tests_executed": false,
+  "construction_authorization": null,
+  "review_independence": "NO_EVALUADA",
+  "owner_approval": null
+}

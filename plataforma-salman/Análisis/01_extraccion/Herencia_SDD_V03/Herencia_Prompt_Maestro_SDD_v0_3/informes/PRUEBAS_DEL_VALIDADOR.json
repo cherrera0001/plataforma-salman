@@ -1,0 +1,42 @@
+{
+  "scope": "TESTS_OF_DOCUMENTARY_VALIDATOR_ONLY",
+  "ok": true,
+  "cases": [
+    {
+      "name": "valid_documentary_package",
+      "expected_valid": true,
+      "observed_valid": true,
+      "passed": true
+    },
+    {
+      "name": "missing_agents_rejected",
+      "expected_valid": false,
+      "observed_valid": false,
+      "passed": true
+    },
+    {
+      "name": "silent_requirement_change_rejected",
+      "expected_valid": false,
+      "observed_valid": false,
+      "passed": true
+    },
+    {
+      "name": "candidate_dependency_cycle_rejected",
+      "expected_valid": false,
+      "observed_valid": false,
+      "passed": true
+    },
+    {
+      "name": "duplicate_requirement_rejected",
+      "expected_valid": false,
+      "observed_valid": false,
+      "passed": true
+    },
+    {
+      "name": "false_initial_production_authorization_rejected",
+      "expected_valid": false,
+      "observed_valid": false,
+      "passed": true
+    }
+  ]
+}

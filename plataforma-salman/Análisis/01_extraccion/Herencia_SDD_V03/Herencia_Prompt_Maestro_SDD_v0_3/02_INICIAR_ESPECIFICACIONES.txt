@@ -1,0 +1,9 @@
+Trabaja con el paquete completo Herencia_Prompt_Maestro_SDD_v0_3 que adjunto.
+
+Lee 00_LEEME.md, AGENTS.md, 01_PROMPT_MAESTRO_SDD_v0_3.md y sus referencias. Ejecuta el mandato en modo ESPECIFICAR. Quiero el Documento Maestro desarrollado de los 24 capítulos y los paquetes de funcionalidades preparados para GitHub Spec Kit, preservando los 153 requisitos base, los 48 escenarios y los controles SDD.
+
+Primero inspecciona los archivos y válida lo que el entorno permita. No entregues otra vez solo el índice o un nuevo prompt. Comienza a producir las especificaciones por lotes completos conforme al plan. Conserva profundidad, fuentes, decisiones y trazabilidad; resuelve los acoplamientos de dependencias antes de declarar planes ejecutables.
+
+Toda construcción futura será con IA y agentes. No programes aun la aplicación, no contrates, no gastes, no conectes cuentas reales, no crees un repositorio remoto y no despliegues. Si Spec Kit no esta instalado, produce archivos compatibles y declara esa limitacion sin fingir ejecución nativa. Datos pendientes se parametrizan; no inventes tarifas, socios, permisos, cuentas ni aprobaciones.
+
+Al cerrar, entrega archivos realmente generados, estado de cada lote, cobertura, brechas, decisiones bloqueantes y checkpoint para retomar. El inicio operativo 01/01/2027 es una meta empresarial, no una garantía de entrega.

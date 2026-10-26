@@ -1,0 +1,86 @@
+{
+  "capitulos_claude": 24,
+  "capitulos_kimi": 24,
+  "diffs_tabla1": [],
+  "figuras_claude": {
+    "requisitos": [
+      153,
+      153
+    ],
+    "tareas propuestas": [
+      505,
+      505
+    ],
+    "casos (2 por requisito)": [
+      2,
+      306
+    ],
+    "escenarios críticos": [
+      48,
+      48
+    ],
+    "entidades": [
+      109,
+      109
+    ],
+    "pantallas": [
+      53,
+      53
+    ],
+    "decisiones": [
+      45,
+      45
+    ]
+  },
+  "figuras_kimi": {
+    "153 requisitos": [
+      153,
+      153
+    ],
+    "505 tareas": [
+      505,
+      505
+    ],
+    "306 casos": [
+      306,
+      306
+    ],
+    "48 escenarios críticos": [
+      48,
+      48
+    ],
+    "109 entidades": [
+      109,
+      109
+    ],
+    "53 pantallas": [
+      53,
+      53
+    ],
+    "45 decisiones": [
+      45,
+      45
+    ],
+    "22 acoplamientos clasificados": [
+      22,
+      22
+    ]
+  },
+  "diffs_figuras": [
+    "'109 entidades': solo en Kimi: (109, 109)",
+    "'153 requisitos': solo en Kimi: (153, 153)",
+    "'22 acoplamientos clasificados': solo en Kimi: (22, 22)",
+    "'306 casos': solo en Kimi: (306, 306)",
+    "'45 decisiones': solo en Kimi: (45, 45)",
+    "'48 escenarios críticos': solo en Kimi: (48, 48)",
+    "'505 tareas': solo en Kimi: (505, 505)",
+    "'53 pantallas': solo en Kimi: (53, 53)",
+    "'casos (2 por requisito)': solo en Claude: (2, 306)",
+    "'decisiones': solo en Claude: (45, 45)",
+    "'entidades': solo en Claude: (109, 109)",
+    "'escenarios críticos': solo en Claude: (48, 48)",
+    "'pantallas': solo en Claude: (53, 53)",
+    "'requisitos': solo en Claude: (153, 153)",
+    "'tareas propuestas': solo en Claude: (505, 505)"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "package": "PROMPT_Y_APOYOS",
+  "master_specification": "NO_GENERADA",
+  "native_spec_kit": "NO_EJECUTADO",
+  "phase": "PREPARACION_DOCUMENTAL",
+  "last_completed": "Paquete de prompt v0.3",
+  "next_action": "Ejecutar 02_INICIAR_ESPECIFICACIONES.txt con todo el paquete disponible",
+  "construction_authorized": false,
+  "tests_application": "NO_EJECUTADAS",
+  "reviews": "VALIDACION_ESTRUCTURAL_DEL_PAQUETE_SOLAMENTE"
+}

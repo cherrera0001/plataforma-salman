@@ -1,0 +1,7 @@
+INSTRUCCIÓN PARA USO POSTERIOR. No se ejecuta por incluirse en el paquete.
+
+Cuando yo identifique y autorice expresamente un paquete/versión para construir, inspecciona el repositorio y el entorno autorizado. Verifica baseline, constitución, directorio activo Spec Kit, versiones, plan, contratos, tasks, checklists, dependencias y decisiones bloqueantes. Si falta uno, informa el bloqueo y completa solo la planificación autorizada.
+
+Prepara la orden de trabajo con rutas, herramientas, pruebas, presupuesto y revisor. Ejecuta implement solo dentro de ese alcance y entorno. Prueba, registra evidencia y usa converge sin cambiar unilateralmente la especificación. No excedas el límite de ciclos ni gasto; escala si no hay progreso.
+
+Entrega cambios, resultados, limitaciones y revisión solicitada. La autorización de construir NO autoriza despliegue en producción, cobros, mensajes a clientes, gasto publicitario ni migración de datos reales. Esas acciones requieren aprobación especifica y gates cumplidos.

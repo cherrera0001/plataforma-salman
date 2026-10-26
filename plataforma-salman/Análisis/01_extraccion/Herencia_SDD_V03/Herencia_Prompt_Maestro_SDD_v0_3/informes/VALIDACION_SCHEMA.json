@@ -1,7 +1,0 @@
-{
-  "scope": "WORK_ORDER_SCHEMA_SYNTAX_ONLY",
-  "ok": true,
-  "validator": "jsonschema.Draft202012Validator.check_schema",
-  "hotel_tests": false,
-  "speckit_runtime_test": false
-}

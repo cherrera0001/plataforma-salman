@@ -11,7 +11,7 @@ Los Q anteriores permanecen abiertos. Evidencia de competidor no aprueba políti
 | Q-COMP-02 / Q-HOT-01/02 | Cupo por fecha/tipo vs asignación y fuente vigente | Mantener dimensiones separadas; detener compromiso sin evidencia suficiente | Inventario real, SLA/plan de conector, criterio de frescura y asignación |
 | Q-COMP-03 / Q-INM-01/02/03 | Identidad/calificación/hitos/transferencia | No fusionar identidad ambigua ni equiparar reserva a promesa; handoff con aceptación | Políticas de canal, consentimiento, agenda y firma |
 | Q-COMP-04 / Q-OBR-02/03 | Observación, cierre y recepción parcial | Roles distintos para solucionar/aceptar; cantidades y evidencia por línea; fallback manual | Roles y ejemplos de órdenes/inspecciones reales |
-| Q-COMP-05 / Q-CORE-03 | Medición y priorización | Usar intervalos por frecuencia e impacto desconocidos; contrastar usuarios | Datos de demanda, tiempo, errores, costo y disposición a pagar |
+| Q-COMP-05 | Medición y priorización (no sustituye ni redefine Q-CORE-03; Q-CORE-03 conserva el significado de `arquitectura/aclaraciones.md`, registrado el 2026-10-27) | Usar intervalos por frecuencia e impacto desconocidos; contrastar usuarios | Datos de demanda, tiempo, errores, costo y disposición a pagar |
 | Q-URL-01 | Aplicabilidad territorial y por plan | URL efectiva Fudo Chile y validación identidad para cada candidata; no adivinar rutas regionales | Confirmar funciones por cuenta/canal; Tokko Chile no validado, manuales US/L-Series solo patrones |
 
 Constitución revisada: no se modifica ni cambia versión. Nuevos comportamientos son desarrollos de principios existentes, ratificación anterior Q-GOV-01 permanece pendiente. ADR-005 tampoco es decisión aprobada.
